@@ -48,15 +48,15 @@
       <el-empty description="暂无图谱数据" :image-size="120" />
     </div>
 
-    <!-- Breadcrumb for cross-layer expansion -->
-    <div v-if="graphStore.expandedNodeId" class="graph-breadcrumb">
+    <!-- Breadcrumb for focused/expanded view -->
+    <div v-if="focusedNodeId || graphStore.expandedNodeId" class="graph-breadcrumb">
       <el-breadcrumb separator="/">
         <el-breadcrumb-item>
-          <el-button link type="primary" size="small" @click="graphStore.collapseExpansion()">
+          <el-button link type="primary" size="small" @click="exitFocus">
             返回全图
           </el-button>
         </el-breadcrumb-item>
-        <el-breadcrumb-item>{{ expandedLabel }} · 2跳邻域</el-breadcrumb-item>
+        <el-breadcrumb-item>{{ focusLabel }} · 关系拓扑</el-breadcrumb-item>
       </el-breadcrumb>
     </div>
 
@@ -124,9 +124,17 @@ const layoutType = ref<'force' | 'concentric' | 'tree'>('force')
 
 const nodeCount = computed(() => graphStore.graphData?.nodes?.length || 0)
 const edgeCount = computed(() => graphStore.graphData?.edges?.length || 0)
-const expandedLabel = computed(() => {
-  if (!graphStore.expandedNodeId || !graphStore.graphData) return ''
-  const node = graphStore.graphData.nodes.find(n => n.id === graphStore.expandedNodeId)
+
+// Focus mode: show only selected node + its direct neighbors
+const focusedNodeId = ref<string | null>(null)
+const focusLabel = computed(() => {
+  if (!focusedNodeId.value) {
+    // fallback to expandedNodeId label
+    if (!graphStore.expandedNodeId || !graphStore.graphData) return ''
+    const node = graphStore.graphData.nodes.find(n => n.id === graphStore.expandedNodeId)
+    return node?.data?.label || ''
+  }
+  const node = graphStore.allNodes?.find((n: any) => n.id === focusedNodeId.value)
   return node?.data?.label || ''
 })
 
@@ -229,6 +237,7 @@ onMounted(async () => {
     const id = event.target.id
     selectionStore.select(id, 'graph')
     contextMenu.value.visible = false
+    enterFocus(id)
   })
 
   graph.on('node:dblclick', (event: any) => {
@@ -274,6 +283,7 @@ onMounted(async () => {
     selectionStore.clearSelection()
     contextMenu.value.visible = false
     tooltip.value.visible = false
+    // Don't exit focus on canvas click — use the breadcrumb button instead
   })
 
   // Load initial data
@@ -317,6 +327,55 @@ watch(
     }
   }
 )
+
+/**
+ * Enter focus mode: filter graph to show only the selected node
+ * and its 1-hop neighbors with their connecting edges.
+ */
+async function enterFocus(nodeId: string) {
+  if (!graph) return
+  focusedNodeId.value = nodeId
+
+  const allNodes = graphStore.allNodes || []
+  const allEdges = graphStore.allEdges || []
+
+  // Find 1-hop neighbor edges
+  const neighborEdges = allEdges.filter(
+    (e: any) => e.source === nodeId || e.target === nodeId
+  )
+  // Collect neighbor node IDs
+  const neighborIds = new Set<string>()
+  neighborIds.add(nodeId)
+  for (const e of neighborEdges) {
+    neighborIds.add(e.source)
+    neighborIds.add(e.target)
+  }
+  // Filter nodes and edges
+  const focusNodes = allNodes.filter((n: any) => neighborIds.has(n.id))
+  const focusEdges = neighborEdges
+
+  // Apply focused data with a radial layout centered on the selected node
+  graph.setData(toRaw({ nodes: focusNodes, edges: focusEdges }))
+  graph.setLayout({
+    type: 'concentric',
+    preventOverlap: true,
+    nodeSize: 120,
+    minNodeSpacing: 60,
+    sortBy: (a: any) => a.id === nodeId ? 1000 : 0,
+  })
+  await graph.render()
+}
+
+function exitFocus() {
+  focusedNodeId.value = null
+  graphStore.collapseExpansion()
+  // Restore full graph
+  if (graph && graphStore.graphData) {
+    graph.setData(toRaw(graphStore.graphData))
+    graph.setLayout(getLayoutConfig(layoutType.value))
+    graph.render()
+  }
+}
 
 function setLayout(type: 'force' | 'concentric' | 'tree') {
   layoutType.value = type
