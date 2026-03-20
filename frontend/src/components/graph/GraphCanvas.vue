@@ -135,30 +135,37 @@ const contextMenu = ref({ visible: false, x: 0, y: 0, nodeId: '' })
 // Tooltip state
 const tooltip = ref({ visible: false, x: 0, y: 0, label: '', type: '', layer: '', color: '', extra: '' })
 
-const layoutConfigs: Record<string, any> = {
-  force: {
-    type: 'd3-force',
-    preventOverlap: true,
-    nodeStrength: -600,
-    edgeStrength: 0.05,
-    collideStrength: 1,
-    alphaDecay: 0.015,
-    nodeSize: 80,
-  },
-  concentric: {
-    type: 'concentric',
-    maxLevelDiff: 1,
-    sortBy: 'degree',
-    preventOverlap: true,
-    nodeSize: 80,
-    minNodeSpacing: 40,
-  },
-  tree: {
-    type: 'dagre',
-    rankdir: 'TB',
-    nodesep: 60,
-    ranksep: 80,
-  },
+function getLayoutConfig(type: string) {
+  const nodeCount = graphStore.graphData?.nodes?.length || 0
+  // Scale repulsion based on node count — fewer nodes need more spacing
+  const strength = nodeCount < 20 ? -1500 : nodeCount < 50 ? -800 : -600
+
+  const configs: Record<string, any> = {
+    force: {
+      type: 'd3-force',
+      preventOverlap: true,
+      nodeStrength: strength,
+      edgeStrength: 0.05,
+      collideStrength: 1,
+      alphaDecay: 0.012,
+      nodeSize: 100,
+    },
+    concentric: {
+      type: 'concentric',
+      maxLevelDiff: 1,
+      sortBy: 'degree',
+      preventOverlap: true,
+      nodeSize: 100,
+      minNodeSpacing: 50,
+    },
+    tree: {
+      type: 'dagre',
+      rankdir: 'TB',
+      nodesep: 80,
+      ranksep: 100,
+    },
+  }
+  return configs[type] || configs.force
 }
 
 onMounted(async () => {
@@ -185,7 +192,7 @@ onMounted(async () => {
         dimmed: { opacity: 0.1 },
       },
     },
-    layout: layoutConfigs.force,
+    layout: getLayoutConfig('force'),
     behaviors: [
       'drag-canvas',
       'zoom-canvas',
@@ -263,6 +270,8 @@ watch(
   async (newData) => {
     if (!graph || !newData) return
     graph.setData(toRaw(newData))
+    // Re-calculate layout config based on new node count
+    graph.setLayout(getLayoutConfig(layoutType.value))
     await graph.render()
   },
   { deep: false }
@@ -271,7 +280,7 @@ watch(
 // Watch layout changes
 watch(layoutType, (type) => {
   if (!graph) return
-  graph.setLayout(layoutConfigs[type])
+  graph.setLayout(getLayoutConfig(type))
   graph.layout()
 })
 
