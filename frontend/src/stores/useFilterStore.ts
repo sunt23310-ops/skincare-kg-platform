@@ -9,7 +9,7 @@ import { ALL_REL_CATEGORIES } from '@/utils/constants'
 
 export const useFilterStore = defineStore('filter', () => {
   // ----- State -----
-  const layer = ref<LayerCode | undefined>(undefined)
+  const layer = ref<LayerCode | undefined>('L2')
   const entityTypes = ref<string[]>([])
   const searchQuery = ref('')
   const relCategories = ref<RelCategory[]>([...ALL_REL_CATEGORIES])

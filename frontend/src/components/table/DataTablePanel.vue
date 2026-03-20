@@ -12,8 +12,8 @@
           v-for="tab in group.tabs"
           :key="tab.layer"
           class="layer-tab"
-          :class="{ active: filterStore.layer === tab.layer }"
-          @click="filterStore.setLayer(tab.layer)"
+          :class="{ active: tableStore.activeLayerTab === tab.layer }"
+          @click="onLayerClick(tab.layer)"
         >
           {{ tab.label }}
         </div>
@@ -146,7 +146,7 @@ const tabGroups = [
 ]
 
 const currentLayerTab = computed(() => {
-  return LAYER_TABS.find(t => t.layer === filterStore.layer)
+  return LAYER_TABS.find(t => t.layer === tableStore.activeLayerTab)
 })
 
 const currentSubTabs = computed(() => {
@@ -158,18 +158,32 @@ const currentColumns = computed<TableColumnDef[]>(() => {
   return sub?.columns || []
 })
 
-// Sync activeSubTab when layer changes
+// Sync table when filterStore.layer changes (from toolbar)
 watch(
   () => filterStore.layer,
-  () => {
-    const subs = currentSubTabs.value
-    if (subs.length > 0) {
-      activeSubTab.value = subs[0].key
+  (layer) => {
+    if (layer) {
+      tableStore.setLayerTab(layer)
+      const subs = currentSubTabs.value
+      if (subs.length > 0) {
+        activeSubTab.value = subs[0].key
+      }
     }
-    tableStore.fetchTableData()
   },
   { immediate: true }
 )
+
+// Keep local activeSubTab in sync with store
+watch(
+  () => tableStore.activeSubTab,
+  (val) => { activeSubTab.value = val },
+  { immediate: true }
+)
+
+function onLayerClick(layer: LayerCode) {
+  tableStore.setLayerTab(layer)
+  // Don't sync to filterStore — table layer selection is independent of graph filter
+}
 
 function onSubTabChange(tab: string) {
   tableStore.activeSubTab = tab

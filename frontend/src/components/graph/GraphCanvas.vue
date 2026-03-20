@@ -139,23 +139,25 @@ const layoutConfigs: Record<string, any> = {
   force: {
     type: 'd3-force',
     preventOverlap: true,
-    nodeStrength: -200,
-    edgeStrength: 0.1,
-    collideStrength: 0.8,
-    alphaDecay: 0.02,
+    nodeStrength: -600,
+    edgeStrength: 0.05,
+    collideStrength: 1,
+    alphaDecay: 0.015,
+    nodeSize: 80,
   },
   concentric: {
     type: 'concentric',
     maxLevelDiff: 1,
     sortBy: 'degree',
     preventOverlap: true,
-    nodeSize: 60,
+    nodeSize: 80,
+    minNodeSpacing: 40,
   },
   tree: {
     type: 'dagre',
     rankdir: 'TB',
-    nodesep: 40,
-    ranksep: 60,
+    nodesep: 60,
+    ranksep: 80,
   },
 }
 
