@@ -136,27 +136,49 @@ const contextMenu = ref({ visible: false, x: 0, y: 0, nodeId: '' })
 const tooltip = ref({ visible: false, x: 0, y: 0, label: '', type: '', layer: '', color: '', extra: '' })
 
 function getLayoutConfig(type: string) {
-  const nodeCount = graphStore.graphData?.nodes?.length || 0
-  // Scale repulsion based on node count — fewer nodes need more spacing
-  const strength = nodeCount < 20 ? -1500 : nodeCount < 50 ? -800 : -600
+  const nodes = graphStore.graphData?.nodes || []
+  const edges = graphStore.graphData?.edges || []
+  const nodeCount = nodes.length
+  const edgeCount = edges.length
+
+  // For sparse/disconnected graphs (few edges relative to nodes),
+  // force layout fails because isolated nodes have no forces to separate them.
+  // Use grid for very sparse, concentric for moderately connected.
+  const edgeRatio = nodeCount > 0 ? edgeCount / nodeCount : 0
+  const isSparse = edgeRatio < 0.5 || nodeCount <= 8
+
+  if (type === 'force' && isSparse) {
+    // Auto-switch to grid for sparse graphs
+    return {
+      type: 'grid',
+      preventOverlap: true,
+      nodeSize: 120,
+      sortBy: 'degree',
+      cols: Math.ceil(Math.sqrt(nodeCount)),
+    }
+  }
+
+  // Scale repulsion based on node count
+  const strength = nodeCount < 30 ? -1200 : nodeCount < 60 ? -800 : -500
 
   const configs: Record<string, any> = {
     force: {
       type: 'd3-force',
       preventOverlap: true,
       nodeStrength: strength,
-      edgeStrength: 0.05,
+      edgeStrength: 0.06,
       collideStrength: 1,
-      alphaDecay: 0.012,
-      nodeSize: 100,
+      alphaDecay: 0.01,
+      alphaMin: 0.001,
+      nodeSize: 120,
     },
     concentric: {
       type: 'concentric',
       maxLevelDiff: 1,
       sortBy: 'degree',
       preventOverlap: true,
-      nodeSize: 100,
-      minNodeSpacing: 50,
+      nodeSize: 120,
+      minNodeSpacing: 60,
     },
     tree: {
       type: 'dagre',
