@@ -9,6 +9,7 @@ const ENTITY_STYLES: Record<string, { type: string; fill: string; size: number; 
   AdverseReaction:  { type: 'circle', fill: '#EF4444', size: 36, labelFill: '#FFFFFF' },
   Brand:            { type: 'rect',   fill: '#94A3B8', size: 48, labelFill: '#FFFFFF' },
   SKU:              { type: 'rect',   fill: '#CBD5E1', size: 36, labelFill: '#334155' },
+  SPU:              { type: 'rect',   fill: '#CBD5E1', size: 36, labelFill: '#334155' },
   SkincarePlan:     { type: 'diamond',fill: '#A855F7', size: 48, labelFill: '#FFFFFF' },
   AftersalesPlan:   { type: 'diamond',fill: '#EC4899', size: 40, labelFill: '#FFFFFF' },
   MakeupPlan:       { type: 'diamond',fill: '#F472B6', size: 40, labelFill: '#FFFFFF' },

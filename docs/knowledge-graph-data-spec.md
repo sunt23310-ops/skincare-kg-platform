@@ -6,8 +6,8 @@
 
 | 文件 | 内容 | 当前规模 |
 |------|------|----------|
-| `nodes.json` | 所有实体节点 | **162 个** |
-| `edges.json` | 所有关系边 | **135 条** |
+| `nodes.json` | 所有实体节点 | **617 个** |
+| `edges.json` | 所有关系边 | **345 条** |
 
 ---
 
@@ -39,18 +39,18 @@
 
 | 层 | 实体类型 | 数量 | 特有属性 |
 |----|---------|------|---------|
-| L0 | SkinType | 4 | — |
-| L0 | Concern | 6 | — |
-| L0 | Budget | 6 | — |
-| L1 | Brand | 27 | `tier`（档次：international_luxury / international_mid / international_affordable / domestic_premium / functional） |
-| L1 | SKU | 13 | `brand`, `category`, `aliases`, `keyIngredients` |
-| L2 | Ingredient | 45 | `riskLevel`（safe / mild_caution / caution）, `efficacy`, `aliases` |
-| L2 | Efficacy | 19 | — |
-| L2 | Symptom | 11 | `concern` |
-| L2 | AdverseReaction | 5 | `severity`（mild / mild-moderate / moderate-severe） |
-| L3 | SkincarePlan | 4 | `steps`（数组）, `suitableSkin`, `targetConcern` |
-| L4 | Intent | 7 | `channel`, `priority` |
-| L5 | SynonymMapping | 15 | `canonical`, `variants`（数组）, `target` |
+| L0 | SkinType | 15 | — |
+| L0 | Concern | 118 | — |
+| L0 | Budget | 13 | — |
+| L1 | Brand | 72 | `tier`（档次：international_luxury / international_mid / international_affordable / domestic_premium / domestic_affordable / functional） |
+| L1 | SPU | 65 | `brand`, `category`, `aliases`, `keyIngredients` |
+| L2 | Ingredient | 56 | `riskLevel`（safe / mild_caution / caution）, `efficacy`, `aliases` |
+| L2 | Efficacy | 21 | — |
+| L2 | Symptom | 34 | `concern` |
+| L2 | AdverseReaction | 10 | `severity`（mild / mild-moderate / moderate-severe / severe） |
+| L3 | SkincarePlan | 16 | `steps`（数组）, `suitableSkin`, `targetConcern` |
+| L4 | Intent | 35 | `channel`, `priority` |
+| L5 | SynonymMapping | 162 | `canonical`, `variants`（数组）, `target` |
 
 ### 必填字段
 

@@ -1,17 +1,732 @@
 [
   {
     "id": "edge_0001",
-    "source": "L2_Ingredient_hyaluronic_acid",
-    "target": "L2_Efficacy_hydrating",
+    "source": "L1_SPU_little_black",
+    "target": "L1_Brand_lancome",
     "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
       "properties": {}
     }
   },
   {
     "id": "edge_0002",
+    "source": "L1_SPU_little_brown",
+    "target": "L1_Brand_estee_lauder",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0003",
+    "source": "L1_SPU_double_serum",
+    "target": "L1_Brand_clarins",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0004",
+    "source": "L1_SPU_red_waist",
+    "target": "L1_Brand_shiseido",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0005",
+    "source": "L1_SPU_fairy_water",
+    "target": "L1_Brand_sk_ii",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0006",
+    "source": "L1_SPU_little_bulb",
+    "target": "L1_Brand_sk_ii",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0007",
+    "source": "L1_SPU_black_bindage",
+    "target": "L1_Brand_helena",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0008",
+    "source": "L1_SPU_green_bottle",
+    "target": "L1_Brand_helena",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0009",
+    "source": "L1_SPU_double_anti",
+    "target": "L1_Brand_proya",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0010",
+    "source": "L1_SPU_yuanli",
+    "target": "L1_Brand_proya",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0011",
+    "source": "L1_SPU_ruby",
+    "target": "L1_Brand_proya",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0012",
+    "source": "L1_SPU_early_c_late_a",
+    "target": "L1_Brand_proya",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0013",
+    "source": "L1_SPU_small_syringe",
+    "target": "L1_Brand_uniskin",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0014",
+    "source": "L1_SPU_ce_serum",
+    "target": "L1_Brand_skinceuticals",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0015",
+    "source": "L1_SPU_se_xiu",
+    "target": "L1_Brand_skinceuticals",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0016",
+    "source": "L1_SPU_b5_serum",
+    "target": "L1_Brand_skinceuticals",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0017",
+    "source": "L1_SPU_purple_iron",
+    "target": "L1_Brand_kiehls",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0018",
+    "source": "L1_SPU_spot_serum",
+    "target": "L1_Brand_kiehls",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0019",
+    "source": "L1_SPU_small_white",
+    "target": "L1_Brand_olay",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0020",
+    "source": "L1_SPU_light_sculpt",
+    "target": "L1_Brand_olay",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0021",
+    "source": "L1_SPU_black_serum",
+    "target": "L1_Brand_loreal",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0022",
+    "source": "L1_SPU_purple_iron_loreal",
+    "target": "L1_Brand_loreal",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0023",
+    "source": "L1_SPU_quadha_retinol",
+    "target": "L1_Brand_quadha",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0024",
+    "source": "L1_SPU_guyu_cream",
+    "target": "L1_Brand_guyu",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0025",
+    "source": "L1_SPU_black_gravity",
+    "target": "L1_Brand_uniskin",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0026",
+    "source": "L1_SPU_big_purple",
+    "target": "L1_Brand_kiehls",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0027",
+    "source": "L1_SPU_collagen_cream",
+    "target": "L1_Brand_estee_lauder",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0028",
+    "source": "L1_SPU_line_cream",
+    "target": "L1_Brand_estee_lauder",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0029",
+    "source": "L1_SPU_big_red",
+    "target": "L1_Brand_sk_ii",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0030",
+    "source": "L1_SPU_cream_king",
+    "target": "L1_Brand_la_mer",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0031",
+    "source": "L1_SPU_mushroom_cream",
+    "target": "L1_Brand_origins",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0032",
+    "source": "L1_SPU_cerave_cream",
+    "target": "L1_Brand_cerave",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0033",
+    "source": "L1_SPU_special_cream",
+    "target": "L1_Brand_winona",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0034",
+    "source": "L1_SPU_centella_cream",
+    "target": "L1_Brand_winona",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0035",
+    "source": "L1_SPU_barrier_cream",
+    "target": "L1_Brand_dryu",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0036",
+    "source": "L1_SPU_perilla_water",
+    "target": "L1_Brand_decorte",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0037",
+    "source": "L1_SPU_avocado_lotion",
+    "target": "L1_Brand_decorte",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0038",
+    "source": "L1_SPU_aurora_set",
+    "target": "L1_Brand_proya",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0039",
+    "source": "L1_SPU_yuanli_set",
+    "target": "L1_Brand_proya",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0040",
+    "source": "L1_SPU_calendula_water",
+    "target": "L1_Brand_kiehls",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0041",
+    "source": "L1_SPU_butter_lotion",
+    "target": "L1_Brand_clinique",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0042",
+    "source": "L1_SPU_mushroom_water",
+    "target": "L1_Brand_origins",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0043",
+    "source": "L1_SPU_health_water",
+    "target": "L1_Brand_decorte",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0044",
+    "source": "L1_SPU_self_discipline",
+    "target": "L1_Brand_ipsa",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0045",
+    "source": "L1_SPU_red_waist_set",
+    "target": "L1_Brand_shiseido",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0046",
+    "source": "L1_SPU_purple_iron_eye",
+    "target": "L1_Brand_loreal",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0047",
+    "source": "L1_SPU_red_pen",
+    "target": "L1_Brand_marubi",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0048",
+    "source": "L1_SPU_platinum_eye",
+    "target": "L1_Brand_la_prairie",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0049",
+    "source": "L1_SPU_eye_serum_el",
+    "target": "L1_Brand_estee_lauder",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0050",
+    "source": "L1_SPU_green_gem_eye",
+    "target": "L1_Brand_helena",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0051",
+    "source": "L1_SPU_white_tube",
+    "target": "L1_Brand_lancome",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0052",
+    "source": "L1_SPU_gold_bottle",
+    "target": "L1_Brand_anessa",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0053",
+    "source": "L1_SPU_blue_fat",
+    "target": "L1_Brand_shiseido",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0054",
+    "source": "L1_SPU_big_white",
+    "target": "L1_Brand_loreal",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0055",
+    "source": "L1_SPU_small_milk",
+    "target": "L1_Brand_mentholatum",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0056",
+    "source": "L1_SPU_soft_light_sun",
+    "target": "L1_Brand_proya",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0057",
+    "source": "L1_SPU_white_mud",
+    "target": "L1_Brand_kiehls",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0058",
+    "source": "L1_SPU_amino_cleanser",
+    "target": "L1_Brand_freeplus",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0059",
+    "source": "L1_SPU_cleansing_mousse",
+    "target": "L1_Brand_zhiben",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0060",
+    "source": "L1_SPU_cleansing_balm",
+    "target": "L1_Brand_zhuben",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0061",
+    "source": "L1_SPU_ex_bf_mask",
+    "target": "L1_Brand_sk_ii",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0062",
+    "source": "L1_SPU_green_mask",
+    "target": "L1_Brand_origins",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0063",
+    "source": "L1_SPU_freeze_mask",
+    "target": "L1_Brand_comfy",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0064",
+    "source": "L1_SPU_super_a_mask",
+    "target": "L1_Brand_betterderm",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0065",
+    "source": "L1_SPU_bubble_mask",
+    "target": "L1_Brand_fuyijia",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "归属",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0066",
+    "source": "L2_Ingredient_hyaluronic_acid",
+    "target": "L2_Efficacy_hydrating",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0067",
     "source": "L2_Ingredient_hyaluronic_acid",
     "target": "L2_Efficacy_moisturizing",
     "data": {
@@ -22,7 +737,7 @@
     }
   },
   {
-    "id": "edge_0003",
+    "id": "edge_0068",
     "source": "L2_Ingredient_ceramide",
     "target": "L2_Efficacy_moisturizing",
     "data": {
@@ -33,7 +748,7 @@
     }
   },
   {
-    "id": "edge_0004",
+    "id": "edge_0069",
     "source": "L2_Ingredient_ceramide",
     "target": "L2_Efficacy_barrier_repair",
     "data": {
@@ -44,7 +759,7 @@
     }
   },
   {
-    "id": "edge_0005",
+    "id": "edge_0070",
     "source": "L2_Ingredient_ceramide",
     "target": "L2_Efficacy_soothing",
     "data": {
@@ -55,513 +770,7 @@
     }
   },
   {
-    "id": "edge_0006",
-    "source": "L2_Ingredient_panthenol",
-    "target": "L2_Efficacy_moisturizing",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0007",
-    "source": "L2_Ingredient_panthenol",
-    "target": "L2_Efficacy_barrier_repair",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0008",
-    "source": "L2_Ingredient_panthenol",
-    "target": "L2_Efficacy_soothing",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0009",
-    "source": "L2_Ingredient_ectoin",
-    "target": "L2_Efficacy_moisturizing",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0010",
-    "source": "L2_Ingredient_ectoin",
-    "target": "L2_Efficacy_barrier_repair",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0011",
-    "source": "L2_Ingredient_ectoin",
-    "target": "L2_Efficacy_soothing",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0012",
-    "source": "L2_Ingredient_ectoin",
-    "target": "L2_Efficacy_anti_oxidant",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0013",
-    "source": "L2_Ingredient_retinol",
-    "target": "L2_Efficacy_anti_wrinkle",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0014",
-    "source": "L2_Ingredient_retinol",
-    "target": "L2_Efficacy_firming_lifting",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0015",
-    "source": "L2_Ingredient_retinol",
-    "target": "L2_Efficacy_brightening",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0016",
-    "source": "L2_Ingredient_retinal",
-    "target": "L2_Efficacy_anti_wrinkle",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0017",
-    "source": "L2_Ingredient_retinal",
-    "target": "L2_Efficacy_firming_lifting",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0018",
-    "source": "L2_Ingredient_peptide",
-    "target": "L2_Efficacy_anti_wrinkle",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0019",
-    "source": "L2_Ingredient_peptide",
-    "target": "L2_Efficacy_firming_lifting",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0020",
-    "source": "L2_Ingredient_bosein",
-    "target": "L2_Efficacy_anti_wrinkle",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0021",
-    "source": "L2_Ingredient_bosein",
-    "target": "L2_Efficacy_firming_lifting",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0022",
-    "source": "L2_Ingredient_vitamin_c",
-    "target": "L2_Efficacy_brightening",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0023",
-    "source": "L2_Ingredient_vitamin_c",
-    "target": "L2_Efficacy_spot_fading",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0024",
-    "source": "L2_Ingredient_vitamin_c",
-    "target": "L2_Efficacy_anti_oxidant",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0025",
-    "source": "L2_Ingredient_niacinamide",
-    "target": "L2_Efficacy_brightening",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0026",
-    "source": "L2_Ingredient_niacinamide",
-    "target": "L2_Efficacy_oil_control",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0027",
-    "source": "L2_Ingredient_niacinamide",
-    "target": "L2_Efficacy_pore_refining",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0028",
-    "source": "L2_Ingredient_arbutin",
-    "target": "L2_Efficacy_brightening",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0029",
-    "source": "L2_Ingredient_arbutin",
-    "target": "L2_Efficacy_spot_fading",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0030",
-    "source": "L2_Ingredient_tranexamic_acid",
-    "target": "L2_Efficacy_brightening",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0031",
-    "source": "L2_Ingredient_tranexamic_acid",
-    "target": "L2_Efficacy_spot_fading",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0032",
-    "source": "L2_Ingredient_glabridin",
-    "target": "L2_Efficacy_brightening",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0033",
-    "source": "L2_Ingredient_glabridin",
-    "target": "L2_Efficacy_spot_fading",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0034",
-    "source": "L2_Ingredient_salicylic_acid",
-    "target": "L2_Efficacy_oil_control",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0035",
-    "source": "L2_Ingredient_salicylic_acid",
-    "target": "L2_Efficacy_pore_refining",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0036",
-    "source": "L2_Ingredient_salicylic_acid",
-    "target": "L2_Efficacy_anti_acne",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0037",
-    "source": "L2_Ingredient_salicylic_acid",
-    "target": "L2_Efficacy_exfoliating",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0038",
-    "source": "L2_Ingredient_aha",
-    "target": "L2_Efficacy_oil_control",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0039",
-    "source": "L2_Ingredient_aha",
-    "target": "L2_Efficacy_exfoliating",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0040",
-    "source": "L2_Ingredient_astaxanthin",
-    "target": "L2_Efficacy_anti_oxidant",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0041",
-    "source": "L2_Ingredient_ergothioneine",
-    "target": "L2_Efficacy_anti_oxidant",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0042",
-    "source": "L2_Ingredient_resveratrol",
-    "target": "L2_Efficacy_anti_oxidant",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0043",
-    "source": "L2_Ingredient_resveratrol",
-    "target": "L2_Efficacy_anti_wrinkle",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0044",
-    "source": "L2_Ingredient_centella",
-    "target": "L2_Efficacy_barrier_repair",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0045",
-    "source": "L2_Ingredient_centella",
-    "target": "L2_Efficacy_soothing",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0046",
-    "source": "L2_Ingredient_bifida_ferment",
-    "target": "L2_Efficacy_barrier_repair",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0047",
-    "source": "L2_Ingredient_bifida_ferment",
-    "target": "L2_Efficacy_anti_oxidant",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0048",
-    "source": "L2_Ingredient_tea_tree",
-    "target": "L2_Efficacy_anti_acne",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0049",
-    "source": "L2_Ingredient_glycerin",
-    "target": "L2_Efficacy_hydrating",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0050",
-    "source": "L2_Ingredient_reishi",
-    "target": "L2_Efficacy_barrier_repair",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0051",
-    "source": "L2_Ingredient_reishi",
-    "target": "L2_Efficacy_soothing",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0052",
+    "id": "edge_0071",
     "source": "L2_Ingredient_squalane",
     "target": "L2_Efficacy_moisturizing",
     "data": {
@@ -572,9 +781,9 @@
     }
   },
   {
-    "id": "edge_0053",
-    "source": "L2_Ingredient_azelaic_acid",
-    "target": "L2_Efficacy_spot_fading",
+    "id": "edge_0072",
+    "source": "L2_Ingredient_panthenol",
+    "target": "L2_Efficacy_moisturizing",
     "data": {
       "relType": "has_efficacy",
       "category": "因果归因",
@@ -583,9 +792,9 @@
     }
   },
   {
-    "id": "edge_0054",
-    "source": "L2_Ingredient_azelaic_acid",
-    "target": "L2_Efficacy_anti_acne",
+    "id": "edge_0073",
+    "source": "L2_Ingredient_panthenol",
+    "target": "L2_Efficacy_barrier_repair",
     "data": {
       "relType": "has_efficacy",
       "category": "因果归因",
@@ -594,41 +803,8 @@
     }
   },
   {
-    "id": "edge_0055",
-    "source": "L2_Ingredient_mandelic_acid",
-    "target": "L2_Efficacy_exfoliating",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0056",
-    "source": "L2_Ingredient_zinc_pca",
-    "target": "L2_Efficacy_oil_control",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0057",
-    "source": "L2_Ingredient_collagen",
-    "target": "L2_Efficacy_firming_lifting",
-    "data": {
-      "relType": "has_efficacy",
-      "category": "因果归因",
-      "label": "功效",
-      "properties": {}
-    }
-  },
-  {
-    "id": "edge_0058",
-    "source": "L2_Ingredient_aloe",
+    "id": "edge_0074",
+    "source": "L2_Ingredient_panthenol",
     "target": "L2_Efficacy_soothing",
     "data": {
       "relType": "has_efficacy",
@@ -638,9 +814,9 @@
     }
   },
   {
-    "id": "edge_0059",
-    "source": "L2_Ingredient_aloe",
-    "target": "L2_Efficacy_hydrating",
+    "id": "edge_0075",
+    "source": "L2_Ingredient_ectoin",
+    "target": "L2_Efficacy_moisturizing",
     "data": {
       "relType": "has_efficacy",
       "category": "因果归因",
@@ -649,8 +825,19 @@
     }
   },
   {
-    "id": "edge_0060",
-    "source": "L2_Ingredient_licorice_root",
+    "id": "edge_0076",
+    "source": "L2_Ingredient_ectoin",
+    "target": "L2_Efficacy_barrier_repair",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0077",
+    "source": "L2_Ingredient_ectoin",
     "target": "L2_Efficacy_soothing",
     "data": {
       "relType": "has_efficacy",
@@ -660,9 +847,9 @@
     }
   },
   {
-    "id": "edge_0061",
-    "source": "L2_Ingredient_licorice_root",
-    "target": "L2_Efficacy_anti_inflammatory",
+    "id": "edge_0078",
+    "source": "L2_Ingredient_ectoin",
+    "target": "L2_Efficacy_anti_oxidant",
     "data": {
       "relType": "has_efficacy",
       "category": "因果归因",
@@ -671,7 +858,7 @@
     }
   },
   {
-    "id": "edge_0062",
+    "id": "edge_0079",
     "source": "L2_Ingredient_allantoin",
     "target": "L2_Efficacy_barrier_repair",
     "data": {
@@ -682,7 +869,7 @@
     }
   },
   {
-    "id": "edge_0063",
+    "id": "edge_0080",
     "source": "L2_Ingredient_allantoin",
     "target": "L2_Efficacy_soothing",
     "data": {
@@ -693,7 +880,865 @@
     }
   },
   {
-    "id": "edge_0064",
+    "id": "edge_0081",
+    "source": "L2_Ingredient_bifida_ferment",
+    "target": "L2_Efficacy_barrier_repair",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0082",
+    "source": "L2_Ingredient_bifida_ferment",
+    "target": "L2_Efficacy_anti_oxidant",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0083",
+    "source": "L2_Ingredient_glycerin",
+    "target": "L2_Efficacy_hydrating",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0084",
+    "source": "L2_Ingredient_reishi",
+    "target": "L2_Efficacy_barrier_repair",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0085",
+    "source": "L2_Ingredient_reishi",
+    "target": "L2_Efficacy_soothing",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0086",
+    "source": "L2_Ingredient_centella",
+    "target": "L2_Efficacy_barrier_repair",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0087",
+    "source": "L2_Ingredient_centella",
+    "target": "L2_Efficacy_soothing",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0088",
+    "source": "L2_Ingredient_madecassoside",
+    "target": "L2_Efficacy_barrier_repair",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0089",
+    "source": "L2_Ingredient_madecassoside",
+    "target": "L2_Efficacy_soothing",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0090",
+    "source": "L2_Ingredient_shea_butter",
+    "target": "L2_Efficacy_moisturizing",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0091",
+    "source": "L2_Ingredient_beta_glucan",
+    "target": "L2_Efficacy_barrier_repair",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0092",
+    "source": "L2_Ingredient_beta_glucan",
+    "target": "L2_Efficacy_soothing",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0093",
+    "source": "L2_Ingredient_retinol",
+    "target": "L2_Efficacy_anti_wrinkle",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0094",
+    "source": "L2_Ingredient_retinol",
+    "target": "L2_Efficacy_firming_lifting",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0095",
+    "source": "L2_Ingredient_retinol",
+    "target": "L2_Efficacy_brightening",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0096",
+    "source": "L2_Ingredient_retinol",
+    "target": "L2_Efficacy_cell_renewal",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0097",
+    "source": "L2_Ingredient_retinal",
+    "target": "L2_Efficacy_anti_wrinkle",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0098",
+    "source": "L2_Ingredient_retinal",
+    "target": "L2_Efficacy_firming_lifting",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0099",
+    "source": "L2_Ingredient_hpr",
+    "target": "L2_Efficacy_anti_wrinkle",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0100",
+    "source": "L2_Ingredient_peptide",
+    "target": "L2_Efficacy_anti_wrinkle",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0101",
+    "source": "L2_Ingredient_peptide",
+    "target": "L2_Efficacy_firming_lifting",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0102",
+    "source": "L2_Ingredient_hexapeptide",
+    "target": "L2_Efficacy_anti_wrinkle",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0103",
+    "source": "L2_Ingredient_palmitoyl_tripeptide",
+    "target": "L2_Efficacy_collagen_boost",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0104",
+    "source": "L2_Ingredient_palmitoyl_tripeptide",
+    "target": "L2_Efficacy_firming_lifting",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0105",
+    "source": "L2_Ingredient_bosein",
+    "target": "L2_Efficacy_anti_wrinkle",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0106",
+    "source": "L2_Ingredient_bosein",
+    "target": "L2_Efficacy_firming_lifting",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0107",
+    "source": "L2_Ingredient_collagen",
+    "target": "L2_Efficacy_firming_lifting",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0108",
+    "source": "L2_Ingredient_vitamin_c",
+    "target": "L2_Efficacy_brightening",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0109",
+    "source": "L2_Ingredient_vitamin_c",
+    "target": "L2_Efficacy_spot_fading",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0110",
+    "source": "L2_Ingredient_vitamin_c",
+    "target": "L2_Efficacy_anti_oxidant",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0111",
+    "source": "L2_Ingredient_niacinamide",
+    "target": "L2_Efficacy_brightening",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0112",
+    "source": "L2_Ingredient_niacinamide",
+    "target": "L2_Efficacy_oil_control",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0113",
+    "source": "L2_Ingredient_niacinamide",
+    "target": "L2_Efficacy_pore_refining",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0114",
+    "source": "L2_Ingredient_arbutin",
+    "target": "L2_Efficacy_brightening",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0115",
+    "source": "L2_Ingredient_arbutin",
+    "target": "L2_Efficacy_spot_fading",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0116",
+    "source": "L2_Ingredient_tranexamic_acid",
+    "target": "L2_Efficacy_brightening",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0117",
+    "source": "L2_Ingredient_tranexamic_acid",
+    "target": "L2_Efficacy_spot_fading",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0118",
+    "source": "L2_Ingredient_glabridin",
+    "target": "L2_Efficacy_brightening",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0119",
+    "source": "L2_Ingredient_glabridin",
+    "target": "L2_Efficacy_spot_fading",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0120",
+    "source": "L2_Ingredient_azelaic_acid",
+    "target": "L2_Efficacy_spot_fading",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0121",
+    "source": "L2_Ingredient_azelaic_acid",
+    "target": "L2_Efficacy_anti_acne",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0122",
+    "source": "L2_Ingredient_kojic_acid",
+    "target": "L2_Efficacy_brightening",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0123",
+    "source": "L2_Ingredient_kojic_acid",
+    "target": "L2_Efficacy_spot_fading",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0124",
+    "source": "L2_Ingredient_pitera",
+    "target": "L2_Efficacy_brightening",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0125",
+    "source": "L2_Ingredient_pitera",
+    "target": "L2_Efficacy_cell_renewal",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0126",
+    "source": "L2_Ingredient_salicylic_acid",
+    "target": "L2_Efficacy_oil_control",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0127",
+    "source": "L2_Ingredient_salicylic_acid",
+    "target": "L2_Efficacy_pore_refining",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0128",
+    "source": "L2_Ingredient_salicylic_acid",
+    "target": "L2_Efficacy_anti_acne",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0129",
+    "source": "L2_Ingredient_salicylic_acid",
+    "target": "L2_Efficacy_exfoliating",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0130",
+    "source": "L2_Ingredient_aha",
+    "target": "L2_Efficacy_oil_control",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0131",
+    "source": "L2_Ingredient_aha",
+    "target": "L2_Efficacy_exfoliating",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0132",
+    "source": "L2_Ingredient_glycolic_acid",
+    "target": "L2_Efficacy_exfoliating",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0133",
+    "source": "L2_Ingredient_mandelic_acid",
+    "target": "L2_Efficacy_exfoliating",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0134",
+    "source": "L2_Ingredient_lha",
+    "target": "L2_Efficacy_oil_control",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0135",
+    "source": "L2_Ingredient_lha",
+    "target": "L2_Efficacy_exfoliating",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0136",
+    "source": "L2_Ingredient_pha",
+    "target": "L2_Efficacy_exfoliating",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0137",
+    "source": "L2_Ingredient_pha",
+    "target": "L2_Efficacy_hydrating",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0138",
+    "source": "L2_Ingredient_lactobionic_acid",
+    "target": "L2_Efficacy_exfoliating",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0139",
+    "source": "L2_Ingredient_lactobionic_acid",
+    "target": "L2_Efficacy_anti_oxidant",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0140",
+    "source": "L2_Ingredient_zinc_pca",
+    "target": "L2_Efficacy_oil_control",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0141",
+    "source": "L2_Ingredient_tea_tree",
+    "target": "L2_Efficacy_anti_acne",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0142",
+    "source": "L2_Ingredient_astaxanthin",
+    "target": "L2_Efficacy_anti_oxidant",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0143",
+    "source": "L2_Ingredient_ergothioneine",
+    "target": "L2_Efficacy_anti_oxidant",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0144",
+    "source": "L2_Ingredient_resveratrol",
+    "target": "L2_Efficacy_anti_oxidant",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0145",
+    "source": "L2_Ingredient_resveratrol",
+    "target": "L2_Efficacy_anti_wrinkle",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0146",
+    "source": "L2_Ingredient_coq10",
+    "target": "L2_Efficacy_anti_oxidant",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0147",
+    "source": "L2_Ingredient_coq10",
+    "target": "L2_Efficacy_anti_wrinkle",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0148",
+    "source": "L2_Ingredient_aloe",
+    "target": "L2_Efficacy_soothing",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0149",
+    "source": "L2_Ingredient_aloe",
+    "target": "L2_Efficacy_hydrating",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0150",
+    "source": "L2_Ingredient_licorice_root",
+    "target": "L2_Efficacy_soothing",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0151",
+    "source": "L2_Ingredient_licorice_root",
+    "target": "L2_Efficacy_anti_inflammatory",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0152",
+    "source": "L2_Ingredient_chamomile",
+    "target": "L2_Efficacy_soothing",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0153",
+    "source": "L2_Ingredient_calendula",
+    "target": "L2_Efficacy_soothing",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0154",
+    "source": "L2_Ingredient_mugwort",
+    "target": "L2_Efficacy_soothing",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0155",
+    "source": "L2_Ingredient_mugwort",
+    "target": "L2_Efficacy_anti_inflammatory",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0156",
+    "source": "L2_Ingredient_zinc_oxide",
+    "target": "L2_Efficacy_sun_protection",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0157",
+    "source": "L2_Ingredient_titanium_dioxide",
+    "target": "L2_Efficacy_sun_protection",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0158",
+    "source": "L2_Ingredient_chemical_uv_filters",
+    "target": "L2_Efficacy_sun_protection",
+    "data": {
+      "relType": "has_efficacy",
+      "category": "因果归因",
+      "label": "功效",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0159",
     "source": "L2_Ingredient_retinol",
     "target": "L2_Ingredient_aha",
     "data": {
@@ -708,7 +1753,7 @@
     }
   },
   {
-    "id": "edge_0065",
+    "id": "edge_0160",
     "source": "L2_Ingredient_retinol",
     "target": "L2_Ingredient_salicylic_acid",
     "data": {
@@ -723,7 +1768,7 @@
     }
   },
   {
-    "id": "edge_0066",
+    "id": "edge_0161",
     "source": "L2_Ingredient_retinol",
     "target": "L2_Ingredient_vitamin_c",
     "data": {
@@ -738,7 +1783,7 @@
     }
   },
   {
-    "id": "edge_0067",
+    "id": "edge_0162",
     "source": "L2_Ingredient_vitamin_c",
     "target": "L2_Ingredient_niacinamide",
     "data": {
@@ -753,7 +1798,7 @@
     }
   },
   {
-    "id": "edge_0068",
+    "id": "edge_0163",
     "source": "L2_Ingredient_aha",
     "target": "L2_Ingredient_salicylic_acid",
     "data": {
@@ -767,7 +1812,36 @@
     }
   },
   {
-    "id": "edge_0069",
+    "id": "edge_0164",
+    "source": "L2_Ingredient_retinol",
+    "target": "L2_Ingredient_glycolic_acid",
+    "data": {
+      "relType": "conflicts_with",
+      "category": "互斥约束",
+      "label": "冲突",
+      "properties": {
+        "constraint_type": "不可同用",
+        "note": "三酸叠加屏障必崩"
+      }
+    }
+  },
+  {
+    "id": "edge_0165",
+    "source": "L2_Ingredient_vitamin_c",
+    "target": "L2_Ingredient_aha",
+    "data": {
+      "relType": "conflicts_with",
+      "category": "互斥约束",
+      "label": "冲突",
+      "properties": {
+        "constraint_type": "需间隔使用",
+        "interval": "12h+",
+        "note": "酸性叠加刺激"
+      }
+    }
+  },
+  {
+    "id": "edge_0166",
     "source": "L2_Ingredient_vitamin_c",
     "target": "L2_Ingredient_resveratrol",
     "data": {
@@ -780,7 +1854,7 @@
     }
   },
   {
-    "id": "edge_0070",
+    "id": "edge_0167",
     "source": "L2_Ingredient_retinol",
     "target": "L2_Ingredient_peptide",
     "data": {
@@ -793,7 +1867,7 @@
     }
   },
   {
-    "id": "edge_0071",
+    "id": "edge_0168",
     "source": "L2_Ingredient_retinol",
     "target": "L2_Ingredient_ceramide",
     "data": {
@@ -806,7 +1880,7 @@
     }
   },
   {
-    "id": "edge_0072",
+    "id": "edge_0169",
     "source": "L2_Ingredient_niacinamide",
     "target": "L2_Ingredient_hyaluronic_acid",
     "data": {
@@ -819,7 +1893,7 @@
     }
   },
   {
-    "id": "edge_0073",
+    "id": "edge_0170",
     "source": "L2_Ingredient_niacinamide",
     "target": "L2_Ingredient_tranexamic_acid",
     "data": {
@@ -832,7 +1906,7 @@
     }
   },
   {
-    "id": "edge_0074",
+    "id": "edge_0171",
     "source": "L2_Ingredient_salicylic_acid",
     "target": "L2_Ingredient_niacinamide",
     "data": {
@@ -845,7 +1919,7 @@
     }
   },
   {
-    "id": "edge_0075",
+    "id": "edge_0172",
     "source": "L2_Ingredient_centella",
     "target": "L2_Ingredient_panthenol",
     "data": {
@@ -858,7 +1932,7 @@
     }
   },
   {
-    "id": "edge_0076",
+    "id": "edge_0173",
     "source": "L2_Ingredient_ceramide",
     "target": "L2_Ingredient_panthenol",
     "data": {
@@ -871,7 +1945,7 @@
     }
   },
   {
-    "id": "edge_0077",
+    "id": "edge_0174",
     "source": "L2_Ingredient_hyaluronic_acid",
     "target": "L2_Ingredient_ceramide",
     "data": {
@@ -884,7 +1958,7 @@
     }
   },
   {
-    "id": "edge_0078",
+    "id": "edge_0175",
     "source": "L2_Ingredient_ectoin",
     "target": "L2_Ingredient_centella",
     "data": {
@@ -897,7 +1971,7 @@
     }
   },
   {
-    "id": "edge_0079",
+    "id": "edge_0176",
     "source": "L2_Ingredient_astaxanthin",
     "target": "L2_Ingredient_ergothioneine",
     "data": {
@@ -910,7 +1984,20 @@
     }
   },
   {
-    "id": "edge_0080",
+    "id": "edge_0177",
+    "source": "L2_Ingredient_vitamin_c",
+    "target": "L2_Ingredient_panthenol",
+    "data": {
+      "relType": "synergizes_with",
+      "category": "协同增强",
+      "label": "协同",
+      "properties": {
+        "note": "VC + VE + 阿魏酸经典配方"
+      }
+    }
+  },
+  {
+    "id": "edge_0178",
     "source": "L2_Ingredient_retinol",
     "target": "L0_SkinType_sensitive",
     "data": {
@@ -918,13 +2005,13 @@
       "category": "互斥约束",
       "label": "风险",
       "properties": {
-        "constraint_type": "刺激、泛红",
+        "constraint_type": "刺激、泛红、脱皮",
         "condition": "初次使用/高浓度"
       }
     }
   },
   {
-    "id": "edge_0081",
+    "id": "edge_0179",
     "source": "L2_Ingredient_retinol",
     "target": "L0_SkinType_pregnant",
     "data": {
@@ -933,12 +2020,26 @@
       "label": "风险",
       "properties": {
         "constraint_type": "致畸风险",
-        "condition": "孕期禁用"
+        "condition": "孕期/备孕期禁用"
       }
     }
   },
   {
-    "id": "edge_0082",
+    "id": "edge_0180",
+    "source": "L2_Ingredient_retinol",
+    "target": "L0_SkinType_acne_prone",
+    "data": {
+      "relType": "risk_for",
+      "category": "互斥约束",
+      "label": "风险",
+      "properties": {
+        "constraint_type": "初期可能爆痘",
+        "condition": "清洁反应2-4周消退"
+      }
+    }
+  },
+  {
+    "id": "edge_0181",
     "source": "L2_Ingredient_aha",
     "target": "L0_SkinType_sensitive",
     "data": {
@@ -952,7 +2053,7 @@
     }
   },
   {
-    "id": "edge_0083",
+    "id": "edge_0182",
     "source": "L2_Ingredient_salicylic_acid",
     "target": "L0_SkinType_sensitive",
     "data": {
@@ -966,7 +2067,21 @@
     }
   },
   {
-    "id": "edge_0084",
+    "id": "edge_0183",
+    "source": "L2_Ingredient_salicylic_acid",
+    "target": "L0_SkinType_pregnant",
+    "data": {
+      "relType": "risk_for",
+      "category": "互斥约束",
+      "label": "风险",
+      "properties": {
+        "constraint_type": "孕妇慎用",
+        "condition": "大面积使用需注意"
+      }
+    }
+  },
+  {
+    "id": "edge_0184",
     "source": "L2_Ingredient_vitamin_c",
     "target": "L0_SkinType_sensitive",
     "data": {
@@ -980,7 +2095,7 @@
     }
   },
   {
-    "id": "edge_0085",
+    "id": "edge_0185",
     "source": "L2_Ingredient_niacinamide",
     "target": "L0_SkinType_sensitive",
     "data": {
@@ -994,7 +2109,7 @@
     }
   },
   {
-    "id": "edge_0086",
+    "id": "edge_0186",
     "source": "L2_Ingredient_alcohol",
     "target": "L0_SkinType_sensitive",
     "data": {
@@ -1008,7 +2123,21 @@
     }
   },
   {
-    "id": "edge_0087",
+    "id": "edge_0187",
+    "source": "L2_Ingredient_essential_oil",
+    "target": "L0_SkinType_sensitive",
+    "data": {
+      "relType": "risk_for",
+      "category": "互斥约束",
+      "label": "风险",
+      "properties": {
+        "constraint_type": "过敏、光敏",
+        "condition": "柑橘类精油光敏性强"
+      }
+    }
+  },
+  {
+    "id": "edge_0188",
     "source": "L2_Ingredient_fragrance",
     "target": "L0_SkinType_sensitive",
     "data": {
@@ -1022,7 +2151,49 @@
     }
   },
   {
-    "id": "edge_0088",
+    "id": "edge_0189",
+    "source": "L2_Ingredient_tea_tree",
+    "target": "L0_SkinType_sensitive",
+    "data": {
+      "relType": "risk_for",
+      "category": "互斥约束",
+      "label": "风险",
+      "properties": {
+        "constraint_type": "刺激",
+        "condition": "高浓度/未稀释"
+      }
+    }
+  },
+  {
+    "id": "edge_0190",
+    "source": "L2_Ingredient_mineral_oil",
+    "target": "L0_SkinType_acne_prone",
+    "data": {
+      "relType": "risk_for",
+      "category": "互斥约束",
+      "label": "风险",
+      "properties": {
+        "constraint_type": "闷痘",
+        "condition": "高封闭性"
+      }
+    }
+  },
+  {
+    "id": "edge_0191",
+    "source": "L2_Ingredient_shea_butter",
+    "target": "L0_SkinType_acne_prone",
+    "data": {
+      "relType": "risk_for",
+      "category": "互斥约束",
+      "label": "风险",
+      "properties": {
+        "constraint_type": "闷痘",
+        "condition": "质地厚重"
+      }
+    }
+  },
+  {
+    "id": "edge_0192",
     "source": "L2_Ingredient_retinol",
     "target": "L2_Ingredient_retinol",
     "data": {
@@ -1037,7 +2208,22 @@
     }
   },
   {
-    "id": "edge_0089",
+    "id": "edge_0193",
+    "source": "L2_Ingredient_retinal",
+    "target": "L2_Ingredient_retinal",
+    "data": {
+      "relType": "requires_tolerance",
+      "category": "互斥约束",
+      "label": "耐受",
+      "properties": {
+        "interval": "2-4周",
+        "note": "从低浓度起步→隔日→每日",
+        "constraint_type": "需耐受"
+      }
+    }
+  },
+  {
+    "id": "edge_0194",
     "source": "L2_Ingredient_aha",
     "target": "L2_Ingredient_aha",
     "data": {
@@ -1046,13 +2232,13 @@
       "label": "耐受",
       "properties": {
         "interval": "2-4周",
-        "note": "从5%起步→8%→10%",
+        "note": "从5%起步→8%→10%→15%",
         "constraint_type": "需耐受"
       }
     }
   },
   {
-    "id": "edge_0090",
+    "id": "edge_0195",
     "source": "L2_Ingredient_salicylic_acid",
     "target": "L2_Ingredient_salicylic_acid",
     "data": {
@@ -1067,7 +2253,7 @@
     }
   },
   {
-    "id": "edge_0091",
+    "id": "edge_0196",
     "source": "L2_Ingredient_vitamin_c",
     "target": "L2_Ingredient_vitamin_c",
     "data": {
@@ -1082,7 +2268,7 @@
     }
   },
   {
-    "id": "edge_0092",
+    "id": "edge_0197",
     "source": "L2_Ingredient_niacinamide",
     "target": "L2_Ingredient_niacinamide",
     "data": {
@@ -1097,316 +2283,327 @@
     }
   },
   {
-    "id": "edge_0093",
-    "source": "L1_SKU_little_black",
-    "target": "L1_Brand_lancome",
+    "id": "edge_0198",
+    "source": "L5_SynonymMapping_syn_dry",
+    "target": "L0_SkinType_dry",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0094",
-    "source": "L1_SKU_little_black",
-    "target": "L2_Ingredient_bifida_ferment",
+    "id": "edge_0199",
+    "source": "L5_SynonymMapping_syn_oily",
+    "target": "L0_SkinType_oily",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0095",
-    "source": "L1_SKU_little_brown",
-    "target": "L1_Brand_estee_lauder",
+    "id": "edge_0200",
+    "source": "L5_SynonymMapping_syn_combination",
+    "target": "L0_SkinType_combination",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0096",
-    "source": "L1_SKU_little_brown",
-    "target": "L2_Ingredient_bifida_ferment",
+    "id": "edge_0201",
+    "source": "L5_SynonymMapping_syn_combo_oily",
+    "target": "L0_SkinType_combination_oily",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0097",
-    "source": "L1_SKU_fairy_water",
-    "target": "L1_Brand_sk_ii",
+    "id": "edge_0202",
+    "source": "L5_SynonymMapping_syn_combo_dry",
+    "target": "L0_SkinType_combination_dry",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0098",
-    "source": "L1_SKU_fairy_water",
-    "target": "L2_Ingredient_pitera",
+    "id": "edge_0203",
+    "source": "L5_SynonymMapping_syn_sensitive",
+    "target": "L0_SkinType_sensitive",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0099",
-    "source": "L1_SKU_double_serum",
-    "target": "L1_Brand_clarins",
+    "id": "edge_0204",
+    "source": "L5_SynonymMapping_syn_neutral",
+    "target": "L0_SkinType_neutral",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0100",
-    "source": "L1_SKU_red_waist",
-    "target": "L1_Brand_shiseido",
+    "id": "edge_0205",
+    "source": "L5_SynonymMapping_syn_dry_sensitive",
+    "target": "L0_SkinType_dry",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0101",
-    "source": "L1_SKU_red_waist",
-    "target": "L2_Ingredient_reishi",
+    "id": "edge_0206",
+    "source": "L5_SynonymMapping_syn_oily_sensitive",
+    "target": "L0_SkinType_oily",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0102",
-    "source": "L1_SKU_double_anti",
-    "target": "L1_Brand_proya",
+    "id": "edge_0207",
+    "source": "L5_SynonymMapping_syn_oily_acne",
+    "target": "L0_SkinType_oily",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0103",
-    "source": "L1_SKU_double_anti",
-    "target": "L2_Ingredient_astaxanthin",
+    "id": "edge_0208",
+    "source": "L5_SynonymMapping_syn_dehydrated",
+    "target": "L0_SkinType_oily",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0104",
-    "source": "L1_SKU_double_anti",
-    "target": "L2_Ingredient_ergothioneine",
+    "id": "edge_0209",
+    "source": "L5_SynonymMapping_syn_tolerant",
+    "target": "L0_SkinType_mod_tolerant",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0105",
-    "source": "L1_SKU_ruby",
-    "target": "L1_Brand_proya",
+    "id": "edge_0210",
+    "source": "L5_SynonymMapping_syn_dryness",
+    "target": "L2_Symptom_flaking",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0106",
-    "source": "L1_SKU_ruby",
-    "target": "L2_Ingredient_retinol",
+    "id": "edge_0211",
+    "source": "L5_SynonymMapping_syn_oiliness",
+    "target": "L2_Symptom_oiliness",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0107",
-    "source": "L1_SKU_ruby",
-    "target": "L2_Ingredient_hexapeptide",
+    "id": "edge_0212",
+    "source": "L5_SynonymMapping_syn_pores",
+    "target": "L2_Symptom_enlarged_pores",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0108",
-    "source": "L1_SKU_ce_serum",
-    "target": "L1_Brand_skinceuticals",
+    "id": "edge_0213",
+    "source": "L5_SynonymMapping_syn_blackhead",
+    "target": "L2_Symptom_blackhead",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0109",
-    "source": "L1_SKU_ce_serum",
-    "target": "L2_Ingredient_vitamin_c",
+    "id": "edge_0214",
+    "source": "L5_SynonymMapping_syn_redness",
+    "target": "L2_Symptom_redness",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0110",
-    "source": "L1_SKU_b5_serum",
-    "target": "L1_Brand_skinceuticals",
+    "id": "edge_0215",
+    "source": "L5_SynonymMapping_syn_stinging",
+    "target": "L2_Symptom_stinging",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0111",
-    "source": "L1_SKU_b5_serum",
-    "target": "L2_Ingredient_panthenol",
+    "id": "edge_0216",
+    "source": "L5_SynonymMapping_syn_acne",
+    "target": "L2_Symptom_acne_active",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0112",
-    "source": "L1_SKU_b5_serum",
-    "target": "L2_Ingredient_hyaluronic_acid",
+    "id": "edge_0217",
+    "source": "L5_SynonymMapping_syn_comedone",
+    "target": "L2_Symptom_comedone",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0113",
-    "source": "L1_SKU_purple_iron",
-    "target": "L1_Brand_kiehls",
+    "id": "edge_0218",
+    "source": "L5_SynonymMapping_syn_acne_mark_r",
+    "target": "L2_Symptom_acne_mark_red",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0114",
-    "source": "L1_SKU_purple_iron",
-    "target": "L2_Ingredient_retinol",
+    "id": "edge_0219",
+    "source": "L5_SynonymMapping_syn_acne_mark_d",
+    "target": "L2_Symptom_acne_mark_dark",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0115",
-    "source": "L1_SKU_moisture_cream",
-    "target": "L1_Brand_cerave",
+    "id": "edge_0220",
+    "source": "L5_SynonymMapping_syn_acne_pit",
+    "target": "L2_Symptom_acne_pit",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0116",
-    "source": "L1_SKU_moisture_cream",
-    "target": "L2_Ingredient_ceramide",
+    "id": "edge_0221",
+    "source": "L5_SynonymMapping_syn_dullness",
+    "target": "L2_Symptom_dullness",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0117",
-    "source": "L1_SKU_special_cream",
-    "target": "L1_Brand_winona",
+    "id": "edge_0222",
+    "source": "L5_SynonymMapping_syn_fine_lines",
+    "target": "L2_Symptom_fine_lines",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0118",
-    "source": "L1_SKU_special_cream",
-    "target": "L2_Ingredient_madecassoside",
+    "id": "edge_0223",
+    "source": "L5_SynonymMapping_syn_sagging",
+    "target": "L2_Symptom_sagging",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0119",
-    "source": "L1_SKU_barrier_cream",
-    "target": "L1_Brand_dryu",
+    "id": "edge_0224",
+    "source": "L5_SynonymMapping_syn_dark_circles",
+    "target": "L2_Symptom_dark_circles",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0120",
-    "source": "L1_SKU_barrier_cream",
-    "target": "L2_Ingredient_ceramide",
+    "id": "edge_0225",
+    "source": "L5_SynonymMapping_syn_cakey",
+    "target": "L2_Symptom_cakey_makeup",
     "data": {
-      "relType": "contains",
-      "category": "组成归属",
-      "label": "含有",
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
       "properties": {}
     }
   },
   {
-    "id": "edge_0121",
-    "source": "L5_SynonymMapping_retinol_syn",
+    "id": "edge_0226",
+    "source": "L5_SynonymMapping_syn_melt",
+    "target": "L2_Symptom_makeup_melt",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0227",
+    "source": "L5_SynonymMapping_syn_retinol",
     "target": "L2_Ingredient_retinol",
     "data": {
       "relType": "maps_to",
@@ -1416,8 +2613,19 @@
     }
   },
   {
-    "id": "edge_0122",
-    "source": "L5_SynonymMapping_vc_syn",
+    "id": "edge_0228",
+    "source": "L5_SynonymMapping_syn_retinal",
+    "target": "L2_Ingredient_retinal",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0229",
+    "source": "L5_SynonymMapping_syn_vc",
     "target": "L2_Ingredient_vitamin_c",
     "data": {
       "relType": "maps_to",
@@ -1427,8 +2635,8 @@
     }
   },
   {
-    "id": "edge_0123",
-    "source": "L5_SynonymMapping_nia_syn",
+    "id": "edge_0230",
+    "source": "L5_SynonymMapping_syn_nia",
     "target": "L2_Ingredient_niacinamide",
     "data": {
       "relType": "maps_to",
@@ -1438,8 +2646,8 @@
     }
   },
   {
-    "id": "edge_0124",
-    "source": "L5_SynonymMapping_ha_syn",
+    "id": "edge_0231",
+    "source": "L5_SynonymMapping_syn_ha",
     "target": "L2_Ingredient_hyaluronic_acid",
     "data": {
       "relType": "maps_to",
@@ -1449,8 +2657,8 @@
     }
   },
   {
-    "id": "edge_0125",
-    "source": "L5_SynonymMapping_cer_syn",
+    "id": "edge_0232",
+    "source": "L5_SynonymMapping_syn_cer",
     "target": "L2_Ingredient_ceramide",
     "data": {
       "relType": "maps_to",
@@ -1460,8 +2668,8 @@
     }
   },
   {
-    "id": "edge_0126",
-    "source": "L5_SynonymMapping_bha_syn",
+    "id": "edge_0233",
+    "source": "L5_SynonymMapping_syn_bha",
     "target": "L2_Ingredient_salicylic_acid",
     "data": {
       "relType": "maps_to",
@@ -1471,8 +2679,8 @@
     }
   },
   {
-    "id": "edge_0127",
-    "source": "L5_SynonymMapping_aha_syn",
+    "id": "edge_0234",
+    "source": "L5_SynonymMapping_syn_aha",
     "target": "L2_Ingredient_aha",
     "data": {
       "relType": "maps_to",
@@ -1482,8 +2690,30 @@
     }
   },
   {
-    "id": "edge_0128",
-    "source": "L5_SynonymMapping_cica_syn",
+    "id": "edge_0235",
+    "source": "L5_SynonymMapping_syn_glycolic",
+    "target": "L2_Ingredient_glycolic_acid",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0236",
+    "source": "L5_SynonymMapping_syn_mandelic",
+    "target": "L2_Ingredient_mandelic_acid",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0237",
+    "source": "L5_SynonymMapping_syn_centella",
     "target": "L2_Ingredient_centella",
     "data": {
       "relType": "maps_to",
@@ -1493,8 +2723,41 @@
     }
   },
   {
-    "id": "edge_0129",
-    "source": "L5_SynonymMapping_bosein_syn",
+    "id": "edge_0238",
+    "source": "L5_SynonymMapping_syn_squalane",
+    "target": "L2_Ingredient_squalane",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0239",
+    "source": "L5_SynonymMapping_syn_peptide",
+    "target": "L2_Ingredient_peptide",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0240",
+    "source": "L5_SynonymMapping_syn_hexapeptide",
+    "target": "L2_Ingredient_hexapeptide",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0241",
+    "source": "L5_SynonymMapping_syn_bosein",
     "target": "L2_Ingredient_bosein",
     "data": {
       "relType": "maps_to",
@@ -1504,9 +2767,9 @@
     }
   },
   {
-    "id": "edge_0130",
-    "source": "L5_SynonymMapping_little_black_syn",
-    "target": "L2_Ingredient_little_black",
+    "id": "edge_0242",
+    "source": "L5_SynonymMapping_syn_panthenol",
+    "target": "L2_Ingredient_panthenol",
     "data": {
       "relType": "maps_to",
       "category": "等价映射",
@@ -1515,9 +2778,9 @@
     }
   },
   {
-    "id": "edge_0131",
-    "source": "L5_SynonymMapping_fairy_water_syn",
-    "target": "L2_Ingredient_fairy_water",
+    "id": "edge_0243",
+    "source": "L5_SynonymMapping_syn_bifida",
+    "target": "L2_Ingredient_bifida_ferment",
     "data": {
       "relType": "maps_to",
       "category": "等价映射",
@@ -1526,9 +2789,9 @@
     }
   },
   {
-    "id": "edge_0132",
-    "source": "L5_SynonymMapping_double_anti_syn",
-    "target": "L2_Ingredient_double_anti",
+    "id": "edge_0244",
+    "source": "L5_SynonymMapping_syn_tranexamic",
+    "target": "L2_Ingredient_tranexamic_acid",
     "data": {
       "relType": "maps_to",
       "category": "等价映射",
@@ -1537,9 +2800,9 @@
     }
   },
   {
-    "id": "edge_0133",
-    "source": "L5_SynonymMapping_sensitive_syn",
-    "target": "L2_Ingredient_sensitive",
+    "id": "edge_0245",
+    "source": "L5_SynonymMapping_syn_azelaic",
+    "target": "L2_Ingredient_azelaic_acid",
     "data": {
       "relType": "maps_to",
       "category": "等价映射",
@@ -1548,9 +2811,9 @@
     }
   },
   {
-    "id": "edge_0134",
-    "source": "L5_SynonymMapping_dry_syn",
-    "target": "L2_Ingredient_dry",
+    "id": "edge_0246",
+    "source": "L5_SynonymMapping_syn_arbutin",
+    "target": "L2_Ingredient_arbutin",
     "data": {
       "relType": "maps_to",
       "category": "等价映射",
@@ -1559,13 +2822,1091 @@
     }
   },
   {
-    "id": "edge_0135",
-    "source": "L5_SynonymMapping_oily_syn",
-    "target": "L2_Ingredient_oily",
+    "id": "edge_0247",
+    "source": "L5_SynonymMapping_syn_glabridin",
+    "target": "L2_Ingredient_glabridin",
     "data": {
       "relType": "maps_to",
       "category": "等价映射",
       "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0248",
+    "source": "L5_SynonymMapping_syn_astaxanthin",
+    "target": "L2_Ingredient_astaxanthin",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0249",
+    "source": "L5_SynonymMapping_syn_ergothioneine",
+    "target": "L2_Ingredient_ergothioneine",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0250",
+    "source": "L5_SynonymMapping_syn_ectoin",
+    "target": "L2_Ingredient_ectoin",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0251",
+    "source": "L5_SynonymMapping_syn_resveratrol",
+    "target": "L2_Ingredient_resveratrol",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0252",
+    "source": "L5_SynonymMapping_syn_coq10",
+    "target": "L2_Ingredient_coq10",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0253",
+    "source": "L5_SynonymMapping_syn_allantoin",
+    "target": "L2_Ingredient_allantoin",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0254",
+    "source": "L5_SynonymMapping_syn_collagen",
+    "target": "L2_Ingredient_collagen",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0255",
+    "source": "L5_SynonymMapping_syn_pitera",
+    "target": "L2_Ingredient_pitera",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0256",
+    "source": "L5_SynonymMapping_syn_alcohol",
+    "target": "L2_Ingredient_alcohol",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0257",
+    "source": "L5_SynonymMapping_syn_fragrance",
+    "target": "L2_Ingredient_fragrance",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0258",
+    "source": "L5_SynonymMapping_syn_silicone",
+    "target": "L2_Ingredient_silicone",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0259",
+    "source": "L5_SynonymMapping_syn_mineral_oil",
+    "target": "L2_Ingredient_mineral_oil",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0260",
+    "source": "L5_SynonymMapping_syn_estee",
+    "target": "L1_Brand_estee_lauder",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0261",
+    "source": "L5_SynonymMapping_syn_lancome",
+    "target": "L1_Brand_lancome",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0262",
+    "source": "L5_SynonymMapping_syn_kiehls",
+    "target": "L1_Brand_kiehls",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0263",
+    "source": "L5_SynonymMapping_syn_lamer",
+    "target": "L1_Brand_la_mer",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0264",
+    "source": "L5_SynonymMapping_syn_helena",
+    "target": "L1_Brand_helena",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0265",
+    "source": "L5_SynonymMapping_syn_sk2",
+    "target": "L1_Brand_sk_ii",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0266",
+    "source": "L5_SynonymMapping_syn_shiseido",
+    "target": "L1_Brand_shiseido",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0267",
+    "source": "L5_SynonymMapping_syn_decorte",
+    "target": "L1_Brand_decorte",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0268",
+    "source": "L5_SynonymMapping_syn_clinique",
+    "target": "L1_Brand_clinique",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0269",
+    "source": "L5_SynonymMapping_syn_clarins",
+    "target": "L1_Brand_clarins",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0270",
+    "source": "L5_SynonymMapping_syn_origins",
+    "target": "L1_Brand_origins",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0271",
+    "source": "L5_SynonymMapping_syn_curel",
+    "target": "L1_Brand_curel",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0272",
+    "source": "L5_SynonymMapping_syn_ipsa",
+    "target": "L1_Brand_ipsa",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0273",
+    "source": "L5_SynonymMapping_syn_loreal",
+    "target": "L1_Brand_loreal",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0274",
+    "source": "L5_SynonymMapping_syn_cerave",
+    "target": "L1_Brand_cerave",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0275",
+    "source": "L5_SynonymMapping_syn_to",
+    "target": "L1_Brand_the_ordinary",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0276",
+    "source": "L5_SynonymMapping_syn_proya",
+    "target": "L1_Brand_proya",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0277",
+    "source": "L5_SynonymMapping_syn_winona",
+    "target": "L1_Brand_winona",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0278",
+    "source": "L5_SynonymMapping_syn_uniskin",
+    "target": "L1_Brand_uniskin",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0279",
+    "source": "L5_SynonymMapping_syn_marubi",
+    "target": "L1_Brand_marubi",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0280",
+    "source": "L5_SynonymMapping_syn_guyu",
+    "target": "L1_Brand_guyu",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0281",
+    "source": "L5_SynonymMapping_syn_skinceuticals",
+    "target": "L1_Brand_skinceuticals",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0282",
+    "source": "L5_SynonymMapping_syn_lrp",
+    "target": "L1_Brand_lrp",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0283",
+    "source": "L5_SynonymMapping_syn_avene",
+    "target": "L1_Brand_avene",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0284",
+    "source": "L5_SynonymMapping_syn_freeplus",
+    "target": "L1_Brand_freeplus",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0285",
+    "source": "L5_SynonymMapping_syn_comfy",
+    "target": "L1_Brand_comfy",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0286",
+    "source": "L5_SynonymMapping_syn_dryu",
+    "target": "L1_Brand_dryu",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0287",
+    "source": "L5_SynonymMapping_syn_betterderm",
+    "target": "L1_Brand_betterderm",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0288",
+    "source": "L5_SynonymMapping_syn_timage",
+    "target": "L1_Brand_timage",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0289",
+    "source": "L5_SynonymMapping_syn_maogeping",
+    "target": "L1_Brand_maogeping",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0290",
+    "source": "L5_SynonymMapping_syn_florasis",
+    "target": "L1_Brand_florasis",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0291",
+    "source": "L5_SynonymMapping_syn_zhuben",
+    "target": "L1_Brand_zhuben",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0292",
+    "source": "L5_SynonymMapping_syn_zhiben",
+    "target": "L1_Brand_zhiben",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0293",
+    "source": "L5_SynonymMapping_syn_quadha",
+    "target": "L1_Brand_quadha",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0294",
+    "source": "L5_SynonymMapping_syn_anessa",
+    "target": "L1_Brand_anessa",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0295",
+    "source": "L5_SynonymMapping_syn_fuyijia",
+    "target": "L1_Brand_fuyijia",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0296",
+    "source": "L5_SynonymMapping_syn_little_black",
+    "target": "L1_SPU_little_black",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0297",
+    "source": "L5_SynonymMapping_syn_little_brown",
+    "target": "L1_SPU_little_brown",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0298",
+    "source": "L5_SynonymMapping_syn_fairy_water",
+    "target": "L1_SPU_fairy_water",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0299",
+    "source": "L5_SynonymMapping_syn_double_anti",
+    "target": "L1_SPU_double_anti",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0300",
+    "source": "L5_SynonymMapping_syn_ruby",
+    "target": "L1_SPU_ruby",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0301",
+    "source": "L5_SynonymMapping_syn_black_bind",
+    "target": "L1_SPU_black_bindage",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0302",
+    "source": "L5_SynonymMapping_syn_ce",
+    "target": "L1_SPU_ce_serum",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0303",
+    "source": "L5_SynonymMapping_syn_purple_iron",
+    "target": "L1_SPU_purple_iron",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0304",
+    "source": "L5_SynonymMapping_syn_gold_bottle",
+    "target": "L1_SPU_gold_bottle",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0305",
+    "source": "L5_SynonymMapping_syn_blue_fat",
+    "target": "L1_SPU_blue_fat",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0306",
+    "source": "L5_SynonymMapping_syn_white_tube",
+    "target": "L1_SPU_white_tube",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0307",
+    "source": "L5_SynonymMapping_syn_exbf_mask",
+    "target": "L1_SPU_ex_bf_mask",
+    "data": {
+      "relType": "maps_to",
+      "category": "等价映射",
+      "label": "映射",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0308",
+    "source": "L1_SPU_little_black",
+    "target": "L2_Ingredient_bifida_ferment",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0309",
+    "source": "L1_SPU_little_brown",
+    "target": "L2_Ingredient_bifida_ferment",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0310",
+    "source": "L1_SPU_red_waist",
+    "target": "L2_Ingredient_reishi",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0311",
+    "source": "L1_SPU_fairy_water",
+    "target": "L2_Ingredient_pitera",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0312",
+    "source": "L1_SPU_black_bindage",
+    "target": "L2_Ingredient_bosein",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0313",
+    "source": "L1_SPU_green_bottle",
+    "target": "L2_Ingredient_bosein",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0314",
+    "source": "L1_SPU_double_anti",
+    "target": "L2_Ingredient_astaxanthin",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0315",
+    "source": "L1_SPU_double_anti",
+    "target": "L2_Ingredient_ergothioneine",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0316",
+    "source": "L1_SPU_ruby",
+    "target": "L2_Ingredient_retinol",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0317",
+    "source": "L1_SPU_ruby",
+    "target": "L2_Ingredient_hexapeptide",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0318",
+    "source": "L1_SPU_early_c_late_a",
+    "target": "L2_Ingredient_vitamin_c",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0319",
+    "source": "L1_SPU_early_c_late_a",
+    "target": "L2_Ingredient_retinol",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0320",
+    "source": "L1_SPU_small_syringe",
+    "target": "L2_Ingredient_peptide",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0321",
+    "source": "L1_SPU_ce_serum",
+    "target": "L2_Ingredient_vitamin_c",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0322",
+    "source": "L1_SPU_b5_serum",
+    "target": "L2_Ingredient_panthenol",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0323",
+    "source": "L1_SPU_b5_serum",
+    "target": "L2_Ingredient_hyaluronic_acid",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0324",
+    "source": "L1_SPU_purple_iron",
+    "target": "L2_Ingredient_retinol",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0325",
+    "source": "L1_SPU_spot_serum",
+    "target": "L2_Ingredient_vitamin_c",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0326",
+    "source": "L1_SPU_small_white",
+    "target": "L2_Ingredient_niacinamide",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0327",
+    "source": "L1_SPU_black_serum",
+    "target": "L2_Ingredient_bosein",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0328",
+    "source": "L1_SPU_purple_iron_loreal",
+    "target": "L2_Ingredient_bosein",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0329",
+    "source": "L1_SPU_purple_iron_loreal",
+    "target": "L2_Ingredient_hyaluronic_acid",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0330",
+    "source": "L1_SPU_quadha_retinol",
+    "target": "L2_Ingredient_retinol",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0331",
+    "source": "L1_SPU_guyu_cream",
+    "target": "L2_Ingredient_glabridin",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0332",
+    "source": "L1_SPU_collagen_cream",
+    "target": "L2_Ingredient_collagen",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0333",
+    "source": "L1_SPU_big_red",
+    "target": "L2_Ingredient_pitera",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0334",
+    "source": "L1_SPU_mushroom_cream",
+    "target": "L2_Ingredient_reishi",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0335",
+    "source": "L1_SPU_cerave_cream",
+    "target": "L2_Ingredient_ceramide",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0336",
+    "source": "L1_SPU_special_cream",
+    "target": "L2_Ingredient_madecassoside",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0337",
+    "source": "L1_SPU_centella_cream",
+    "target": "L2_Ingredient_centella",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0338",
+    "source": "L1_SPU_barrier_cream",
+    "target": "L2_Ingredient_ceramide",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0339",
+    "source": "L1_SPU_aurora_set",
+    "target": "L2_Ingredient_glabridin",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0340",
+    "source": "L1_SPU_calendula_water",
+    "target": "L2_Ingredient_calendula",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0341",
+    "source": "L1_SPU_mushroom_water",
+    "target": "L2_Ingredient_reishi",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0342",
+    "source": "L1_SPU_purple_iron_eye",
+    "target": "L2_Ingredient_bosein",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0343",
+    "source": "L1_SPU_green_gem_eye",
+    "target": "L2_Ingredient_bosein",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0344",
+    "source": "L1_SPU_ex_bf_mask",
+    "target": "L2_Ingredient_pitera",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
+      "properties": {}
+    }
+  },
+  {
+    "id": "edge_0345",
+    "source": "L1_SPU_super_a_mask",
+    "target": "L2_Ingredient_salicylic_acid",
+    "data": {
+      "relType": "contains",
+      "category": "组成归属",
+      "label": "含有",
       "properties": {}
     }
   }

@@ -1,5 +1,3832 @@
 [
   {
+    "id": "L0_SkinType_dry",
+    "data": {
+      "label": "干皮",
+      "labelEn": "Dry",
+      "layer": "L0",
+      "entityType": "SkinType",
+      "properties": {
+        "code": "dry"
+      }
+    }
+  },
+  {
+    "id": "L0_SkinType_oily",
+    "data": {
+      "label": "油皮",
+      "labelEn": "Oily",
+      "layer": "L0",
+      "entityType": "SkinType",
+      "properties": {
+        "code": "oily"
+      }
+    }
+  },
+  {
+    "id": "L0_SkinType_combination",
+    "data": {
+      "label": "混合肌",
+      "labelEn": "Combination",
+      "layer": "L0",
+      "entityType": "SkinType",
+      "properties": {
+        "code": "combination"
+      }
+    }
+  },
+  {
+    "id": "L0_SkinType_combination_oily",
+    "data": {
+      "label": "混合偏油",
+      "labelEn": "Combination Oily",
+      "layer": "L0",
+      "entityType": "SkinType",
+      "properties": {
+        "code": "combination_oily"
+      }
+    }
+  },
+  {
+    "id": "L0_SkinType_combination_dry",
+    "data": {
+      "label": "混合偏干",
+      "labelEn": "Combination Dry",
+      "layer": "L0",
+      "entityType": "SkinType",
+      "properties": {
+        "code": "combination_dry"
+      }
+    }
+  },
+  {
+    "id": "L0_SkinType_sensitive",
+    "data": {
+      "label": "敏感肌",
+      "labelEn": "Sensitive",
+      "layer": "L0",
+      "entityType": "SkinType",
+      "properties": {
+        "code": "sensitive"
+      }
+    }
+  },
+  {
+    "id": "L0_SkinType_neutral",
+    "data": {
+      "label": "中性肌",
+      "labelEn": "Neutral",
+      "layer": "L0",
+      "entityType": "SkinType",
+      "properties": {
+        "code": "neutral"
+      }
+    }
+  },
+  {
+    "id": "L0_SkinType_mod_sensitive",
+    "data": {
+      "label": "敏感特征",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "SkinType",
+      "properties": {
+        "code": "mod_sensitive"
+      }
+    }
+  },
+  {
+    "id": "L0_SkinType_mod_acne_prone",
+    "data": {
+      "label": "易痘特征",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "SkinType",
+      "properties": {
+        "code": "mod_acne_prone"
+      }
+    }
+  },
+  {
+    "id": "L0_SkinType_mod_mature",
+    "data": {
+      "label": "熟龄特征",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "SkinType",
+      "properties": {
+        "code": "mod_mature"
+      }
+    }
+  },
+  {
+    "id": "L0_SkinType_mod_dehydrated",
+    "data": {
+      "label": "外油内干",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "SkinType",
+      "properties": {
+        "code": "mod_dehydrated"
+      }
+    }
+  },
+  {
+    "id": "L0_SkinType_mod_tolerant",
+    "data": {
+      "label": "耐受/城墙皮",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "SkinType",
+      "properties": {
+        "code": "mod_tolerant"
+      }
+    }
+  },
+  {
+    "id": "L0_SkinType_mod_pigmented",
+    "data": {
+      "label": "易色沉",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "SkinType",
+      "properties": {
+        "code": "mod_pigmented"
+      }
+    }
+  },
+  {
+    "id": "L0_SkinType_pregnant",
+    "data": {
+      "label": "孕妇",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "SkinType",
+      "properties": {
+        "code": "pregnant"
+      }
+    }
+  },
+  {
+    "id": "L0_SkinType_acne_prone",
+    "data": {
+      "label": "痘痘肌",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "SkinType",
+      "properties": {
+        "code": "acne_prone"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_hydration",
+    "data": {
+      "label": "补水保湿",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "hydration"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_hydration_basic",
+    "data": {
+      "label": "基础补水",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "hydration_basic"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_hydration_deep",
+    "data": {
+      "label": "深层滋养",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "hydration_deep"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_hydration_barrier",
+    "data": {
+      "label": "屏障修护",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "hydration_barrier"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_hydration_balance",
+    "data": {
+      "label": "水油平衡",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "hydration_balance"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_oil_control",
+    "data": {
+      "label": "控油",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "oil_control"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_oil_control_sebum",
+    "data": {
+      "label": "控油脂",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "oil_control_sebum"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_oil_control_pore",
+    "data": {
+      "label": "毛孔管理",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "oil_control_pore"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_oil_control_shine",
+    "data": {
+      "label": "控光泽",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "oil_control_shine"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_anti_aging",
+    "data": {
+      "label": "抗老",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "anti_aging"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_anti_aging_lines",
+    "data": {
+      "label": "淡纹",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "anti_aging_lines"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_anti_aging_firming",
+    "data": {
+      "label": "紧致",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "anti_aging_firming"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_anti_aging_early",
+    "data": {
+      "label": "初老预防",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "anti_aging_early"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_anti_aging_neck",
+    "data": {
+      "label": "颈部抗老",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "anti_aging_neck"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_anti_aging_eye",
+    "data": {
+      "label": "眼周抗老",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "anti_aging_eye"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_repair",
+    "data": {
+      "label": "修护",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "repair"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_repair_sensitive",
+    "data": {
+      "label": "敏感舒缓",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "repair_sensitive"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_repair_post_procedure",
+    "data": {
+      "label": "医美后修护",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "repair_post_procedure"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_repair_season",
+    "data": {
+      "label": "换季维稳",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "repair_season"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_repair_sun_damage",
+    "data": {
+      "label": "晒后修护",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "repair_sun_damage"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_repair_over_exfoliation",
+    "data": {
+      "label": "过度去角质修护",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "repair_over_exfoliation"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_brightening",
+    "data": {
+      "label": "美白提亮",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "brightening"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_brightening_whitening",
+    "data": {
+      "label": "美白",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "brightening_whitening"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_brightening_dullness",
+    "data": {
+      "label": "改善暗沉",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "brightening_dullness"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_brightening_glow",
+    "data": {
+      "label": "提亮光泽",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "brightening_glow"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_brightening_spot",
+    "data": {
+      "label": "淡斑",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "brightening_spot"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_brightening_even_tone",
+    "data": {
+      "label": "匀肤色",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "brightening_even_tone"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_acne",
+    "data": {
+      "label": "战痘",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "acne"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_acne_active",
+    "data": {
+      "label": "活痘治疗",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "acne_active"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_acne_scar",
+    "data": {
+      "label": "痘印淡化",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "acne_scar"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_acne_blackhead",
+    "data": {
+      "label": "黑头闭口",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "acne_blackhead"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_acne_hormonal",
+    "data": {
+      "label": "激素痘",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "acne_hormonal"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_acne_body",
+    "data": {
+      "label": "身体痘",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "acne_body"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_makeup_fit",
+    "data": {
+      "label": "底妆适配",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "makeup_fit"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_makeup_fit_cakey",
+    "data": {
+      "label": "防卡粉",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "makeup_fit_cakey"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_makeup_fit_lasting",
+    "data": {
+      "label": "持妆",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "makeup_fit_lasting"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_makeup_fit_coverage",
+    "data": {
+      "label": "遮瑕",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "makeup_fit_coverage"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_makeup_fit_natural",
+    "data": {
+      "label": "自然妆感",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "makeup_fit_natural"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_makeup_fit_oil_control",
+    "data": {
+      "label": "底妆控油",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "makeup_fit_oil_control"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cleansing",
+    "data": {
+      "label": "清洁",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cleansing"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cleansing_deep",
+    "data": {
+      "label": "深层清洁",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cleansing_deep"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cleansing_gentle",
+    "data": {
+      "label": "温和洁面",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cleansing_gentle"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cleansing_makeup_removal",
+    "data": {
+      "label": "卸妆",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cleansing_makeup_removal"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sun_protection",
+    "data": {
+      "label": "防晒",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sun_protection"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sun_daily",
+    "data": {
+      "label": "日常防晒",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sun_daily"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sun_outdoor",
+    "data": {
+      "label": "户外防晒",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sun_outdoor"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sun_texture",
+    "data": {
+      "label": "防晒肤感",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sun_texture"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sun_reapply",
+    "data": {
+      "label": "补涂",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sun_reapply"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_body_care",
+    "data": {
+      "label": "身体护理",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "body_care"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_body_moisturize",
+    "data": {
+      "label": "身体保湿",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "body_moisturize"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_body_whitening",
+    "data": {
+      "label": "身体美白",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "body_whitening"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_body_hand",
+    "data": {
+      "label": "手部护理",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "body_hand"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_body_lip",
+    "data": {
+      "label": "唇部护理",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "body_lip"
+      }
+    }
+  },
+  {
+    "id": "L0_Budget_teen_age",
+    "data": {
+      "label": "15-18 高中生",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Budget",
+      "properties": {
+        "code": "teen_age"
+      }
+    }
+  },
+  {
+    "id": "L0_Budget_student_age",
+    "data": {
+      "label": "18-22 大学生",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Budget",
+      "properties": {
+        "code": "student_age"
+      }
+    }
+  },
+  {
+    "id": "L0_Budget_early_career_age",
+    "data": {
+      "label": "22-26 职场新人",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Budget",
+      "properties": {
+        "code": "early_career_age"
+      }
+    }
+  },
+  {
+    "id": "L0_Budget_young_professional_age",
+    "data": {
+      "label": "26-30 白领",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Budget",
+      "properties": {
+        "code": "young_professional_age"
+      }
+    }
+  },
+  {
+    "id": "L0_Budget_early_mature_age",
+    "data": {
+      "label": "30-35 轻熟肌",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Budget",
+      "properties": {
+        "code": "early_mature_age"
+      }
+    }
+  },
+  {
+    "id": "L0_Budget_mature_age",
+    "data": {
+      "label": "35-45 熟龄",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Budget",
+      "properties": {
+        "code": "mature_age"
+      }
+    }
+  },
+  {
+    "id": "L0_Budget_advanced_mature_age",
+    "data": {
+      "label": "45+ 成熟肌",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Budget",
+      "properties": {
+        "code": "advanced_mature_age"
+      }
+    }
+  },
+  {
+    "id": "L0_Budget_ultra_budget",
+    "data": {
+      "label": "极低预算 (≤100)",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Budget",
+      "properties": {
+        "code": "ultra_budget"
+      }
+    }
+  },
+  {
+    "id": "L0_Budget_budget",
+    "data": {
+      "label": "低预算 (100-300)",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Budget",
+      "properties": {
+        "code": "budget"
+      }
+    }
+  },
+  {
+    "id": "L0_Budget_affordable",
+    "data": {
+      "label": "平价 (200-600)",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Budget",
+      "properties": {
+        "code": "affordable"
+      }
+    }
+  },
+  {
+    "id": "L0_Budget_mid_range",
+    "data": {
+      "label": "中等 (400-1000)",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Budget",
+      "properties": {
+        "code": "mid_range"
+      }
+    }
+  },
+  {
+    "id": "L0_Budget_premium",
+    "data": {
+      "label": "高端 (800-1500)",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Budget",
+      "properties": {
+        "code": "premium"
+      }
+    }
+  },
+  {
+    "id": "L0_Budget_luxury",
+    "data": {
+      "label": "奢华 (1200+)",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Budget",
+      "properties": {
+        "code": "luxury"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_cleanser",
+    "data": {
+      "label": "洁面",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_cleanser"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_makeup_remover",
+    "data": {
+      "label": "卸妆",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_makeup_remover"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_toner",
+    "data": {
+      "label": "化妆水",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_toner"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_lotion",
+    "data": {
+      "label": "乳液",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_lotion"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_lotion_set",
+    "data": {
+      "label": "水乳套组",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_lotion_set"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_essence",
+    "data": {
+      "label": "精华",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_essence"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_ampoule",
+    "data": {
+      "label": "安瓶/次抛",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_ampoule"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_cream",
+    "data": {
+      "label": "面霜",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_cream"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_eye_cream",
+    "data": {
+      "label": "眼霜",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_eye_cream"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_mask",
+    "data": {
+      "label": "面膜",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_mask"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_clay_mask",
+    "data": {
+      "label": "清洁面膜",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_clay_mask"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_sunscreen",
+    "data": {
+      "label": "防晒",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_sunscreen"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_lip_care",
+    "data": {
+      "label": "唇部护理",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_lip_care"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_neck_cream",
+    "data": {
+      "label": "颈霜",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_neck_cream"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_exfoliant",
+    "data": {
+      "label": "去角质",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_exfoliant"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_mist",
+    "data": {
+      "label": "喷雾",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_mist"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_beauty_device",
+    "data": {
+      "label": "美容仪",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_beauty_device"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_base_makeup",
+    "data": {
+      "label": "粉底",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_base_makeup"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_cushion",
+    "data": {
+      "label": "气垫",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_cushion"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_bb_cc",
+    "data": {
+      "label": "BB/CC霜",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_bb_cc"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_primer",
+    "data": {
+      "label": "妆前乳",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_primer"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_concealer",
+    "data": {
+      "label": "遮瑕",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_concealer"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_setting_powder",
+    "data": {
+      "label": "定妆粉",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_setting_powder"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_setting_spray",
+    "data": {
+      "label": "定妆喷雾",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_setting_spray"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_body_lotion",
+    "data": {
+      "label": "身体乳",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_body_lotion"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_body_sunscreen",
+    "data": {
+      "label": "身体防晒",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_body_sunscreen"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_hand_cream",
+    "data": {
+      "label": "护手霜",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_hand_cream"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_body_scrub",
+    "data": {
+      "label": "身体磨砂",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_body_scrub"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_body_wash",
+    "data": {
+      "label": "沐浴",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_body_wash"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_comprehensive",
+    "data": {
+      "label": "综合护肤方案",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_comprehensive"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_cat_full_routine",
+    "data": {
+      "label": "全套流程",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "cat_full_routine"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_seasonal_change",
+    "data": {
+      "label": "换季",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_seasonal_change"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_summer_hot",
+    "data": {
+      "label": "夏天闷热",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_summer_hot"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_winter_dry",
+    "data": {
+      "label": "冬天干燥",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_winter_dry"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_office_ac",
+    "data": {
+      "label": "空调房",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_office_ac"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_outdoor_active",
+    "data": {
+      "label": "户外运动",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_outdoor_active"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_travel_business",
+    "data": {
+      "label": "出差旅行",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_travel_business"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_high_altitude",
+    "data": {
+      "label": "高原强紫外",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_high_altitude"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_overtime_fatigue",
+    "data": {
+      "label": "熬夜加班",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_overtime_fatigue"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_student_life",
+    "data": {
+      "label": "学生生活",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_student_life"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_daily_makeup",
+    "data": {
+      "label": "日常带妆",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_daily_makeup"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_pre_event",
+    "data": {
+      "label": "重要场合",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_pre_event"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_pregnancy",
+    "data": {
+      "label": "孕期",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_pregnancy"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_menstrual",
+    "data": {
+      "label": "经期",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_menstrual"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_post_medical",
+    "data": {
+      "label": "医美后",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_post_medical"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_wedding_prep",
+    "data": {
+      "label": "备婚",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_wedding_prep"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_promotion_shopping",
+    "data": {
+      "label": "大促购物",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_promotion_shopping"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_first_purchase",
+    "data": {
+      "label": "首次购买",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_first_purchase"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_repurchase",
+    "data": {
+      "label": "回购",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_repurchase"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_gift_buying",
+    "data": {
+      "label": "送礼",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_gift_buying"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_sce_trial_sample",
+    "data": {
+      "label": "试用",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "sce_trial_sample"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_ctx_promotion",
+    "data": {
+      "label": "大促购物场景",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "ctx_promotion"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_ctx_learning",
+    "data": {
+      "label": "学习咨询场景",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "ctx_learning"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_ctx_urgent",
+    "data": {
+      "label": "急需解决场景",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "ctx_urgent"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_ctx_routine",
+    "data": {
+      "label": "日常换品场景",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "ctx_routine"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_ctx_aftersales",
+    "data": {
+      "label": "售后问题场景",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "ctx_aftersales"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_ctx_casual",
+    "data": {
+      "label": "闲聊场景",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "ctx_casual"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_fear_breakout",
+    "data": {
+      "label": "怕闷痘",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "fear_breakout"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_fear_irritation",
+    "data": {
+      "label": "怕刺激",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "fear_irritation"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_fear_greasy",
+    "data": {
+      "label": "怕油腻",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "fear_greasy"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_fear_pilling",
+    "data": {
+      "label": "怕搓泥",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "fear_pilling"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_fear_photosensitive",
+    "data": {
+      "label": "怕光敏",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "fear_photosensitive"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_fear_dependency",
+    "data": {
+      "label": "怕依赖",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "fear_dependency"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_fear_purging",
+    "data": {
+      "label": "怕爆痘",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "fear_purging"
+      }
+    }
+  },
+  {
+    "id": "L0_Concern_fear_interaction",
+    "data": {
+      "label": "怕冲突",
+      "labelEn": "",
+      "layer": "L0",
+      "entityType": "Concern",
+      "properties": {
+        "code": "fear_interaction"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_la_mer",
+    "data": {
+      "label": "海蓝之谜",
+      "labelEn": "La Mer",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "la_mer",
+        "tier": "international_luxury"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_estee_lauder",
+    "data": {
+      "label": "雅诗兰黛",
+      "labelEn": "Estée Lauder",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "estee_lauder",
+        "tier": "international_luxury"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_cpb",
+    "data": {
+      "label": "CPB肌肤之钥",
+      "labelEn": "Clé de Peau Beauté",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "cpb",
+        "tier": "international_luxury"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_helena",
+    "data": {
+      "label": "赫莲娜",
+      "labelEn": "Helena Rubinstein",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "helena",
+        "tier": "international_luxury"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_sk_ii",
+    "data": {
+      "label": "SK-II",
+      "labelEn": "SK-II",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "sk_ii",
+        "tier": "international_luxury"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_la_prairie",
+    "data": {
+      "label": "莱珀妮",
+      "labelEn": "La Prairie",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "la_prairie",
+        "tier": "international_luxury"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_sisley",
+    "data": {
+      "label": "希思黎",
+      "labelEn": "Sisley",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "sisley",
+        "tier": "international_luxury"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_philosophy",
+    "data": {
+      "label": "肌肤哲理",
+      "labelEn": "Philosophy",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "philosophy",
+        "tier": "international_luxury"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_decorte_aq",
+    "data": {
+      "label": "黛珂AQ线",
+      "labelEn": "Decorté AQ",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "decorte_aq",
+        "tier": "international_luxury"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_erno_laszlo",
+    "data": {
+      "label": "奥伦纳素",
+      "labelEn": "Erno Laszlo",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "erno_laszlo",
+        "tier": "international_luxury"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_lancome",
+    "data": {
+      "label": "兰蔻",
+      "labelEn": "Lancôme",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "lancome",
+        "tier": "international_mid"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_kiehls",
+    "data": {
+      "label": "科颜氏",
+      "labelEn": "Kiehl's",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "kiehls",
+        "tier": "international_mid"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_clarins",
+    "data": {
+      "label": "娇韵诗",
+      "labelEn": "Clarins",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "clarins",
+        "tier": "international_mid"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_decorte",
+    "data": {
+      "label": "黛珂",
+      "labelEn": "Decorté",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "decorte",
+        "tier": "international_mid"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_shiseido",
+    "data": {
+      "label": "资生堂",
+      "labelEn": "Shiseido",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "shiseido",
+        "tier": "international_mid"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_clinique",
+    "data": {
+      "label": "倩碧",
+      "labelEn": "Clinique",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "clinique",
+        "tier": "international_mid"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_origins",
+    "data": {
+      "label": "悦木之源",
+      "labelEn": "Origins",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "origins",
+        "tier": "international_mid"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_elizabeth_arden",
+    "data": {
+      "label": "雅顿",
+      "labelEn": "Elizabeth Arden",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "elizabeth_arden",
+        "tier": "international_mid"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_biotherm",
+    "data": {
+      "label": "碧欧泉",
+      "labelEn": "Biotherm",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "biotherm",
+        "tier": "international_mid"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_fresh",
+    "data": {
+      "label": "Fresh",
+      "labelEn": "Fresh",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "fresh",
+        "tier": "international_mid"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_ipsa",
+    "data": {
+      "label": "茵芙莎",
+      "labelEn": "IPSA",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "ipsa",
+        "tier": "international_mid"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_curel",
+    "data": {
+      "label": "珂润",
+      "labelEn": "Curél",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "curel",
+        "tier": "international_mid"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_bobbi_brown",
+    "data": {
+      "label": "芭比波朗",
+      "labelEn": "Bobbi Brown",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "bobbi_brown",
+        "tier": "international_mid"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_nars",
+    "data": {
+      "label": "NARS",
+      "labelEn": "NARS",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "nars",
+        "tier": "international_mid"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_mac",
+    "data": {
+      "label": "MAC",
+      "labelEn": "MAC",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "mac",
+        "tier": "international_mid"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_loreal",
+    "data": {
+      "label": "欧莱雅",
+      "labelEn": "L'Oréal",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "loreal",
+        "tier": "international_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_cerave",
+    "data": {
+      "label": "CeraVe",
+      "labelEn": "CeraVe",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "cerave",
+        "tier": "international_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_the_ordinary",
+    "data": {
+      "label": "The Ordinary",
+      "labelEn": "The Ordinary",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "the_ordinary",
+        "tier": "international_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_nivea",
+    "data": {
+      "label": "妮维雅",
+      "labelEn": "NIVEA",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "nivea",
+        "tier": "international_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_mentholatum",
+    "data": {
+      "label": "曼秀雷敦",
+      "labelEn": "Mentholatum",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "mentholatum",
+        "tier": "international_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_neutrogena",
+    "data": {
+      "label": "露得清",
+      "labelEn": "Neutrogena",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "neutrogena",
+        "tier": "international_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_ponds",
+    "data": {
+      "label": "旁氏",
+      "labelEn": "Pond's",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "ponds",
+        "tier": "international_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_vaseline",
+    "data": {
+      "label": "凡士林",
+      "labelEn": "Vaseline",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "vaseline",
+        "tier": "international_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_dove",
+    "data": {
+      "label": "多芬",
+      "labelEn": "Dove",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "dove",
+        "tier": "international_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_proya",
+    "data": {
+      "label": "珀莱雅",
+      "labelEn": "PROYA",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "proya",
+        "tier": "domestic_premium"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_winona",
+    "data": {
+      "label": "薇诺娜",
+      "labelEn": "Winona",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "winona",
+        "tier": "domestic_premium"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_uniskin",
+    "data": {
+      "label": "优时颜",
+      "labelEn": "UNISKIN",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "uniskin",
+        "tier": "domestic_premium"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_marubi",
+    "data": {
+      "label": "丸美",
+      "labelEn": "MARUBI",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "marubi",
+        "tier": "domestic_premium"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_timage",
+    "data": {
+      "label": "彩棠",
+      "labelEn": "Timage",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "timage",
+        "tier": "domestic_premium"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_florasis",
+    "data": {
+      "label": "花西子",
+      "labelEn": "Florasis",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "florasis",
+        "tier": "domestic_premium"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_maogeping",
+    "data": {
+      "label": "毛戈平",
+      "labelEn": "MAOGEPING",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "maogeping",
+        "tier": "domestic_premium"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_simpcare",
+    "data": {
+      "label": "溪木源",
+      "labelEn": "SIMPCARE",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "simpcare",
+        "tier": "domestic_premium"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_zhuben",
+    "data": {
+      "label": "逐本",
+      "labelEn": "ZHUBEN",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "zhuben",
+        "tier": "domestic_premium"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_zhiben",
+    "data": {
+      "label": "至本",
+      "labelEn": "zhiben",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "zhiben",
+        "tier": "domestic_premium"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_quadha",
+    "data": {
+      "label": "夸迪",
+      "labelEn": "QUADHA",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "quadha",
+        "tier": "domestic_premium"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_collgene",
+    "data": {
+      "label": "可丽金",
+      "labelEn": "Collgene",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "collgene",
+        "tier": "domestic_premium"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_pechoin",
+    "data": {
+      "label": "百雀羚",
+      "labelEn": "Pechoin",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "pechoin",
+        "tier": "domestic_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_chando",
+    "data": {
+      "label": "自然堂",
+      "labelEn": "CHANDO",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "chando",
+        "tier": "domestic_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_guyu",
+    "data": {
+      "label": "谷雨",
+      "labelEn": "GUYU",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "guyu",
+        "tier": "domestic_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_biohyalux",
+    "data": {
+      "label": "润百颜",
+      "labelEn": "BIOHYALUX",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "biohyalux",
+        "tier": "domestic_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_inoherb",
+    "data": {
+      "label": "相宜本草",
+      "labelEn": "INOHERB",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "inoherb",
+        "tier": "domestic_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_kans",
+    "data": {
+      "label": "韩束",
+      "labelEn": "KANS",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "kans",
+        "tier": "domestic_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_colorkey",
+    "data": {
+      "label": "珂拉琪",
+      "labelEn": "Colorkey",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "colorkey",
+        "tier": "domestic_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_perfect_diary",
+    "data": {
+      "label": "完美日记",
+      "labelEn": "Perfect Diary",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "perfect_diary",
+        "tier": "domestic_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_judydoll",
+    "data": {
+      "label": "橘朵",
+      "labelEn": "Judydoll",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "judydoll",
+        "tier": "domestic_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_joocyee",
+    "data": {
+      "label": "酵色",
+      "labelEn": "Joocyee",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "joocyee",
+        "tier": "domestic_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_banmuhuatian",
+    "data": {
+      "label": "半亩花田",
+      "labelEn": "BM",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "banmuhuatian",
+        "tier": "domestic_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_kixiran",
+    "data": {
+      "label": "肌司研",
+      "labelEn": "KIXIRAN",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "kixiran",
+        "tier": "domestic_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_skinceuticals",
+    "data": {
+      "label": "修丽可",
+      "labelEn": "SkinCeuticals",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "skinceuticals",
+        "tier": "functional"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_lrp",
+    "data": {
+      "label": "理肤泉",
+      "labelEn": "La Roche-Posay",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "lrp",
+        "tier": "functional"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_avene",
+    "data": {
+      "label": "雅漾",
+      "labelEn": "Avène",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "avene",
+        "tier": "functional"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_vichy",
+    "data": {
+      "label": "薇姿",
+      "labelEn": "Vichy",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "vichy",
+        "tier": "functional"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_freeplus",
+    "data": {
+      "label": "芙丽芳丝",
+      "labelEn": "Freeplus",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "freeplus",
+        "tier": "functional"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_comfy",
+    "data": {
+      "label": "可复美",
+      "labelEn": "Comfy",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "comfy",
+        "tier": "functional"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_prox",
+    "data": {
+      "label": "珀肤研",
+      "labelEn": "PROX",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "prox",
+        "tier": "functional"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_dryu",
+    "data": {
+      "label": "玉泽",
+      "labelEn": "Dr.Yu",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "dryu",
+        "tier": "functional"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_betterderm",
+    "data": {
+      "label": "博乐达",
+      "labelEn": "BetterDerm",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "betterderm",
+        "tier": "functional"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_fuyijia",
+    "data": {
+      "label": "敷尔佳",
+      "labelEn": "Fuyijia",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "fuyijia",
+        "tier": "functional"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_biohyalux_med",
+    "data": {
+      "label": "润百颜医美线",
+      "labelEn": "BIOHYALUX Med",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "biohyalux_med",
+        "tier": "functional"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_aiyu",
+    "data": {
+      "label": "艾遇",
+      "labelEn": "AIYU",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "aiyu",
+        "tier": "functional"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_anessa",
+    "data": {
+      "label": "安热沙",
+      "labelEn": "Anessa",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "anessa",
+        "tier": "international_mid"
+      }
+    }
+  },
+  {
+    "id": "L1_Brand_olay",
+    "data": {
+      "label": "OLAY",
+      "labelEn": "OLAY",
+      "layer": "L1",
+      "entityType": "Brand",
+      "properties": {
+        "code": "olay",
+        "tier": "international_affordable"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_little_black",
+    "data": {
+      "label": "小黑瓶肌底精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "little_black",
+        "brand": "lancome",
+        "category": "精华",
+        "aliases": [
+          "小黑瓶"
+        ],
+        "keyIngredients": "bifida_ferment"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_little_brown",
+    "data": {
+      "label": "特润修护精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "little_brown",
+        "brand": "estee_lauder",
+        "category": "精华",
+        "aliases": [
+          "小棕瓶"
+        ],
+        "keyIngredients": "bifida_ferment"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_double_serum",
+    "data": {
+      "label": "双萃精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "double_serum",
+        "brand": "clarins",
+        "category": "精华",
+        "aliases": [
+          "双萃"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_red_waist",
+    "data": {
+      "label": "红妍肌活精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "red_waist",
+        "brand": "shiseido",
+        "category": "精华",
+        "aliases": [
+          "红腰子"
+        ],
+        "keyIngredients": "reishi"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_fairy_water",
+    "data": {
+      "label": "护肤精华露",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "fairy_water",
+        "brand": "sk_ii",
+        "category": "精华水",
+        "aliases": [
+          "神仙水"
+        ],
+        "keyIngredients": "pitera"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_little_bulb",
+    "data": {
+      "label": "小灯泡精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "little_bulb",
+        "brand": "sk_ii",
+        "category": "精华",
+        "aliases": [
+          "小灯泡"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_black_bindage",
+    "data": {
+      "label": "黑绷带面霜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "black_bindage",
+        "brand": "helena",
+        "category": "面霜",
+        "aliases": [
+          "黑绷带"
+        ],
+        "keyIngredients": "bosein"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_green_bottle",
+    "data": {
+      "label": "绿宝瓶精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "green_bottle",
+        "brand": "helena",
+        "category": "精华",
+        "aliases": [
+          "绿宝瓶"
+        ],
+        "keyIngredients": "bosein"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_double_anti",
+    "data": {
+      "label": "双抗精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "double_anti",
+        "brand": "proya",
+        "category": "精华",
+        "aliases": [
+          "双抗"
+        ],
+        "keyIngredients": "astaxanthin,ergothioneine"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_yuanli",
+    "data": {
+      "label": "源力精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "yuanli",
+        "brand": "proya",
+        "category": "精华",
+        "aliases": [
+          "源力"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_ruby",
+    "data": {
+      "label": "红宝石精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "ruby",
+        "brand": "proya",
+        "category": "精华",
+        "aliases": [
+          "红宝石"
+        ],
+        "keyIngredients": "retinol,hexapeptide"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_early_c_late_a",
+    "data": {
+      "label": "早C晚A组合",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "early_c_late_a",
+        "brand": "proya",
+        "category": "精华",
+        "aliases": [
+          "早C晚A"
+        ],
+        "keyIngredients": "vitamin_c,retinol"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_small_syringe",
+    "data": {
+      "label": "小针管精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "small_syringe",
+        "brand": "uniskin",
+        "category": "精华",
+        "aliases": [
+          "小针管"
+        ],
+        "keyIngredients": "peptide"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_ce_serum",
+    "data": {
+      "label": "CE抗氧精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "ce_serum",
+        "brand": "skinceuticals",
+        "category": "精华",
+        "aliases": [
+          "CE精华"
+        ],
+        "keyIngredients": "vitamin_c"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_se_xiu",
+    "data": {
+      "label": "色修精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "se_xiu",
+        "brand": "skinceuticals",
+        "category": "精华",
+        "aliases": [
+          "色修"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_b5_serum",
+    "data": {
+      "label": "B5修护精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "b5_serum",
+        "brand": "skinceuticals",
+        "category": "精华",
+        "aliases": [
+          "B5精华"
+        ],
+        "keyIngredients": "panthenol,hyaluronic_acid"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_purple_iron",
+    "data": {
+      "label": "紫铁精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "purple_iron",
+        "brand": "kiehls",
+        "category": "精华",
+        "aliases": [
+          "紫铁"
+        ],
+        "keyIngredients": "retinol"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_spot_serum",
+    "data": {
+      "label": "淡斑精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "spot_serum",
+        "brand": "kiehls",
+        "category": "精华",
+        "aliases": [
+          "淡斑精华"
+        ],
+        "keyIngredients": "vitamin_c"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_small_white",
+    "data": {
+      "label": "小白瓶精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "small_white",
+        "brand": "olay",
+        "category": "精华",
+        "aliases": [
+          "小白瓶"
+        ],
+        "keyIngredients": "niacinamide"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_light_sculpt",
+    "data": {
+      "label": "光塑瓶精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "light_sculpt",
+        "brand": "olay",
+        "category": "精华",
+        "aliases": [
+          "光塑瓶"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_black_serum",
+    "data": {
+      "label": "黑精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "black_serum",
+        "brand": "loreal",
+        "category": "精华",
+        "aliases": [
+          "黑精华"
+        ],
+        "keyIngredients": "bosein"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_purple_iron_loreal",
+    "data": {
+      "label": "复颜玻尿酸精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "purple_iron_loreal",
+        "brand": "loreal",
+        "category": "精华",
+        "aliases": [
+          "紫熨斗精华"
+        ],
+        "keyIngredients": "bosein,hyaluronic_acid"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_quadha_retinol",
+    "data": {
+      "label": "夜间修护次抛",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "quadha_retinol",
+        "brand": "quadha",
+        "category": "精华",
+        "aliases": [
+          "次抛A醇"
+        ],
+        "keyIngredients": "retinol"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_guyu_cream",
+    "data": {
+      "label": "光感水润面霜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "guyu_cream",
+        "brand": "guyu",
+        "category": "面霜",
+        "aliases": [
+          "奶罐"
+        ],
+        "keyIngredients": "glabridin"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_black_gravity",
+    "data": {
+      "label": "黑引力面霜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "black_gravity",
+        "brand": "uniskin",
+        "category": "面霜",
+        "aliases": [
+          "黑引力"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_big_purple",
+    "data": {
+      "label": "经典面霜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "big_purple",
+        "brand": "kiehls",
+        "category": "面霜",
+        "aliases": [
+          "大紫瓶"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_collagen_cream",
+    "data": {
+      "label": "胶原霜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "collagen_cream",
+        "brand": "estee_lauder",
+        "category": "面霜",
+        "aliases": [
+          "胶原霜"
+        ],
+        "keyIngredients": "collagen"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_line_cream",
+    "data": {
+      "label": "淡纹霜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "line_cream",
+        "brand": "estee_lauder",
+        "category": "面霜",
+        "aliases": [
+          "淡纹霜"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_big_red",
+    "data": {
+      "label": "复原蜜面霜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "big_red",
+        "brand": "sk_ii",
+        "category": "面霜",
+        "aliases": [
+          "大红瓶"
+        ],
+        "keyIngredients": "pitera"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_cream_king",
+    "data": {
+      "label": "精华面霜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "cream_king",
+        "brand": "la_mer",
+        "category": "面霜",
+        "aliases": [
+          "面霜之王"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_mushroom_cream",
+    "data": {
+      "label": "灵芝面霜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "mushroom_cream",
+        "brand": "origins",
+        "category": "面霜",
+        "aliases": [
+          "灵芝霜"
+        ],
+        "keyIngredients": "reishi"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_cerave_cream",
+    "data": {
+      "label": "保湿面霜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "cerave_cream",
+        "brand": "cerave",
+        "category": "面霜",
+        "aliases": [
+          "保湿霜"
+        ],
+        "keyIngredients": "ceramide"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_special_cream",
+    "data": {
+      "label": "特护霜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "special_cream",
+        "brand": "winona",
+        "category": "面霜",
+        "aliases": [
+          "特护霜"
+        ],
+        "keyIngredients": "madecassoside"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_centella_cream",
+    "data": {
+      "label": "积雪草面霜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "centella_cream",
+        "brand": "winona",
+        "category": "面霜",
+        "aliases": [
+          "积雪草面霜"
+        ],
+        "keyIngredients": "centella"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_barrier_cream",
+    "data": {
+      "label": "屏障修护霜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "barrier_cream",
+        "brand": "dryu",
+        "category": "面霜",
+        "aliases": [
+          "屏障霜"
+        ],
+        "keyIngredients": "ceramide"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_perilla_water",
+    "data": {
+      "label": "紫苏水",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "perilla_water",
+        "brand": "decorte",
+        "category": "化妆水",
+        "aliases": [
+          "紫苏水"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_avocado_lotion",
+    "data": {
+      "label": "牛油果乳液",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "avocado_lotion",
+        "brand": "decorte",
+        "category": "乳液",
+        "aliases": [
+          "牛油果乳液"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_aurora_set",
+    "data": {
+      "label": "极光甘草水乳",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "aurora_set",
+        "brand": "proya",
+        "category": "水乳",
+        "aliases": [
+          "极光甘草"
+        ],
+        "keyIngredients": "glabridin"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_yuanli_set",
+    "data": {
+      "label": "源力水乳套组",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "yuanli_set",
+        "brand": "proya",
+        "category": "水乳",
+        "aliases": [
+          "源力水乳"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_calendula_water",
+    "data": {
+      "label": "金盏花水",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "calendula_water",
+        "brand": "kiehls",
+        "category": "化妆水",
+        "aliases": [
+          "金盏花水"
+        ],
+        "keyIngredients": "calendula"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_butter_lotion",
+    "data": {
+      "label": "经典保湿乳",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "butter_lotion",
+        "brand": "clinique",
+        "category": "乳液",
+        "aliases": [
+          "黄油"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_mushroom_water",
+    "data": {
+      "label": "灵芝水",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "mushroom_water",
+        "brand": "origins",
+        "category": "化妆水",
+        "aliases": [
+          "灵芝水"
+        ],
+        "keyIngredients": "reishi"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_health_water",
+    "data": {
+      "label": "健康水",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "health_water",
+        "brand": "decorte",
+        "category": "化妆水",
+        "aliases": [
+          "健康水"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_self_discipline",
+    "data": {
+      "label": "自律循环水乳",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "self_discipline",
+        "brand": "ipsa",
+        "category": "水乳",
+        "aliases": [
+          "自律水乳"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_red_waist_set",
+    "data": {
+      "label": "红妍水乳",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "red_waist_set",
+        "brand": "shiseido",
+        "category": "水乳",
+        "aliases": [
+          "红腰子水乳"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_purple_iron_eye",
+    "data": {
+      "label": "紫熨斗眼霜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "purple_iron_eye",
+        "brand": "loreal",
+        "category": "眼霜",
+        "aliases": [
+          "紫熨斗"
+        ],
+        "keyIngredients": "bosein"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_red_pen",
+    "data": {
+      "label": "弹力蛋白眼霜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "red_pen",
+        "brand": "marubi",
+        "category": "眼霜",
+        "aliases": [
+          "小红笔"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_platinum_eye",
+    "data": {
+      "label": "白金眼霜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "platinum_eye",
+        "brand": "la_prairie",
+        "category": "眼霜",
+        "aliases": [
+          "白金眼霜"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_eye_serum_el",
+    "data": {
+      "label": "眼部精华",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "eye_serum_el",
+        "brand": "estee_lauder",
+        "category": "眼霜",
+        "aliases": [
+          "小棕瓶眼部"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_green_gem_eye",
+    "data": {
+      "label": "绿宝石眼霜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "green_gem_eye",
+        "brand": "helena",
+        "category": "眼霜",
+        "aliases": [
+          "绿宝石眼霜"
+        ],
+        "keyIngredients": "bosein"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_white_tube",
+    "data": {
+      "label": "轻透防晒",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "white_tube",
+        "brand": "lancome",
+        "category": "防晒",
+        "aliases": [
+          "小白管"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_gold_bottle",
+    "data": {
+      "label": "安热沙金瓶",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "gold_bottle",
+        "brand": "anessa",
+        "category": "防晒",
+        "aliases": [
+          "金瓶防晒",
+          "小金瓶"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_blue_fat",
+    "data": {
+      "label": "新艳阳防晒",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "blue_fat",
+        "brand": "shiseido",
+        "category": "防晒",
+        "aliases": [
+          "蓝胖子"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_big_white",
+    "data": {
+      "label": "大白瓶防晒",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "big_white",
+        "brand": "loreal",
+        "category": "防晒",
+        "aliases": [
+          "大白瓶"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_small_milk",
+    "data": {
+      "label": "水感防晒",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "small_milk",
+        "brand": "mentholatum",
+        "category": "防晒",
+        "aliases": [
+          "小奶瓶"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_soft_light_sun",
+    "data": {
+      "label": "柔光防晒",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "soft_light_sun",
+        "brand": "proya",
+        "category": "防晒",
+        "aliases": [
+          "柔光防晒"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_white_mud",
+    "data": {
+      "label": "白泥洁面",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "white_mud",
+        "brand": "kiehls",
+        "category": "洁面",
+        "aliases": [
+          "白泥"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_amino_cleanser",
+    "data": {
+      "label": "氨基酸洁面",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "amino_cleanser",
+        "brand": "freeplus",
+        "category": "洁面",
+        "aliases": [
+          "氨基酸洁面"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_cleansing_mousse",
+    "data": {
+      "label": "洁面慕斯",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "cleansing_mousse",
+        "brand": "zhiben",
+        "category": "洁面",
+        "aliases": [
+          "洁面慕斯"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_cleansing_balm",
+    "data": {
+      "label": "卸妆膏",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "cleansing_balm",
+        "brand": "zhuben",
+        "category": "洁面",
+        "aliases": [
+          "卸妆膏"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_ex_bf_mask",
+    "data": {
+      "label": "急救面膜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "ex_bf_mask",
+        "brand": "sk_ii",
+        "category": "面膜",
+        "aliases": [
+          "前男友面膜"
+        ],
+        "keyIngredients": "pitera"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_green_mask",
+    "data": {
+      "label": "绿泥面膜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "green_mask",
+        "brand": "origins",
+        "category": "面膜",
+        "aliases": [
+          "绿膜"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_freeze_mask",
+    "data": {
+      "label": "冻干面膜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "freeze_mask",
+        "brand": "comfy",
+        "category": "面膜",
+        "aliases": [
+          "冻干面膜"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_super_a_mask",
+    "data": {
+      "label": "超分子水杨酸面膜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "super_a_mask",
+        "brand": "betterderm",
+        "category": "面膜",
+        "aliases": [
+          "超A面膜"
+        ],
+        "keyIngredients": "salicylic_acid"
+      }
+    }
+  },
+  {
+    "id": "L1_SPU_bubble_mask",
+    "data": {
+      "label": "泡泡面膜",
+      "labelEn": "",
+      "layer": "L1",
+      "entityType": "SPU",
+      "properties": {
+        "code": "bubble_mask",
+        "brand": "fuyijia",
+        "category": "面膜",
+        "aliases": [
+          "泡泡面膜"
+        ]
+      }
+    }
+  },
+  {
     "id": "L2_Ingredient_retinol",
     "data": {
       "label": "A醇/视黄醇",
@@ -82,7 +3909,25 @@
         "riskLevel": "safe",
         "efficacy": "淡化表情纹",
         "aliases": [
-          "六胜肽"
+          "六胜肽",
+          "类肉毒素"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L2_Ingredient_palmitoyl_tripeptide",
+    "data": {
+      "label": "棕榈酰三肽",
+      "labelEn": "Palmitoyl Tripeptide",
+      "layer": "L2",
+      "entityType": "Ingredient",
+      "properties": {
+        "code": "palmitoyl_tripeptide",
+        "riskLevel": "safe",
+        "efficacy": "胶原再生",
+        "aliases": [
+          "三肽"
         ]
       }
     }
@@ -99,7 +3944,8 @@
         "riskLevel": "safe",
         "efficacy": "抗老、紧致",
         "aliases": [
-          "胶原蛋白"
+          "胶原蛋白",
+          "胶原"
         ]
       }
     }
@@ -132,7 +3978,8 @@
       "properties": {
         "code": "resveratrol",
         "riskLevel": "safe",
-        "efficacy": "抗氧化、抗老"
+        "efficacy": "抗氧化、抗老",
+        "aliases": []
       }
     }
   },
@@ -235,7 +4082,8 @@
         "riskLevel": "safe",
         "efficacy": "美白",
         "aliases": [
-          "熊果苷"
+          "熊果苷",
+          "α-熊果苷"
         ]
       }
     }
@@ -287,7 +4135,8 @@
         "riskLevel": "mild_caution",
         "efficacy": "美白、祛痘",
         "aliases": [
-          "壬二酸"
+          "壬二酸",
+          "杜鹃花酸"
         ]
       }
     }
@@ -466,6 +4315,24 @@
     }
   },
   {
+    "id": "L2_Ingredient_shea_butter",
+    "data": {
+      "label": "牛油果树果脂",
+      "labelEn": "Shea Butter",
+      "layer": "L2",
+      "entityType": "Ingredient",
+      "properties": {
+        "code": "shea_butter",
+        "riskLevel": "safe",
+        "efficacy": "深层滋润",
+        "aliases": [
+          "牛油果脂",
+          "乳木果油"
+        ]
+      }
+    }
+  },
+  {
     "id": "L2_Ingredient_glycerin",
     "data": {
       "label": "甘油",
@@ -587,18 +4454,52 @@
     }
   },
   {
-    "id": "L2_Ingredient_tea_tree",
+    "id": "L2_Ingredient_lha",
     "data": {
-      "label": "茶树精油",
-      "labelEn": "Tea Tree Oil",
+      "label": "辛酰水杨酸",
+      "labelEn": "Capryloyl Salicylic Acid",
       "layer": "L2",
       "entityType": "Ingredient",
       "properties": {
-        "code": "tea_tree",
+        "code": "lha",
         "riskLevel": "mild_caution",
-        "efficacy": "抗菌祛痘",
+        "efficacy": "温和控油疏通",
         "aliases": [
-          "茶树"
+          "LHA"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L2_Ingredient_pha",
+    "data": {
+      "label": "葡萄糖酸内酯",
+      "labelEn": "Gluconolactone",
+      "layer": "L2",
+      "entityType": "Ingredient",
+      "properties": {
+        "code": "pha",
+        "riskLevel": "safe",
+        "efficacy": "温和去角质、保湿",
+        "aliases": [
+          "PHA"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L2_Ingredient_lactobionic_acid",
+    "data": {
+      "label": "乳糖酸",
+      "labelEn": "Lactobionic Acid",
+      "layer": "L2",
+      "entityType": "Ingredient",
+      "properties": {
+        "code": "lactobionic_acid",
+        "riskLevel": "safe",
+        "efficacy": "温和去角质、抗氧化",
+        "aliases": [
+          "乳糖酸"
         ]
       }
     }
@@ -616,6 +4517,23 @@
         "efficacy": "控油、抗菌",
         "aliases": [
           "PCA锌"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L2_Ingredient_tea_tree",
+    "data": {
+      "label": "茶树精油",
+      "labelEn": "Tea Tree Oil",
+      "layer": "L2",
+      "entityType": "Ingredient",
+      "properties": {
+        "code": "tea_tree",
+        "riskLevel": "mild_caution",
+        "efficacy": "抗菌祛痘",
+        "aliases": [
+          "茶树"
         ]
       }
     }
@@ -707,6 +4625,24 @@
     }
   },
   {
+    "id": "L2_Ingredient_mugwort",
+    "data": {
+      "label": "艾草",
+      "labelEn": "Mugwort Extract",
+      "layer": "L2",
+      "entityType": "Ingredient",
+      "properties": {
+        "code": "mugwort",
+        "riskLevel": "safe",
+        "efficacy": "舒缓、抗炎",
+        "aliases": [
+          "艾草",
+          "艾叶"
+        ]
+      }
+    }
+  },
+  {
     "id": "L2_Ingredient_zinc_oxide",
     "data": {
       "label": "氧化锌",
@@ -716,7 +4652,8 @@
       "properties": {
         "code": "zinc_oxide",
         "riskLevel": "safe",
-        "efficacy": "物理防晒"
+        "efficacy": "物理防晒",
+        "aliases": []
       }
     }
   },
@@ -730,7 +4667,25 @@
       "properties": {
         "code": "titanium_dioxide",
         "riskLevel": "safe",
-        "efficacy": "物理防晒"
+        "efficacy": "物理防晒",
+        "aliases": []
+      }
+    }
+  },
+  {
+    "id": "L2_Ingredient_chemical_uv_filters",
+    "data": {
+      "label": "化学防晒剂",
+      "labelEn": "Chemical UV Filters",
+      "layer": "L2",
+      "entityType": "Ingredient",
+      "properties": {
+        "code": "chemical_uv_filters",
+        "riskLevel": "mild_caution",
+        "efficacy": "化学防晒",
+        "aliases": [
+          "化学防晒"
+        ]
       }
     }
   },
@@ -764,6 +4719,74 @@
         "efficacy": "调香",
         "aliases": [
           "香精"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L2_Ingredient_essential_oil",
+    "data": {
+      "label": "精油",
+      "labelEn": "Essential Oil",
+      "layer": "L2",
+      "entityType": "Ingredient",
+      "properties": {
+        "code": "essential_oil",
+        "riskLevel": "mild_caution",
+        "efficacy": "芳疗",
+        "aliases": [
+          "精油"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L2_Ingredient_mineral_oil",
+    "data": {
+      "label": "矿物油",
+      "labelEn": "Mineral Oil",
+      "layer": "L2",
+      "entityType": "Ingredient",
+      "properties": {
+        "code": "mineral_oil",
+        "riskLevel": "safe",
+        "efficacy": "封闭保湿",
+        "aliases": [
+          "矿物油"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L2_Ingredient_silicone",
+    "data": {
+      "label": "硅油",
+      "labelEn": "Silicone",
+      "layer": "L2",
+      "entityType": "Ingredient",
+      "properties": {
+        "code": "silicone",
+        "riskLevel": "safe",
+        "efficacy": "润滑成膜",
+        "aliases": [
+          "硅油"
+        ]
+      }
+    }
+  },
+  {
+    "id": "L2_Ingredient_preservative",
+    "data": {
+      "label": "防腐剂",
+      "labelEn": "Preservative",
+      "layer": "L2",
+      "entityType": "Ingredient",
+      "properties": {
+        "code": "preservative",
+        "riskLevel": "safe",
+        "efficacy": "防腐",
+        "aliases": [
+          "防腐剂"
         ]
       }
     }
@@ -997,50 +5020,26 @@
     }
   },
   {
-    "id": "L0_SkinType_sensitive",
+    "id": "L2_Efficacy_makeup_priming",
     "data": {
-      "label": "敏感肌",
+      "label": "妆前打底",
       "labelEn": "",
-      "layer": "L0",
-      "entityType": "SkinType",
+      "layer": "L2",
+      "entityType": "Efficacy",
       "properties": {
-        "code": "sensitive"
+        "code": "makeup_priming"
       }
     }
   },
   {
-    "id": "L0_SkinType_pregnant",
+    "id": "L2_Efficacy_long_wear",
     "data": {
-      "label": "孕妇",
+      "label": "持妆",
       "labelEn": "",
-      "layer": "L0",
-      "entityType": "SkinType",
+      "layer": "L2",
+      "entityType": "Efficacy",
       "properties": {
-        "code": "pregnant"
-      }
-    }
-  },
-  {
-    "id": "L0_SkinType_oily",
-    "data": {
-      "label": "油性肌",
-      "labelEn": "",
-      "layer": "L0",
-      "entityType": "SkinType",
-      "properties": {
-        "code": "oily"
-      }
-    }
-  },
-  {
-    "id": "L0_SkinType_acne_prone",
-    "data": {
-      "label": "痘痘肌",
-      "labelEn": "",
-      "layer": "L0",
-      "entityType": "SkinType",
-      "properties": {
-        "code": "acne_prone"
+        "code": "long_wear"
       }
     }
   },
@@ -1071,6 +5070,19 @@
     }
   },
   {
+    "id": "L2_Symptom_tightness",
+    "data": {
+      "label": "紧绷",
+      "labelEn": "",
+      "layer": "L2",
+      "entityType": "Symptom",
+      "properties": {
+        "code": "tightness",
+        "concern": "hydration.basic_hydration"
+      }
+    }
+  },
+  {
     "id": "L2_Symptom_oiliness",
     "data": {
       "label": "出油",
@@ -1084,6 +5096,19 @@
     }
   },
   {
+    "id": "L2_Symptom_enlarged_pores",
+    "data": {
+      "label": "毛孔粗大",
+      "labelEn": "",
+      "layer": "L2",
+      "entityType": "Symptom",
+      "properties": {
+        "code": "enlarged_pores",
+        "concern": "oil_control.pore_minimize"
+      }
+    }
+  },
+  {
     "id": "L2_Symptom_fine_lines",
     "data": {
       "label": "细纹",
@@ -1093,6 +5118,19 @@
       "properties": {
         "code": "fine_lines",
         "concern": "anti_aging.fine_lines"
+      }
+    }
+  },
+  {
+    "id": "L2_Symptom_sagging",
+    "data": {
+      "label": "松弛",
+      "labelEn": "",
+      "layer": "L2",
+      "entityType": "Symptom",
+      "properties": {
+        "code": "sagging",
+        "concern": "anti_aging.firming"
       }
     }
   },
@@ -1136,6 +5174,58 @@
     }
   },
   {
+    "id": "L2_Symptom_blackhead",
+    "data": {
+      "label": "黑头",
+      "labelEn": "",
+      "layer": "L2",
+      "entityType": "Symptom",
+      "properties": {
+        "code": "blackhead",
+        "concern": "acne.blackhead_comedone"
+      }
+    }
+  },
+  {
+    "id": "L2_Symptom_acne_mark_red",
+    "data": {
+      "label": "红痘印",
+      "labelEn": "",
+      "layer": "L2",
+      "entityType": "Symptom",
+      "properties": {
+        "code": "acne_mark_red",
+        "concern": "acne.acne_scar"
+      }
+    }
+  },
+  {
+    "id": "L2_Symptom_acne_mark_dark",
+    "data": {
+      "label": "黑痘印",
+      "labelEn": "",
+      "layer": "L2",
+      "entityType": "Symptom",
+      "properties": {
+        "code": "acne_mark_dark",
+        "concern": "acne.acne_scar"
+      }
+    }
+  },
+  {
+    "id": "L2_Symptom_acne_pit",
+    "data": {
+      "label": "痘坑",
+      "labelEn": "",
+      "layer": "L2",
+      "entityType": "Symptom",
+      "properties": {
+        "code": "acne_pit",
+        "concern": "acne.acne_scar"
+      }
+    }
+  },
+  {
     "id": "L2_Symptom_stinging",
     "data": {
       "label": "刺痛",
@@ -1144,6 +5234,19 @@
       "entityType": "Symptom",
       "properties": {
         "code": "stinging",
+        "concern": "repair.sensitive_soothe"
+      }
+    }
+  },
+  {
+    "id": "L2_Symptom_itching",
+    "data": {
+      "label": "瘙痒",
+      "labelEn": "",
+      "layer": "L2",
+      "entityType": "Symptom",
+      "properties": {
+        "code": "itching",
         "concern": "repair.sensitive_soothe"
       }
     }
@@ -1175,6 +5278,32 @@
     }
   },
   {
+    "id": "L2_Symptom_eye_bags",
+    "data": {
+      "label": "眼袋",
+      "labelEn": "",
+      "layer": "L2",
+      "entityType": "Symptom",
+      "properties": {
+        "code": "eye_bags",
+        "concern": "anti_aging.eye_aging"
+      }
+    }
+  },
+  {
+    "id": "L2_Symptom_neck_lines",
+    "data": {
+      "label": "颈纹",
+      "labelEn": "",
+      "layer": "L2",
+      "entityType": "Symptom",
+      "properties": {
+        "code": "neck_lines",
+        "concern": "anti_aging.neck_care"
+      }
+    }
+  },
+  {
     "id": "L2_Symptom_sunburn",
     "data": {
       "label": "晒伤",
@@ -1188,6 +5317,45 @@
     }
   },
   {
+    "id": "L2_Symptom_uneven_tone",
+    "data": {
+      "label": "肤色不均",
+      "labelEn": "",
+      "layer": "L2",
+      "entityType": "Symptom",
+      "properties": {
+        "code": "uneven_tone",
+        "concern": "brightening.even_tone"
+      }
+    }
+  },
+  {
+    "id": "L2_Symptom_cakey_makeup",
+    "data": {
+      "label": "卡粉",
+      "labelEn": "",
+      "layer": "L2",
+      "entityType": "Symptom",
+      "properties": {
+        "code": "cakey_makeup",
+        "concern": "makeup_fit.anti_cakey"
+      }
+    }
+  },
+  {
+    "id": "L2_Symptom_makeup_melt",
+    "data": {
+      "label": "脱妆",
+      "labelEn": "",
+      "layer": "L2",
+      "entityType": "Symptom",
+      "properties": {
+        "code": "makeup_melt",
+        "concern": "makeup_fit.long_lasting"
+      }
+    }
+  },
+  {
     "id": "L2_AdverseReaction_allergy",
     "data": {
       "label": "过敏反应",
@@ -1197,6 +5365,19 @@
       "properties": {
         "code": "allergy",
         "severity": "moderate-severe"
+      }
+    }
+  },
+  {
+    "id": "L2_AdverseReaction_contact_dermatitis",
+    "data": {
+      "label": "接触性皮炎",
+      "labelEn": "",
+      "layer": "L2",
+      "entityType": "AdverseReaction",
+      "properties": {
+        "code": "contact_dermatitis",
+        "severity": "severe"
       }
     }
   },
@@ -1227,15 +5408,15 @@
     }
   },
   {
-    "id": "L2_AdverseReaction_over_exfoliation",
+    "id": "L2_AdverseReaction_stinging_burning",
     "data": {
-      "label": "过度去角质",
+      "label": "刺痛灼热",
       "labelEn": "",
       "layer": "L2",
       "entityType": "AdverseReaction",
       "properties": {
-        "code": "over_exfoliation",
-        "severity": "moderate-severe"
+        "code": "stinging_burning",
+        "severity": "mild-moderate"
       }
     }
   },
@@ -1253,969 +5434,599 @@
     }
   },
   {
-    "id": "L1_Brand_la_mer",
+    "id": "L2_AdverseReaction_over_exfoliation",
     "data": {
-      "label": "海蓝之谜",
-      "labelEn": "La Mer",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "la_mer",
-        "tier": "international_luxury"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_estee_lauder",
-    "data": {
-      "label": "雅诗兰黛",
-      "labelEn": "Estée Lauder",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "estee_lauder",
-        "tier": "international_luxury"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_sk_ii",
-    "data": {
-      "label": "SK-II",
-      "labelEn": "SK-II",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "sk_ii",
-        "tier": "international_luxury"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_helena",
-    "data": {
-      "label": "赫莲娜",
-      "labelEn": "Helena Rubinstein",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "helena",
-        "tier": "international_luxury"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_la_prairie",
-    "data": {
-      "label": "莱珀妮",
-      "labelEn": "La Prairie",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "la_prairie",
-        "tier": "international_luxury"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_lancome",
-    "data": {
-      "label": "兰蔻",
-      "labelEn": "Lancôme",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "lancome",
-        "tier": "international_mid"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_kiehls",
-    "data": {
-      "label": "科颜氏",
-      "labelEn": "Kiehl's",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "kiehls",
-        "tier": "international_mid"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_clarins",
-    "data": {
-      "label": "娇韵诗",
-      "labelEn": "Clarins",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "clarins",
-        "tier": "international_mid"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_shiseido",
-    "data": {
-      "label": "资生堂",
-      "labelEn": "Shiseido",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "shiseido",
-        "tier": "international_mid"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_clinique",
-    "data": {
-      "label": "倩碧",
-      "labelEn": "Clinique",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "clinique",
-        "tier": "international_mid"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_fresh",
-    "data": {
-      "label": "Fresh",
-      "labelEn": "Fresh",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "fresh",
-        "tier": "international_mid"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_curel",
-    "data": {
-      "label": "珂润",
-      "labelEn": "Curél",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "curel",
-        "tier": "international_mid"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_decorte",
-    "data": {
-      "label": "黛珂",
-      "labelEn": "Decorté",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "decorte",
-        "tier": "international_mid"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_loreal",
-    "data": {
-      "label": "欧莱雅",
-      "labelEn": "L'Oréal",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "loreal",
-        "tier": "international_affordable"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_cerave",
-    "data": {
-      "label": "CeraVe",
-      "labelEn": "CeraVe",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "cerave",
-        "tier": "international_affordable"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_the_ordinary",
-    "data": {
-      "label": "The Ordinary",
-      "labelEn": "The Ordinary",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "the_ordinary",
-        "tier": "international_affordable"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_proya",
-    "data": {
-      "label": "珀莱雅",
-      "labelEn": "PROYA",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "proya",
-        "tier": "domestic_premium"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_winona",
-    "data": {
-      "label": "薇诺娜",
-      "labelEn": "Winona",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "winona",
-        "tier": "domestic_premium"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_uniskin",
-    "data": {
-      "label": "优时颜",
-      "labelEn": "UNISKIN",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "uniskin",
-        "tier": "domestic_premium"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_zhuben",
-    "data": {
-      "label": "逐本",
-      "labelEn": "ZHUBEN",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "zhuben",
-        "tier": "domestic_premium"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_quadha",
-    "data": {
-      "label": "夸迪",
-      "labelEn": "QUADHA",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "quadha",
-        "tier": "domestic_premium"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_skinceuticals",
-    "data": {
-      "label": "修丽可",
-      "labelEn": "SkinCeuticals",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "skinceuticals",
-        "tier": "functional"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_lrp",
-    "data": {
-      "label": "理肤泉",
-      "labelEn": "La Roche-Posay",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "lrp",
-        "tier": "functional"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_avene",
-    "data": {
-      "label": "雅漾",
-      "labelEn": "Avène",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "avene",
-        "tier": "functional"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_dryu",
-    "data": {
-      "label": "玉泽",
-      "labelEn": "Dr.Yu",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "dryu",
-        "tier": "functional"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_comfy",
-    "data": {
-      "label": "可复美",
-      "labelEn": "Comfy",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "comfy",
-        "tier": "functional"
-      }
-    }
-  },
-  {
-    "id": "L1_Brand_betterderm",
-    "data": {
-      "label": "博乐达",
-      "labelEn": "BetterDerm",
-      "layer": "L1",
-      "entityType": "Brand",
-      "properties": {
-        "code": "betterderm",
-        "tier": "functional"
-      }
-    }
-  },
-  {
-    "id": "L1_SKU_little_black",
-    "data": {
-      "label": "小黑瓶肌底精华",
+      "label": "过度去角质",
       "labelEn": "",
-      "layer": "L1",
-      "entityType": "SKU",
+      "layer": "L2",
+      "entityType": "AdverseReaction",
       "properties": {
-        "code": "little_black",
-        "brand": "lancome",
-        "category": "精华",
-        "aliases": [
-          "小黑瓶"
-        ],
-        "keyIngredients": "bifida_ferment"
+        "code": "over_exfoliation",
+        "severity": "moderate-severe"
       }
     }
   },
   {
-    "id": "L1_SKU_little_brown",
+    "id": "L2_AdverseReaction_dryness_reaction",
     "data": {
-      "label": "特润修护精华",
+      "label": "异常干燥",
       "labelEn": "",
-      "layer": "L1",
-      "entityType": "SKU",
+      "layer": "L2",
+      "entityType": "AdverseReaction",
       "properties": {
-        "code": "little_brown",
-        "brand": "estee_lauder",
-        "category": "精华",
-        "aliases": [
-          "小棕瓶"
-        ],
-        "keyIngredients": "bifida_ferment"
+        "code": "dryness_reaction",
+        "severity": "mild"
       }
     }
   },
   {
-    "id": "L1_SKU_fairy_water",
+    "id": "L2_AdverseReaction_pigmentation",
     "data": {
-      "label": "护肤精华露",
+      "label": "色沉加重",
       "labelEn": "",
-      "layer": "L1",
-      "entityType": "SKU",
+      "layer": "L2",
+      "entityType": "AdverseReaction",
       "properties": {
-        "code": "fairy_water",
-        "brand": "sk_ii",
-        "category": "精华水",
-        "aliases": [
-          "神仙水"
-        ],
-        "keyIngredients": "pitera"
+        "code": "pigmentation",
+        "severity": "mild-moderate"
       }
     }
   },
   {
-    "id": "L1_SKU_double_serum",
+    "id": "L2_AdverseReaction_sensitivity_increase",
     "data": {
-      "label": "双萃精华",
+      "label": "敏感度增加",
       "labelEn": "",
-      "layer": "L1",
-      "entityType": "SKU",
+      "layer": "L2",
+      "entityType": "AdverseReaction",
       "properties": {
-        "code": "double_serum",
-        "brand": "clarins",
-        "category": "精华",
-        "aliases": [
-          "双萃"
-        ]
+        "code": "sensitivity_increase",
+        "severity": "moderate"
       }
     }
   },
   {
-    "id": "L1_SKU_red_waist",
+    "id": "L2_Symptom_tech_base_prep",
     "data": {
-      "label": "红妍肌活精华",
+      "label": "底妆前护肤",
       "labelEn": "",
-      "layer": "L1",
-      "entityType": "SKU",
+      "layer": "L2",
+      "entityType": "Symptom",
       "properties": {
-        "code": "red_waist",
-        "brand": "shiseido",
-        "category": "精华",
-        "aliases": [
-          "红腰子"
-        ],
-        "keyIngredients": "reishi"
+        "code": "tech_base_prep"
       }
     }
   },
   {
-    "id": "L1_SKU_double_anti",
+    "id": "L2_Symptom_tech_color_correct",
     "data": {
-      "label": "双抗精华",
+      "label": "色彩校正",
       "labelEn": "",
-      "layer": "L1",
-      "entityType": "SKU",
+      "layer": "L2",
+      "entityType": "Symptom",
       "properties": {
-        "code": "double_anti",
-        "brand": "proya",
-        "category": "精华",
-        "aliases": [
-          "双抗"
-        ],
-        "keyIngredients": "astaxanthin,ergothioneine"
+        "code": "tech_color_correct"
       }
     }
   },
   {
-    "id": "L1_SKU_ruby",
+    "id": "L2_Symptom_tech_spot_conceal",
     "data": {
-      "label": "红宝石精华",
+      "label": "点状遮瑕",
       "labelEn": "",
-      "layer": "L1",
-      "entityType": "SKU",
+      "layer": "L2",
+      "entityType": "Symptom",
       "properties": {
-        "code": "ruby",
-        "brand": "proya",
-        "category": "精华",
-        "aliases": [
-          "红宝石"
-        ],
-        "keyIngredients": "retinol,hexapeptide"
+        "code": "tech_spot_conceal"
       }
     }
   },
   {
-    "id": "L1_SKU_ce_serum",
+    "id": "L2_Symptom_tech_foundation_apply",
     "data": {
-      "label": "CE抗氧精华",
+      "label": "粉底上妆",
       "labelEn": "",
-      "layer": "L1",
-      "entityType": "SKU",
+      "layer": "L2",
+      "entityType": "Symptom",
       "properties": {
-        "code": "ce_serum",
-        "brand": "skinceuticals",
-        "category": "精华",
-        "aliases": [
-          "CE精华"
-        ],
-        "keyIngredients": "vitamin_c"
+        "code": "tech_foundation_apply"
       }
     }
   },
   {
-    "id": "L1_SKU_b5_serum",
+    "id": "L2_Symptom_tech_set_makeup",
     "data": {
-      "label": "B5修护精华",
+      "label": "定妆手法",
       "labelEn": "",
-      "layer": "L1",
-      "entityType": "SKU",
+      "layer": "L2",
+      "entityType": "Symptom",
       "properties": {
-        "code": "b5_serum",
-        "brand": "skinceuticals",
-        "category": "精华",
-        "aliases": [
-          "B5精华"
-        ],
-        "keyIngredients": "panthenol,hyaluronic_acid"
+        "code": "tech_set_makeup"
       }
     }
   },
   {
-    "id": "L1_SKU_purple_iron",
+    "id": "L2_Symptom_tech_bake_technique",
     "data": {
-      "label": "紫铁精华",
+      "label": "烘焙定妆",
       "labelEn": "",
-      "layer": "L1",
-      "entityType": "SKU",
+      "layer": "L2",
+      "entityType": "Symptom",
       "properties": {
-        "code": "purple_iron",
-        "brand": "kiehls",
-        "category": "精华",
-        "aliases": [
-          "紫铁"
-        ],
-        "keyIngredients": "retinol"
+        "code": "tech_bake_technique"
       }
     }
   },
   {
-    "id": "L1_SKU_moisture_cream",
+    "id": "L2_Symptom_tech_fix_cakey",
     "data": {
-      "label": "保湿面霜",
+      "label": "修复卡粉",
       "labelEn": "",
-      "layer": "L1",
-      "entityType": "SKU",
+      "layer": "L2",
+      "entityType": "Symptom",
       "properties": {
-        "code": "moisture_cream",
-        "brand": "cerave",
-        "category": "面霜",
-        "aliases": [
-          "保湿霜"
-        ],
-        "keyIngredients": "ceramide"
+        "code": "tech_fix_cakey"
       }
     }
   },
   {
-    "id": "L1_SKU_special_cream",
+    "id": "L2_Symptom_tech_touch_up",
     "data": {
-      "label": "特护霜",
+      "label": "补妆技巧",
       "labelEn": "",
-      "layer": "L1",
-      "entityType": "SKU",
+      "layer": "L2",
+      "entityType": "Symptom",
       "properties": {
-        "code": "special_cream",
-        "brand": "winona",
-        "category": "面霜",
-        "aliases": [
-          "特护霜"
-        ],
-        "keyIngredients": "madecassoside"
+        "code": "tech_touch_up"
       }
     }
   },
   {
-    "id": "L1_SKU_barrier_cream",
+    "id": "L2_Symptom_tech_natural_glow",
     "data": {
-      "label": "屏障修护霜",
+      "label": "自然光泽妆",
       "labelEn": "",
-      "layer": "L1",
-      "entityType": "SKU",
+      "layer": "L2",
+      "entityType": "Symptom",
       "properties": {
-        "code": "barrier_cream",
-        "brand": "dryu",
-        "category": "面霜",
-        "aliases": [
-          "屏障霜"
-        ],
-        "keyIngredients": "ceramide"
+        "code": "tech_natural_glow"
       }
     }
   },
   {
-    "id": "L3_SkincarePlan_dry_sensitive_basic",
+    "id": "L2_Symptom_tech_matte_finish",
     "data": {
-      "label": "干敏肌基础修护方案",
+      "label": "雾面哑光妆",
+      "labelEn": "",
+      "layer": "L2",
+      "entityType": "Symptom",
+      "properties": {
+        "code": "tech_matte_finish"
+      }
+    }
+  },
+  {
+    "id": "L3_SkincarePlan_rt_001",
+    "data": {
+      "label": "干皮基础保湿方案",
       "labelEn": "",
       "layer": "L3",
       "entityType": "SkincarePlan",
       "properties": {
-        "code": "dry_sensitive_basic",
+        "code": "rt_001",
         "steps": [
-          "cleanser",
-          "toner",
-          "ceramide_serum",
-          "barrier_cream",
-          "sunscreen"
+          "温和清洁",
+          "补水打底",
+          "核心保湿精华",
+          "封层锁水面霜",
+          "日间防晒"
         ],
-        "suitableSkin": "dry,sensitive",
+        "suitableSkin": "dry,combination_dry",
+        "targetConcern": "hydration"
+      }
+    }
+  },
+  {
+    "id": "L3_SkincarePlan_rt_002",
+    "data": {
+      "label": "干敏肌换季修护方案",
+      "labelEn": "",
+      "layer": "L3",
+      "entityType": "SkincarePlan",
+      "properties": {
+        "code": "rt_002",
+        "steps": [
+          "极简温和清洁",
+          "核心修护精华",
+          "屏障修护面霜",
+          "温和防晒"
+        ],
+        "suitableSkin": "dry+sensitive",
         "targetConcern": "repair"
       }
     }
   },
   {
-    "id": "L3_SkincarePlan_oily_acne_control",
+    "id": "L3_SkincarePlan_rt_003",
     "data": {
-      "label": "油痘肌控油方案",
+      "label": "油痘肌控油祛痘方案",
       "labelEn": "",
       "layer": "L3",
       "entityType": "SkincarePlan",
       "properties": {
-        "code": "oily_acne_control",
+        "code": "rt_003",
         "steps": [
-          "cleanser",
-          "salicylic_toner",
-          "niacinamide_serum",
-          "light_moisturizer",
-          "sunscreen"
+          "控油清洁",
+          "水杨酸疏通(周期)",
+          "控油修护精华",
+          "轻薄保湿",
+          "清爽防晒"
         ],
-        "suitableSkin": "oily,acne_prone",
-        "targetConcern": "oil_control"
+        "suitableSkin": "oily+acne_prone",
+        "targetConcern": "acne,oil_control"
       }
     }
   },
   {
-    "id": "L3_SkincarePlan_anti_aging_basic",
+    "id": "L3_SkincarePlan_rt_004",
     "data": {
-      "label": "初抗老方案",
+      "label": "痘印淡化方案",
       "labelEn": "",
       "layer": "L3",
       "entityType": "SkincarePlan",
       "properties": {
-        "code": "anti_aging_basic",
+        "code": "rt_004",
         "steps": [
-          "cleanser",
-          "toner",
-          "vc_serum_am",
-          "retinol_serum_pm",
-          "eye_cream",
-          "moisturizer",
-          "sunscreen"
+          "淡印精华(烟酰胺/传明酸)",
+          "温和酸促代谢(隔日)",
+          "严格防晒"
         ],
-        "suitableSkin": "normal,combination",
+        "suitableSkin": "all",
+        "targetConcern": "acne.acne_scar,brightening"
+      }
+    }
+  },
+  {
+    "id": "L3_SkincarePlan_rt_005",
+    "data": {
+      "label": "初老抗老入门方案(25-30岁)",
+      "labelEn": "",
+      "layer": "L3",
+      "entityType": "SkincarePlan",
+      "properties": {
+        "code": "rt_005",
+        "steps": [
+          "日间抗氧化精华(VC)",
+          "夜间修护精华(A醇/多肽)",
+          "眼周护理",
+          "保湿面霜",
+          "防晒抗光老化"
+        ],
+        "suitableSkin": "all",
         "targetConcern": "anti_aging"
       }
     }
   },
   {
-    "id": "L3_SkincarePlan_brightening",
+    "id": "L3_SkincarePlan_rt_006",
     "data": {
       "label": "美白提亮方案",
       "labelEn": "",
       "layer": "L3",
       "entityType": "SkincarePlan",
       "properties": {
-        "code": "brightening",
+        "code": "rt_006",
         "steps": [
-          "cleanser",
-          "vc_toner",
-          "niacinamide_serum",
-          "arbutin_serum",
-          "moisturizer",
-          "sunscreen"
+          "日间美白精华(VC/烟酰胺)",
+          "夜间促代谢(A醇/果酸)",
+          "严格防晒SPF50+"
         ],
-        "suitableSkin": "all",
+        "suitableSkin": "all(非敏感期)",
         "targetConcern": "brightening"
       }
     }
   },
   {
-    "id": "L5_SynonymMapping_retinol_syn",
+    "id": "L3_SkincarePlan_rt_007",
     "data": {
-      "label": "A醇",
+      "label": "孕期安全护肤方案",
       "labelEn": "",
-      "layer": "L5",
-      "entityType": "SynonymMapping",
+      "layer": "L3",
+      "entityType": "SkincarePlan",
       "properties": {
-        "code": "retinol_syn",
-        "canonical": "A醇",
-        "variants": [
-          "A醇",
-          "视黄醇",
-          "早C晚A的A",
-          "retinol"
+        "code": "rt_007",
+        "steps": [
+          "温和清洁",
+          "基础保湿面霜",
+          "纯物理防晒"
         ],
-        "target": "retinol"
+        "suitableSkin": "all",
+        "targetConcern": "hydration,repair"
       }
     }
   },
   {
-    "id": "L5_SynonymMapping_vc_syn",
+    "id": "L3_SkincarePlan_ap_001",
     "data": {
-      "label": "维C",
+      "label": "过敏刺痛应对方案",
       "labelEn": "",
-      "layer": "L5",
-      "entityType": "SynonymMapping",
+      "layer": "L3",
+      "entityType": "SkincarePlan",
       "properties": {
-        "code": "vc_syn",
-        "canonical": "维C",
-        "variants": [
-          "VC",
-          "维C",
-          "维生素C",
-          "抗坏血酸",
-          "早C晚A的C"
+        "code": "ap_001",
+        "steps": [
+          "停用可疑产品",
+          "简化护肤清水+保湿",
+          "严重就医"
         ],
-        "target": "vitamin_c"
+        "targetConcern": "allergy,stinging_burning"
       }
     }
   },
   {
-    "id": "L5_SynonymMapping_nia_syn",
+    "id": "L3_SkincarePlan_ap_002",
     "data": {
-      "label": "烟酰胺",
+      "label": "闷痘爆痘应对方案",
       "labelEn": "",
-      "layer": "L5",
-      "entityType": "SynonymMapping",
+      "layer": "L3",
+      "entityType": "SkincarePlan",
       "properties": {
-        "code": "nia_syn",
-        "canonical": "烟酰胺",
-        "variants": [
-          "烟酰胺",
-          "VB3",
-          "维生素B3",
-          "niacinamide"
+        "code": "ap_002",
+        "steps": [
+          "判断purging vs过敏",
+          "停用可疑产品或降频",
+          "简化护肤"
         ],
-        "target": "niacinamide"
+        "targetConcern": "breakout,purging"
       }
     }
   },
   {
-    "id": "L5_SynonymMapping_ha_syn",
+    "id": "L3_SkincarePlan_ap_003",
     "data": {
-      "label": "玻尿酸",
+      "label": "搓泥解决方案",
       "labelEn": "",
-      "layer": "L5",
-      "entityType": "SynonymMapping",
+      "layer": "L3",
+      "entityType": "SkincarePlan",
       "properties": {
-        "code": "ha_syn",
-        "canonical": "玻尿酸",
-        "variants": [
-          "玻尿酸",
-          "透明质酸",
-          "HA",
-          "hyaluronic"
+        "code": "ap_003",
+        "steps": [
+          "等吸收再涂下层",
+          "减少用量薄涂",
+          "减少护肤步骤"
         ],
-        "target": "hyaluronic_acid"
+        "targetConcern": "pilling"
       }
     }
   },
   {
-    "id": "L5_SynonymMapping_cer_syn",
+    "id": "L3_SkincarePlan_ap_004",
     "data": {
-      "label": "神经酰胺",
+      "label": "过度去角质修护方案",
       "labelEn": "",
-      "layer": "L5",
-      "entityType": "SynonymMapping",
+      "layer": "L3",
+      "entityType": "SkincarePlan",
       "properties": {
-        "code": "cer_syn",
-        "canonical": "神经酰胺",
-        "variants": [
-          "神经酰胺",
-          "ceramide",
-          "赛洛美"
+        "code": "ap_004",
+        "steps": [
+          "停用所有活性成分",
+          "极简修护(积雪草/泛醇/神经酰胺)",
+          "物理防晒",
+          "4-8周修复期"
         ],
-        "target": "ceramide"
+        "targetConcern": "over_exfoliation"
       }
     }
   },
   {
-    "id": "L5_SynonymMapping_bha_syn",
+    "id": "L3_SkincarePlan_ml_001",
     "data": {
-      "label": "水杨酸",
+      "label": "油皮通勤持妆妆",
       "labelEn": "",
-      "layer": "L5",
-      "entityType": "SynonymMapping",
+      "layer": "L3",
+      "entityType": "SkincarePlan",
       "properties": {
-        "code": "bha_syn",
-        "canonical": "水杨酸",
-        "variants": [
-          "水杨酸",
-          "BHA",
-          "salicylic"
+        "code": "ml_001",
+        "steps": [
+          "控油妆前乳",
+          "哑光粉底按压上妆",
+          "遮瑕点涂",
+          "散粉T区烘焙定妆",
+          "午间补妆"
         ],
-        "target": "salicylic_acid"
+        "suitableSkin": "oily,combination_oily",
+        "targetConcern": "makeup"
       }
     }
   },
   {
-    "id": "L5_SynonymMapping_aha_syn",
+    "id": "L3_SkincarePlan_ml_002",
     "data": {
-      "label": "果酸",
+      "label": "干皮伪素颜妆",
       "labelEn": "",
-      "layer": "L5",
-      "entityType": "SynonymMapping",
+      "layer": "L3",
+      "entityType": "SkincarePlan",
       "properties": {
-        "code": "aha_syn",
-        "canonical": "果酸",
-        "variants": [
-          "果酸",
-          "AHA",
-          "刷酸",
-          "glycolic"
+        "code": "ml_002",
+        "steps": [
+          "保湿打底",
+          "水润粉底美妆蛋弹涂",
+          "保湿遮瑕",
+          "定妆喷雾"
         ],
-        "target": "aha"
+        "suitableSkin": "dry,combination_dry",
+        "targetConcern": "makeup"
       }
     }
   },
   {
-    "id": "L5_SynonymMapping_cica_syn",
+    "id": "L3_SkincarePlan_ml_003",
     "data": {
-      "label": "积雪草",
+      "label": "急救遮瑕方案",
       "labelEn": "",
-      "layer": "L5",
-      "entityType": "SynonymMapping",
+      "layer": "L3",
+      "entityType": "SkincarePlan",
       "properties": {
-        "code": "cica_syn",
-        "canonical": "积雪草",
-        "variants": [
-          "积雪草",
-          "CICA",
-          "老虎草",
-          "centella"
+        "code": "ml_003",
+        "steps": [
+          "色彩校正(绿遮红/橘遮紫)",
+          "肤色遮瑕点涂",
+          "散粉定妆"
         ],
-        "target": "centella"
+        "suitableSkin": "all",
+        "targetConcern": "makeup"
       }
     }
   },
   {
-    "id": "L5_SynonymMapping_bosein_syn",
+    "id": "L3_SkincarePlan_ps_001",
     "data": {
-      "label": "玻色因",
+      "label": "大促省钱通用策略",
       "labelEn": "",
-      "layer": "L5",
-      "entityType": "SynonymMapping",
+      "layer": "L3",
+      "entityType": "SkincarePlan",
       "properties": {
-        "code": "bosein_syn",
-        "canonical": "玻色因",
-        "variants": [
-          "玻色因",
-          "波色因",
-          "pro-xylane",
-          "ProXylane"
+        "code": "ps_001",
+        "steps": [
+          "预热领券",
+          "付定金锁预售价",
+          "尾款叠加满减+店铺券",
+          "关注价保"
         ],
-        "target": "bosein"
+        "suitableSkin": "all",
+        "targetConcern": "promotion"
       }
     }
   },
   {
-    "id": "L5_SynonymMapping_little_black_syn",
+    "id": "L3_SkincarePlan_ps_002",
     "data": {
-      "label": "小黑瓶",
+      "label": "按预算分配囤货策略",
       "labelEn": "",
-      "layer": "L5",
-      "entityType": "SynonymMapping",
+      "layer": "L3",
+      "entityType": "SkincarePlan",
       "properties": {
-        "code": "little_black_syn",
-        "canonical": "小黑瓶",
-        "variants": [
-          "小黑瓶",
-          "兰蔻精华",
-          "黑瓶"
+        "code": "ps_002",
+        "steps": [
+          "极低预算买急需1-2件",
+          "平价选套组凑满减",
+          "中等预算完整方案",
+          "高端趁大促囤半年"
         ],
-        "target": "little_black"
+        "suitableSkin": "all",
+        "targetConcern": "promotion"
       }
     }
   },
   {
-    "id": "L5_SynonymMapping_fairy_water_syn",
+    "id": "L4_Intent_ch_aftersales",
     "data": {
-      "label": "神仙水",
+      "label": "售后Channel",
       "labelEn": "",
-      "layer": "L5",
-      "entityType": "SynonymMapping",
+      "layer": "L4",
+      "entityType": "Intent",
       "properties": {
-        "code": "fairy_water_syn",
-        "canonical": "神仙水",
-        "variants": [
-          "神仙水",
-          "SKII精华",
-          "护肤精华露"
-        ],
-        "target": "fairy_water"
+        "code": "ch_aftersales",
+        "channel": "aftersales",
+        "priority": 1
       }
     }
   },
   {
-    "id": "L5_SynonymMapping_double_anti_syn",
+    "id": "L4_Intent_ch_promotion",
     "data": {
-      "label": "双抗",
+      "label": "大促Channel",
       "labelEn": "",
-      "layer": "L5",
-      "entityType": "SynonymMapping",
+      "layer": "L4",
+      "entityType": "Intent",
       "properties": {
-        "code": "double_anti_syn",
-        "canonical": "双抗",
-        "variants": [
-          "双抗",
-          "珀莱雅双抗",
-          "双抗精华"
-        ],
-        "target": "double_anti"
+        "code": "ch_promotion",
+        "channel": "promotion",
+        "priority": 2
       }
     }
   },
   {
-    "id": "L5_SynonymMapping_sensitive_syn",
+    "id": "L4_Intent_ch_makeup",
     "data": {
-      "label": "敏感肌",
+      "label": "妆教Channel",
       "labelEn": "",
-      "layer": "L5",
-      "entityType": "SynonymMapping",
+      "layer": "L4",
+      "entityType": "Intent",
       "properties": {
-        "code": "sensitive_syn",
-        "canonical": "敏感肌",
-        "variants": [
-          "敏感肌",
-          "敏感皮",
-          "敏皮",
-          "红血丝"
-        ],
-        "target": "sensitive"
+        "code": "ch_makeup",
+        "channel": "makeup",
+        "priority": 3
       }
     }
   },
   {
-    "id": "L5_SynonymMapping_dry_syn",
+    "id": "L4_Intent_ch_skincare",
     "data": {
-      "label": "干皮",
+      "label": "护肤Channel",
       "labelEn": "",
-      "layer": "L5",
-      "entityType": "SynonymMapping",
+      "layer": "L4",
+      "entityType": "Intent",
       "properties": {
-        "code": "dry_syn",
-        "canonical": "干皮",
-        "variants": [
-          "干皮",
-          "干性肌肤",
-          "干性皮肤",
-          "大干皮"
-        ],
-        "target": "dry"
+        "code": "ch_skincare",
+        "channel": "skincare",
+        "priority": 4
       }
     }
   },
   {
-    "id": "L5_SynonymMapping_oily_syn",
+    "id": "L4_Intent_ch_chat",
     "data": {
-      "label": "油皮",
+      "label": "闲聊Channel",
       "labelEn": "",
-      "layer": "L5",
-      "entityType": "SynonymMapping",
+      "layer": "L4",
+      "entityType": "Intent",
       "properties": {
-        "code": "oily_syn",
-        "canonical": "油皮",
-        "variants": [
-          "油皮",
-          "油性肌肤",
-          "大油田",
-          "爱出油"
-        ],
-        "target": "oily"
+        "code": "ch_chat",
+        "channel": "chat",
+        "priority": 5
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_emotional_entry",
+    "data": {
+      "label": "情绪入口",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "emotional_entry",
+        "channel": "all",
+        "priority": 1
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_seek_solution",
+    "data": {
+      "label": "求解决方案",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "seek_solution",
+        "channel": "skincare",
+        "priority": 2
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_seek_knowledge",
+    "data": {
+      "label": "求知识/答疑",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "seek_knowledge",
+        "channel": "skincare",
+        "priority": 3
       }
     }
   },
@@ -2229,235 +6040,3313 @@
       "properties": {
         "code": "seek_recommendation",
         "channel": "skincare",
-        "priority": 1
-      }
-    }
-  },
-  {
-    "id": "L4_Intent_product_inquiry",
-    "data": {
-      "label": "产品咨询",
-      "labelEn": "",
-      "layer": "L4",
-      "entityType": "Intent",
-      "properties": {
-        "code": "product_inquiry",
-        "channel": "skincare",
-        "priority": 2
-      }
-    }
-  },
-  {
-    "id": "L4_Intent_ingredient_query",
-    "data": {
-      "label": "成分咨询",
-      "labelEn": "",
-      "layer": "L4",
-      "entityType": "Intent",
-      "properties": {
-        "code": "ingredient_query",
-        "channel": "skincare",
-        "priority": 3
-      }
-    }
-  },
-  {
-    "id": "L4_Intent_skin_concern",
-    "data": {
-      "label": "肤质问题",
-      "labelEn": "",
-      "layer": "L4",
-      "entityType": "Intent",
-      "properties": {
-        "code": "skin_concern",
-        "channel": "skincare",
         "priority": 4
       }
     }
   },
   {
-    "id": "L4_Intent_aftersales",
+    "id": "L4_Intent_seek_procedure",
     "data": {
-      "label": "售后问题",
+      "label": "求操作指导",
       "labelEn": "",
       "layer": "L4",
       "entityType": "Intent",
       "properties": {
-        "code": "aftersales",
-        "channel": "aftersales",
-        "priority": 1
+        "code": "seek_procedure",
+        "channel": "all",
+        "priority": 5
       }
     }
   },
   {
-    "id": "L4_Intent_promo_inquiry",
+    "id": "L4_Intent_seek_comparison",
     "data": {
-      "label": "大促咨询",
+      "label": "求比较",
       "labelEn": "",
       "layer": "L4",
       "entityType": "Intent",
       "properties": {
-        "code": "promo_inquiry",
+        "code": "seek_comparison",
+        "channel": "skincare",
+        "priority": 6
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_casual_chat",
+    "data": {
+      "label": "闲聊",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "casual_chat",
+        "channel": "chat",
+        "priority": 99
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_confirm_combo",
+    "data": {
+      "label": "确认搭配",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "confirm_combo",
+        "channel": "skincare",
+        "priority": 10
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_usage_detail",
+    "data": {
+      "label": "使用方法",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "usage_detail",
+        "channel": "skincare",
+        "priority": 11
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_risk_check",
+    "data": {
+      "label": "风险检查",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "risk_check",
+        "channel": "skincare",
+        "priority": 12
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_budget_adjust",
+    "data": {
+      "label": "预算调整",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "budget_adjust",
+        "channel": "skincare",
+        "priority": 13
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_add_concern",
+    "data": {
+      "label": "追加诉求",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "add_concern",
+        "channel": "skincare",
+        "priority": 14
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_confirm_purchase",
+    "data": {
+      "label": "确认购买",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "confirm_purchase",
+        "channel": "skincare",
+        "priority": 15
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_coupon_stack",
+    "data": {
+      "label": "券叠加咨询",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "coupon_stack",
         "channel": "promotion",
-        "priority": 1
+        "priority": 10
       }
     }
   },
   {
-    "id": "L4_Intent_makeup_how",
+    "id": "L4_Intent_timing_inquiry",
     "data": {
-      "label": "妆教咨询",
+      "label": "时间咨询",
       "labelEn": "",
       "layer": "L4",
       "entityType": "Intent",
       "properties": {
-        "code": "makeup_how",
+        "code": "timing_inquiry",
+        "channel": "promotion",
+        "priority": 11
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_refund_inquiry",
+    "data": {
+      "label": "退款咨询",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "refund_inquiry",
+        "channel": "promotion",
+        "priority": 12
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_channel_switch",
+    "data": {
+      "label": "渠道咨询",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "channel_switch",
+        "channel": "promotion",
+        "priority": 13
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_promo_compare",
+    "data": {
+      "label": "活动比较",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "promo_compare",
+        "channel": "promotion",
+        "priority": 14
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_report_reaction",
+    "data": {
+      "label": "报告反应",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "report_reaction",
+        "channel": "aftersales",
+        "priority": 10
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_identify_cause",
+    "data": {
+      "label": "排查原因",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "identify_cause",
+        "channel": "aftersales",
+        "priority": 11
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_seek_remedy",
+    "data": {
+      "label": "求补救",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "seek_remedy",
+        "channel": "aftersales",
+        "priority": 12
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_return_request",
+    "data": {
+      "label": "退货请求",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "return_request",
+        "channel": "aftersales",
+        "priority": 13
+      }
+    }
+  },
+  {
+    "id": "L4_Intent_technique_inquiry",
+    "data": {
+      "label": "技巧咨询",
+      "labelEn": "",
+      "layer": "L4",
+      "entityType": "Intent",
+      "properties": {
+        "code": "technique_inquiry",
         "channel": "makeup",
-        "priority": 1
+        "priority": 10
       }
     }
   },
   {
-    "id": "L0_Concern_hydration",
+    "id": "L4_Intent_product_for_look",
     "data": {
-      "label": "保湿补水",
+      "label": "妆容选品",
       "labelEn": "",
-      "layer": "L0",
-      "entityType": "Concern",
+      "layer": "L4",
+      "entityType": "Intent",
       "properties": {
-        "code": "hydration"
+        "code": "product_for_look",
+        "channel": "makeup",
+        "priority": 11
       }
     }
   },
   {
-    "id": "L0_Concern_oil_control",
+    "id": "L4_Intent_adapt_for_skin",
     "data": {
-      "label": "控油",
+      "label": "肤质适配",
       "labelEn": "",
-      "layer": "L0",
-      "entityType": "Concern",
+      "layer": "L4",
+      "entityType": "Intent",
       "properties": {
-        "code": "oil_control"
+        "code": "adapt_for_skin",
+        "channel": "makeup",
+        "priority": 12
       }
     }
   },
   {
-    "id": "L0_Concern_anti_aging",
+    "id": "L4_Intent_fix_problem",
     "data": {
-      "label": "抗老",
+      "label": "妆容修复",
       "labelEn": "",
-      "layer": "L0",
-      "entityType": "Concern",
+      "layer": "L4",
+      "entityType": "Intent",
       "properties": {
-        "code": "anti_aging"
+        "code": "fix_problem",
+        "channel": "makeup",
+        "priority": 13
       }
     }
   },
   {
-    "id": "L0_Concern_brightening",
+    "id": "L4_Intent_state_exploring",
     "data": {
-      "label": "美白提亮",
+      "label": "探索状态",
       "labelEn": "",
-      "layer": "L0",
-      "entityType": "Concern",
+      "layer": "L4",
+      "entityType": "Intent",
       "properties": {
-        "code": "brightening"
+        "code": "state_exploring",
+        "channel": "all",
+        "priority": 0
       }
     }
   },
   {
-    "id": "L0_Concern_acne",
+    "id": "L4_Intent_state_narrowing",
     "data": {
-      "label": "祛痘",
+      "label": "收窄状态",
       "labelEn": "",
-      "layer": "L0",
-      "entityType": "Concern",
+      "layer": "L4",
+      "entityType": "Intent",
       "properties": {
-        "code": "acne"
+        "code": "state_narrowing",
+        "channel": "all",
+        "priority": 0
       }
     }
   },
   {
-    "id": "L0_Concern_repair",
+    "id": "L4_Intent_state_comparing",
     "data": {
-      "label": "修护",
+      "label": "比较状态",
       "labelEn": "",
-      "layer": "L0",
-      "entityType": "Concern",
+      "layer": "L4",
+      "entityType": "Intent",
       "properties": {
-        "code": "repair"
+        "code": "state_comparing",
+        "channel": "all",
+        "priority": 0
       }
     }
   },
   {
-    "id": "L0_Budget_ultra_budget",
+    "id": "L4_Intent_state_decided",
     "data": {
-      "label": "极低预算 (<100)",
+      "label": "已决定状态",
       "labelEn": "",
-      "layer": "L0",
-      "entityType": "Budget",
+      "layer": "L4",
+      "entityType": "Intent",
       "properties": {
-        "code": "ultra_budget"
+        "code": "state_decided",
+        "channel": "all",
+        "priority": 0
       }
     }
   },
   {
-    "id": "L0_Budget_budget",
+    "id": "L5_SynonymMapping_syn_dry",
     "data": {
-      "label": "低预算 (100-200)",
+      "label": "干皮",
       "labelEn": "",
-      "layer": "L0",
-      "entityType": "Budget",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
       "properties": {
-        "code": "budget"
+        "code": "syn_dry",
+        "canonical": "干皮",
+        "variants": [
+          "干皮",
+          "干性皮肤",
+          "干性肌肤",
+          "皮肤干",
+          "脸干"
+        ],
+        "target": "dry"
       }
     }
   },
   {
-    "id": "L0_Budget_affordable",
+    "id": "L5_SynonymMapping_syn_oily",
     "data": {
-      "label": "平价 (200-400)",
+      "label": "油皮",
       "labelEn": "",
-      "layer": "L0",
-      "entityType": "Budget",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
       "properties": {
-        "code": "affordable"
+        "code": "syn_oily",
+        "canonical": "油皮",
+        "variants": [
+          "油皮",
+          "油性皮肤",
+          "大油皮",
+          "大油田",
+          "油光满面"
+        ],
+        "target": "oily"
       }
     }
   },
   {
-    "id": "L0_Budget_mid_range",
+    "id": "L5_SynonymMapping_syn_combination",
     "data": {
-      "label": "中等 (400-800)",
+      "label": "混合肌",
       "labelEn": "",
-      "layer": "L0",
-      "entityType": "Budget",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
       "properties": {
-        "code": "mid_range"
+        "code": "syn_combination",
+        "canonical": "混合肌",
+        "variants": [
+          "混合肌",
+          "混合皮",
+          "混合型",
+          "混合性"
+        ],
+        "target": "combination"
       }
     }
   },
   {
-    "id": "L0_Budget_premium",
+    "id": "L5_SynonymMapping_syn_combo_oily",
     "data": {
-      "label": "高端 (800-1500)",
+      "label": "混油皮",
       "labelEn": "",
-      "layer": "L0",
-      "entityType": "Budget",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
       "properties": {
-        "code": "premium"
+        "code": "syn_combo_oily",
+        "canonical": "混油皮",
+        "variants": [
+          "混油皮",
+          "混合偏油",
+          "混合偏油肌"
+        ],
+        "target": "combination_oily"
       }
     }
   },
   {
-    "id": "L0_Budget_luxury",
+    "id": "L5_SynonymMapping_syn_combo_dry",
     "data": {
-      "label": "奢华 (1500+)",
+      "label": "混干皮",
       "labelEn": "",
-      "layer": "L0",
-      "entityType": "Budget",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
       "properties": {
-        "code": "luxury"
+        "code": "syn_combo_dry",
+        "canonical": "混干皮",
+        "variants": [
+          "混干皮",
+          "混合偏干",
+          "混合偏干肌"
+        ],
+        "target": "combination_dry"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_sensitive",
+    "data": {
+      "label": "敏感肌",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_sensitive",
+        "canonical": "敏感肌",
+        "variants": [
+          "敏感肌",
+          "敏皮",
+          "敏感皮肤",
+          "敏感性皮肤"
+        ],
+        "target": "sensitive"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_neutral",
+    "data": {
+      "label": "中性皮",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_neutral",
+        "canonical": "中性皮",
+        "variants": [
+          "中性皮肤",
+          "中性肌",
+          "不油不干"
+        ],
+        "target": "neutral"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_dry_sensitive",
+    "data": {
+      "label": "干敏肌",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_dry_sensitive",
+        "canonical": "干敏肌",
+        "variants": [
+          "干敏肌",
+          "敏感干皮",
+          "又干又敏感"
+        ],
+        "target": "dry"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_oily_sensitive",
+    "data": {
+      "label": "油敏肌",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_oily_sensitive",
+        "canonical": "油敏肌",
+        "variants": [
+          "油敏肌",
+          "油皮但敏感"
+        ],
+        "target": "oily"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_oily_acne",
+    "data": {
+      "label": "油痘肌",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_oily_acne",
+        "canonical": "油痘肌",
+        "variants": [
+          "油痘肌",
+          "油皮爱长痘"
+        ],
+        "target": "oily"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_dehydrated",
+    "data": {
+      "label": "外油内干",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_dehydrated",
+        "canonical": "外油内干",
+        "variants": [
+          "外油内干",
+          "出油但紧绷",
+          "缺水性油皮"
+        ],
+        "target": "oily"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_tolerant",
+    "data": {
+      "label": "城墙皮",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_tolerant",
+        "canonical": "城墙皮",
+        "variants": [
+          "城墙皮",
+          "啥都能用"
+        ],
+        "target": "mod_tolerant"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_dryness",
+    "data": {
+      "label": "干燥",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_dryness",
+        "canonical": "干燥",
+        "variants": [
+          "干、干燥、起皮、紧绷、拔干、脱皮、缺水"
+        ],
+        "target": "flaking"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_oiliness",
+    "data": {
+      "label": "出油",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_oiliness",
+        "canonical": "出油",
+        "variants": [
+          "出油、油光、冒油、油光满面、能炒菜"
+        ],
+        "target": "oiliness"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_pores",
+    "data": {
+      "label": "毛孔粗大",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_pores",
+        "canonical": "毛孔粗大",
+        "variants": [
+          "毛孔粗大、毛孔大、鼻翼毛孔、橘皮"
+        ],
+        "target": "enlarged_pores"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_blackhead",
+    "data": {
+      "label": "黑头",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_blackhead",
+        "canonical": "黑头",
+        "variants": [
+          "黑头、草莓鼻、鼻子上黑点"
+        ],
+        "target": "blackhead"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_redness",
+    "data": {
+      "label": "泛红",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_redness",
+        "canonical": "泛红",
+        "variants": [
+          "泛红、脸红、红血丝、两颊红、苹果脸"
+        ],
+        "target": "redness"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_stinging",
+    "data": {
+      "label": "刺痛",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_stinging",
+        "canonical": "刺痛",
+        "variants": [
+          "刺痛、火辣辣、蜇、有刺感"
+        ],
+        "target": "stinging"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_acne",
+    "data": {
+      "label": "痘痘",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_acne",
+        "canonical": "痘痘",
+        "variants": [
+          "痘痘、长痘、反复长痘、爆痘、冒痘、脓包"
+        ],
+        "target": "acne_active"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_comedone",
+    "data": {
+      "label": "闭口",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_comedone",
+        "canonical": "闭口",
+        "variants": [
+          "闭口、闭口粉刺、小闭口、小疙瘩"
+        ],
+        "target": "comedone"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_acne_mark_r",
+    "data": {
+      "label": "红痘印",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_acne_mark_r",
+        "canonical": "红痘印",
+        "variants": [
+          "红痘印、痘印发红、红色印子"
+        ],
+        "target": "acne_mark_red"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_acne_mark_d",
+    "data": {
+      "label": "黑痘印",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_acne_mark_d",
+        "canonical": "黑痘印",
+        "variants": [
+          "黑痘印、痘印发黑、褐色印子"
+        ],
+        "target": "acne_mark_dark"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_acne_pit",
+    "data": {
+      "label": "痘坑",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_acne_pit",
+        "canonical": "痘坑",
+        "variants": [
+          "痘坑、凹坑、凹痘疤"
+        ],
+        "target": "acne_pit"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_dullness",
+    "data": {
+      "label": "暗沉",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_dullness",
+        "canonical": "暗沉",
+        "variants": [
+          "暗沉、黄气、发黄、蜡黄、没光泽、气色差"
+        ],
+        "target": "dullness"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_fine_lines",
+    "data": {
+      "label": "细纹",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_fine_lines",
+        "canonical": "细纹",
+        "variants": [
+          "细纹、干纹、鱼尾纹、额头纹、小纹路"
+        ],
+        "target": "fine_lines"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_sagging",
+    "data": {
+      "label": "松弛",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_sagging",
+        "canonical": "松弛",
+        "variants": [
+          "松弛、下垂、不紧致、轮廓模糊、垮了"
+        ],
+        "target": "sagging"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_dark_circles",
+    "data": {
+      "label": "黑眼圈",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_dark_circles",
+        "canonical": "黑眼圈",
+        "variants": [
+          "黑眼圈、熊猫眼、眼下发黑"
+        ],
+        "target": "dark_circles"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_cakey",
+    "data": {
+      "label": "卡粉",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_cakey",
+        "canonical": "卡粉",
+        "variants": [
+          "卡粉、起皮卡粉、浮粉、斑驳"
+        ],
+        "target": "cakey_makeup"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_melt",
+    "data": {
+      "label": "脱妆",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_melt",
+        "canonical": "脱妆",
+        "variants": [
+          "脱妆、花妆、妆花了"
+        ],
+        "target": "makeup_melt"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_retinol",
+    "data": {
+      "label": "A醇",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_retinol",
+        "canonical": "A醇",
+        "variants": [
+          "A醇",
+          "视黄醇",
+          "早C晚A的A",
+          "va"
+        ],
+        "target": "retinol"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_retinal",
+    "data": {
+      "label": "A醛",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_retinal",
+        "canonical": "A醛",
+        "variants": [
+          "A醛",
+          "视黄醛"
+        ],
+        "target": "retinal"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_vc",
+    "data": {
+      "label": "维C",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_vc",
+        "canonical": "维C",
+        "variants": [
+          "VC",
+          "维C",
+          "抗坏血酸",
+          "早C晚A的C",
+          "左旋C",
+          "原型C"
+        ],
+        "target": "vitamin_c"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_nia",
+    "data": {
+      "label": "烟酰胺",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_nia",
+        "canonical": "烟酰胺",
+        "variants": [
+          "烟酰胺",
+          "VB3",
+          "B3"
+        ],
+        "target": "niacinamide"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_ha",
+    "data": {
+      "label": "玻尿酸",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_ha",
+        "canonical": "玻尿酸",
+        "variants": [
+          "玻尿酸",
+          "透明质酸",
+          "HA",
+          "水光成分"
+        ],
+        "target": "hyaluronic_acid"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_cer",
+    "data": {
+      "label": "神经酰胺",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_cer",
+        "canonical": "神经酰胺",
+        "variants": [
+          "神经酰胺",
+          "Ceramide",
+          "神酰"
+        ],
+        "target": "ceramide"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_bha",
+    "data": {
+      "label": "水杨酸",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_bha",
+        "canonical": "水杨酸",
+        "variants": [
+          "水杨酸",
+          "BHA",
+          "超分子水杨酸"
+        ],
+        "target": "salicylic_acid"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_aha",
+    "data": {
+      "label": "果酸",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_aha",
+        "canonical": "果酸",
+        "variants": [
+          "果酸",
+          "AHA",
+          "刷酸"
+        ],
+        "target": "aha"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_glycolic",
+    "data": {
+      "label": "甘醇酸",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_glycolic",
+        "canonical": "甘醇酸",
+        "variants": [
+          "甘醇酸"
+        ],
+        "target": "glycolic_acid"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_mandelic",
+    "data": {
+      "label": "杏仁酸",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_mandelic",
+        "canonical": "杏仁酸",
+        "variants": [
+          "杏仁酸"
+        ],
+        "target": "mandelic_acid"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_centella",
+    "data": {
+      "label": "积雪草",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_centella",
+        "canonical": "积雪草",
+        "variants": [
+          "积雪草",
+          "老虎草",
+          "CICA",
+          "马齿苋"
+        ],
+        "target": "centella"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_squalane",
+    "data": {
+      "label": "角鲨烷",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_squalane",
+        "canonical": "角鲨烷",
+        "variants": [
+          "角鲨烷"
+        ],
+        "target": "squalane"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_peptide",
+    "data": {
+      "label": "多肽",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_peptide",
+        "canonical": "多肽",
+        "variants": [
+          "多肽",
+          "胜肽"
+        ],
+        "target": "peptide"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_hexapeptide",
+    "data": {
+      "label": "六胜肽",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_hexapeptide",
+        "canonical": "六胜肽",
+        "variants": [
+          "六胜肽",
+          "类肉毒素"
+        ],
+        "target": "hexapeptide"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_bosein",
+    "data": {
+      "label": "玻色因",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_bosein",
+        "canonical": "玻色因",
+        "variants": [
+          "玻色因",
+          "波色因",
+          "Pro-Xylane"
+        ],
+        "target": "bosein"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_panthenol",
+    "data": {
+      "label": "泛醇",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_panthenol",
+        "canonical": "泛醇",
+        "variants": [
+          "泛醇",
+          "VB5",
+          "B5",
+          "维B5"
+        ],
+        "target": "panthenol"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_bifida",
+    "data": {
+      "label": "二裂酵母",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_bifida",
+        "canonical": "二裂酵母",
+        "variants": [
+          "二裂酵母",
+          "酵母精粹",
+          "Bifida"
+        ],
+        "target": "bifida_ferment"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_tranexamic",
+    "data": {
+      "label": "传明酸",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_tranexamic",
+        "canonical": "传明酸",
+        "variants": [
+          "传明酸",
+          "氨甲环酸",
+          "凝血酸"
+        ],
+        "target": "tranexamic_acid"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_azelaic",
+    "data": {
+      "label": "壬二酸",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_azelaic",
+        "canonical": "壬二酸",
+        "variants": [
+          "壬二酸",
+          "杜鹃花酸"
+        ],
+        "target": "azelaic_acid"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_arbutin",
+    "data": {
+      "label": "熊果苷",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_arbutin",
+        "canonical": "熊果苷",
+        "variants": [
+          "熊果苷",
+          "α-熊果苷"
+        ],
+        "target": "arbutin"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_glabridin",
+    "data": {
+      "label": "光甘草定",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_glabridin",
+        "canonical": "光甘草定",
+        "variants": [
+          "光甘草定",
+          "甘草提取物"
+        ],
+        "target": "glabridin"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_astaxanthin",
+    "data": {
+      "label": "虾青素",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_astaxanthin",
+        "canonical": "虾青素",
+        "variants": [
+          "虾青素"
+        ],
+        "target": "astaxanthin"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_ergothioneine",
+    "data": {
+      "label": "麦角硫因",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_ergothioneine",
+        "canonical": "麦角硫因",
+        "variants": [
+          "麦角硫因"
+        ],
+        "target": "ergothioneine"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_ectoin",
+    "data": {
+      "label": "依克多因",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_ectoin",
+        "canonical": "依克多因",
+        "variants": [
+          "依克多因"
+        ],
+        "target": "ectoin"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_resveratrol",
+    "data": {
+      "label": "白藜芦醇",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_resveratrol",
+        "canonical": "白藜芦醇",
+        "variants": [
+          "白藜芦醇"
+        ],
+        "target": "resveratrol"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_coq10",
+    "data": {
+      "label": "辅酶Q10",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_coq10",
+        "canonical": "辅酶Q10",
+        "variants": [
+          "辅酶Q10",
+          "CoQ10",
+          "Q10"
+        ],
+        "target": "coq10"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_allantoin",
+    "data": {
+      "label": "尿囊素",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_allantoin",
+        "canonical": "尿囊素",
+        "variants": [
+          "尿囊素"
+        ],
+        "target": "allantoin"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_collagen",
+    "data": {
+      "label": "胶原蛋白",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_collagen",
+        "canonical": "胶原蛋白",
+        "variants": [
+          "胶原蛋白",
+          "胶原"
+        ],
+        "target": "collagen"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_pitera",
+    "data": {
+      "label": "PITERA",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_pitera",
+        "canonical": "PITERA",
+        "variants": [
+          "PITERA",
+          "半乳糖酵母样菌发酵液",
+          "P家精华"
+        ],
+        "target": "pitera"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_alcohol",
+    "data": {
+      "label": "酒精",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_alcohol",
+        "canonical": "酒精",
+        "variants": [
+          "酒精",
+          "乙醇",
+          "含酒精"
+        ],
+        "target": "alcohol"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_fragrance",
+    "data": {
+      "label": "香精",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_fragrance",
+        "canonical": "香精",
+        "variants": [
+          "香精",
+          "有香味",
+          "人工香料"
+        ],
+        "target": "fragrance"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_silicone",
+    "data": {
+      "label": "硅油",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_silicone",
+        "canonical": "硅油",
+        "variants": [
+          "硅油",
+          "聚二甲基硅氧烷",
+          "假滑成分"
+        ],
+        "target": "silicone"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_mineral_oil",
+    "data": {
+      "label": "矿物油",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_mineral_oil",
+        "canonical": "矿物油",
+        "variants": [
+          "矿物油"
+        ],
+        "target": "mineral_oil"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_estee",
+    "data": {
+      "label": "雅诗兰黛",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_estee",
+        "canonical": "雅诗兰黛",
+        "variants": [
+          "雅诗兰黛",
+          "雅诗",
+          "EL",
+          "雅家"
+        ],
+        "target": "estee_lauder"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_lancome",
+    "data": {
+      "label": "兰蔻",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_lancome",
+        "canonical": "兰蔻",
+        "variants": [
+          "兰蔻",
+          "兰家",
+          "Lancôme"
+        ],
+        "target": "lancome"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_kiehls",
+    "data": {
+      "label": "科颜氏",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_kiehls",
+        "canonical": "科颜氏",
+        "variants": [
+          "科颜氏",
+          "科家",
+          "契尔氏",
+          "Kiehl's"
+        ],
+        "target": "kiehls"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_lamer",
+    "data": {
+      "label": "海蓝之谜",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_lamer",
+        "canonical": "海蓝之谜",
+        "variants": [
+          "海蓝之谜",
+          "lamer",
+          "LM",
+          "海洋之谜"
+        ],
+        "target": "la_mer"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_helena",
+    "data": {
+      "label": "赫莲娜",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_helena",
+        "canonical": "赫莲娜",
+        "variants": [
+          "赫莲娜",
+          "HR"
+        ],
+        "target": "helena"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_sk2",
+    "data": {
+      "label": "SK-II",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_sk2",
+        "canonical": "SK-II",
+        "variants": [
+          "SK-II",
+          "SK2",
+          "SKII",
+          "SK二"
+        ],
+        "target": "sk_ii"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_shiseido",
+    "data": {
+      "label": "资生堂",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_shiseido",
+        "canonical": "资生堂",
+        "variants": [
+          "资生堂",
+          "资家"
+        ],
+        "target": "shiseido"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_decorte",
+    "data": {
+      "label": "黛珂",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_decorte",
+        "canonical": "黛珂",
+        "variants": [
+          "黛珂",
+          "DQ"
+        ],
+        "target": "decorte"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_clinique",
+    "data": {
+      "label": "倩碧",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_clinique",
+        "canonical": "倩碧",
+        "variants": [
+          "倩碧"
+        ],
+        "target": "clinique"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_clarins",
+    "data": {
+      "label": "娇韵诗",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_clarins",
+        "canonical": "娇韵诗",
+        "variants": [
+          "娇韵诗"
+        ],
+        "target": "clarins"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_origins",
+    "data": {
+      "label": "悦木之源",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_origins",
+        "canonical": "悦木之源",
+        "variants": [
+          "悦木之源",
+          "品木宣言"
+        ],
+        "target": "origins"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_curel",
+    "data": {
+      "label": "珂润",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_curel",
+        "canonical": "珂润",
+        "variants": [
+          "珂润",
+          "Curél"
+        ],
+        "target": "curel"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_ipsa",
+    "data": {
+      "label": "茵芙莎",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_ipsa",
+        "canonical": "茵芙莎",
+        "variants": [
+          "IPSA",
+          "茵芙莎"
+        ],
+        "target": "ipsa"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_loreal",
+    "data": {
+      "label": "欧莱雅",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_loreal",
+        "canonical": "欧莱雅",
+        "variants": [
+          "欧莱雅",
+          "欧家",
+          "L'Oréal"
+        ],
+        "target": "loreal"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_cerave",
+    "data": {
+      "label": "CeraVe",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_cerave",
+        "canonical": "CeraVe",
+        "variants": [
+          "CeraVe",
+          "适乐肤"
+        ],
+        "target": "cerave"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_to",
+    "data": {
+      "label": "The Ordinary",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_to",
+        "canonical": "The Ordinary",
+        "variants": [
+          "TO",
+          "The Ordinary",
+          "ordinary"
+        ],
+        "target": "the_ordinary"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_proya",
+    "data": {
+      "label": "珀莱雅",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_proya",
+        "canonical": "珀莱雅",
+        "variants": [
+          "珀莱雅",
+          "PROYA"
+        ],
+        "target": "proya"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_winona",
+    "data": {
+      "label": "薇诺娜",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_winona",
+        "canonical": "薇诺娜",
+        "variants": [
+          "薇诺娜"
+        ],
+        "target": "winona"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_uniskin",
+    "data": {
+      "label": "优时颜",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_uniskin",
+        "canonical": "优时颜",
+        "variants": [
+          "优时颜"
+        ],
+        "target": "uniskin"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_marubi",
+    "data": {
+      "label": "丸美",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_marubi",
+        "canonical": "丸美",
+        "variants": [
+          "丸美"
+        ],
+        "target": "marubi"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_guyu",
+    "data": {
+      "label": "谷雨",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_guyu",
+        "canonical": "谷雨",
+        "variants": [
+          "谷雨"
+        ],
+        "target": "guyu"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_skinceuticals",
+    "data": {
+      "label": "修丽可",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_skinceuticals",
+        "canonical": "修丽可",
+        "variants": [
+          "修丽可",
+          "杜克",
+          "SC"
+        ],
+        "target": "skinceuticals"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_lrp",
+    "data": {
+      "label": "理肤泉",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_lrp",
+        "canonical": "理肤泉",
+        "variants": [
+          "理肤泉",
+          "LRP"
+        ],
+        "target": "lrp"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_avene",
+    "data": {
+      "label": "雅漾",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_avene",
+        "canonical": "雅漾",
+        "variants": [
+          "雅漾"
+        ],
+        "target": "avene"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_freeplus",
+    "data": {
+      "label": "芙丽芳丝",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_freeplus",
+        "canonical": "芙丽芳丝",
+        "variants": [
+          "芙丽芳丝",
+          "freeplus",
+          "FP"
+        ],
+        "target": "freeplus"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_comfy",
+    "data": {
+      "label": "可复美",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_comfy",
+        "canonical": "可复美",
+        "variants": [
+          "可复美"
+        ],
+        "target": "comfy"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_dryu",
+    "data": {
+      "label": "玉泽",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_dryu",
+        "canonical": "玉泽",
+        "variants": [
+          "玉泽",
+          "Dr.Yu"
+        ],
+        "target": "dryu"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_betterderm",
+    "data": {
+      "label": "博乐达",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_betterderm",
+        "canonical": "博乐达",
+        "variants": [
+          "博乐达"
+        ],
+        "target": "betterderm"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_timage",
+    "data": {
+      "label": "彩棠",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_timage",
+        "canonical": "彩棠",
+        "variants": [
+          "彩棠"
+        ],
+        "target": "timage"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_maogeping",
+    "data": {
+      "label": "毛戈平",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_maogeping",
+        "canonical": "毛戈平",
+        "variants": [
+          "毛戈平",
+          "MGP"
+        ],
+        "target": "maogeping"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_florasis",
+    "data": {
+      "label": "花西子",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_florasis",
+        "canonical": "花西子",
+        "variants": [
+          "花西子"
+        ],
+        "target": "florasis"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_zhuben",
+    "data": {
+      "label": "逐本",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_zhuben",
+        "canonical": "逐本",
+        "variants": [
+          "逐本"
+        ],
+        "target": "zhuben"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_zhiben",
+    "data": {
+      "label": "至本",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_zhiben",
+        "canonical": "至本",
+        "variants": [
+          "至本"
+        ],
+        "target": "zhiben"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_quadha",
+    "data": {
+      "label": "夸迪",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_quadha",
+        "canonical": "夸迪",
+        "variants": [
+          "夸迪"
+        ],
+        "target": "quadha"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_anessa",
+    "data": {
+      "label": "安热沙",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_anessa",
+        "canonical": "安热沙",
+        "variants": [
+          "安热沙",
+          "安耐晒"
+        ],
+        "target": "anessa"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_fuyijia",
+    "data": {
+      "label": "敷尔佳",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_fuyijia",
+        "canonical": "敷尔佳",
+        "variants": [
+          "敷尔佳"
+        ],
+        "target": "fuyijia"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_little_black",
+    "data": {
+      "label": "小黑瓶",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_little_black",
+        "canonical": "小黑瓶",
+        "variants": [
+          "小黑瓶",
+          "兰蔻精华",
+          "黑瓶"
+        ],
+        "target": "little_black"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_little_brown",
+    "data": {
+      "label": "小棕瓶",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_little_brown",
+        "canonical": "小棕瓶",
+        "variants": [
+          "小棕瓶",
+          "雅诗兰黛精华",
+          "棕瓶"
+        ],
+        "target": "little_brown"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_fairy_water",
+    "data": {
+      "label": "神仙水",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_fairy_water",
+        "canonical": "神仙水",
+        "variants": [
+          "神仙水",
+          "SKII精华",
+          "护肤精华露"
+        ],
+        "target": "fairy_water"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_double_anti",
+    "data": {
+      "label": "双抗",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_double_anti",
+        "canonical": "双抗",
+        "variants": [
+          "双抗",
+          "珀莱雅双抗",
+          "双抗精华"
+        ],
+        "target": "double_anti"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_ruby",
+    "data": {
+      "label": "红宝石",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_ruby",
+        "canonical": "红宝石",
+        "variants": [
+          "红宝石",
+          "珀莱雅红宝石"
+        ],
+        "target": "ruby"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_black_bind",
+    "data": {
+      "label": "黑绷带",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_black_bind",
+        "canonical": "黑绷带",
+        "variants": [
+          "黑绷带",
+          "赫莲娜黑绷带"
+        ],
+        "target": "black_bindage"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_ce",
+    "data": {
+      "label": "CE精华",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_ce",
+        "canonical": "CE精华",
+        "variants": [
+          "CE精华",
+          "修丽可CE"
+        ],
+        "target": "ce_serum"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_purple_iron",
+    "data": {
+      "label": "紫铁",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_purple_iron",
+        "canonical": "紫铁",
+        "variants": [
+          "紫铁",
+          "科颜氏紫铁"
+        ],
+        "target": "purple_iron"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_gold_bottle",
+    "data": {
+      "label": "金瓶防晒",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_gold_bottle",
+        "canonical": "金瓶防晒",
+        "variants": [
+          "金瓶防晒",
+          "安热沙金瓶",
+          "小金瓶"
+        ],
+        "target": "gold_bottle"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_blue_fat",
+    "data": {
+      "label": "蓝胖子",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_blue_fat",
+        "canonical": "蓝胖子",
+        "variants": [
+          "蓝胖子",
+          "资生堂防晒"
+        ],
+        "target": "blue_fat"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_white_tube",
+    "data": {
+      "label": "小白管",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_white_tube",
+        "canonical": "小白管",
+        "variants": [
+          "小白管",
+          "兰蔻防晒"
+        ],
+        "target": "white_tube"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_exbf_mask",
+    "data": {
+      "label": "前男友面膜",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_exbf_mask",
+        "canonical": "前男友面膜",
+        "variants": [
+          "前男友面膜",
+          "SKII面膜"
+        ],
+        "target": "ex_bf_mask"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_deposit",
+    "data": {
+      "label": "定金",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_deposit",
+        "canonical": "定金",
+        "variants": [
+          "定金",
+          "预付款",
+          "订金"
+        ],
+        "target": "promo_term"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_final_pay",
+    "data": {
+      "label": "尾款",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_final_pay",
+        "canonical": "尾款",
+        "variants": [
+          "尾款",
+          "余款",
+          "补差价",
+          "补尾款"
+        ],
+        "target": "promo_term"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_full_reduce",
+    "data": {
+      "label": "满减",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_full_reduce",
+        "canonical": "满减",
+        "variants": [
+          "满减",
+          "跨店满减",
+          "满XX减XX",
+          "凑满减"
+        ],
+        "target": "promo_term"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_coupon",
+    "data": {
+      "label": "优惠券",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_coupon",
+        "canonical": "优惠券",
+        "variants": [
+          "优惠券",
+          "券",
+          "红包",
+          "优惠码",
+          "领券"
+        ],
+        "target": "promo_term"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_brand_coupon",
+    "data": {
+      "label": "店铺券",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_brand_coupon",
+        "canonical": "店铺券",
+        "variants": [
+          "店铺券",
+          "品牌券",
+          "回购券",
+          "会员券"
+        ],
+        "target": "promo_term"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_gift",
+    "data": {
+      "label": "赠品",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_gift",
+        "canonical": "赠品",
+        "variants": [
+          "赠品",
+          "买赠",
+          "送的",
+          "附赠",
+          "小样"
+        ],
+        "target": "promo_term"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_bundle",
+    "data": {
+      "label": "凑单",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_bundle",
+        "canonical": "凑单",
+        "variants": [
+          "凑单",
+          "凑满减",
+          "拼单",
+          "凑够"
+        ],
+        "target": "promo_term"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_presale",
+    "data": {
+      "label": "预售",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_presale",
+        "canonical": "预售",
+        "variants": [
+          "预售",
+          "预定",
+          "提前购",
+          "预售价"
+        ],
+        "target": "promo_term"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_price_guarantee",
+    "data": {
+      "label": "价保",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_price_guarantee",
+        "canonical": "价保",
+        "variants": [
+          "价保",
+          "保价",
+          "退差价",
+          "降价退差"
+        ],
+        "target": "promo_term"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_loyalty",
+    "data": {
+      "label": "亲密度",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_loyalty",
+        "canonical": "亲密度",
+        "variants": [
+          "亲密度",
+          "粉丝值",
+          "粉丝等级",
+          "粉丝价"
+        ],
+        "target": "promo_term"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_refund",
+    "data": {
+      "label": "退货",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_refund",
+        "canonical": "退货",
+        "variants": [
+          "退货",
+          "退款",
+          "退了",
+          "不想要了",
+          "7天无理由"
+        ],
+        "target": "promo_term"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_shipping",
+    "data": {
+      "label": "发货",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_shipping",
+        "canonical": "发货",
+        "variants": [
+          "发货",
+          "什么时候发",
+          "物流",
+          "快递"
+        ],
+        "target": "promo_term"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_free_ship",
+    "data": {
+      "label": "包邮",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_free_ship",
+        "canonical": "包邮",
+        "variants": [
+          "包邮",
+          "免运费"
+        ],
+        "target": "promo_term"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_fear_breakout",
+    "data": {
+      "label": "怕闷痘",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_fear_breakout",
+        "canonical": "怕闷痘",
+        "variants": [
+          "闷痘",
+          "会不会长痘",
+          "闷不闷",
+          "堵毛孔"
+        ],
+        "target": "concern"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_fear_irritation",
+    "data": {
+      "label": "怕刺激",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_fear_irritation",
+        "canonical": "怕刺激",
+        "variants": [
+          "刺激",
+          "太猛",
+          "容易过敏",
+          "不耐受",
+          "烂脸"
+        ],
+        "target": "concern"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_fear_greasy",
+    "data": {
+      "label": "怕油腻",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_fear_greasy",
+        "canonical": "怕油腻",
+        "variants": [
+          "太油",
+          "黏糊糊",
+          "厚重",
+          "沾枕头",
+          "不清爽"
+        ],
+        "target": "concern"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_fear_pilling",
+    "data": {
+      "label": "怕搓泥",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_fear_pilling",
+        "canonical": "怕搓泥",
+        "variants": [
+          "搓泥",
+          "起泥",
+          "搓出东西"
+        ],
+        "target": "concern"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_fear_photosensitive",
+    "data": {
+      "label": "怕光敏",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_fear_photosensitive",
+        "canonical": "怕光敏",
+        "variants": [
+          "光敏",
+          "用了能晒太阳吗",
+          "白天能用吗"
+        ],
+        "target": "concern"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_fear_dependency",
+    "data": {
+      "label": "怕依赖",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_fear_dependency",
+        "canonical": "怕依赖",
+        "variants": [
+          "依赖",
+          "停了反弹",
+          "越用越离不开"
+        ],
+        "target": "concern"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_fear_purging",
+    "data": {
+      "label": "怕爆痘",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_fear_purging",
+        "canonical": "怕爆痘",
+        "variants": [
+          "爆痘",
+          "排毒反应",
+          "用了会爆吗"
+        ],
+        "target": "concern"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_fear_interaction",
+    "data": {
+      "label": "怕冲突",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_fear_interaction",
+        "canonical": "怕冲突",
+        "variants": [
+          "冲突",
+          "打架",
+          "一起用会不会有问题"
+        ],
+        "target": "concern"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_early_c_late_a",
+    "data": {
+      "label": "早C晚A",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_early_c_late_a",
+        "canonical": "早C晚A",
+        "variants": [
+          "早C晚A"
+        ],
+        "target": "combination_method"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_acid_freedom",
+    "data": {
+      "label": "刷酸自由",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_acid_freedom",
+        "canonical": "刷酸自由",
+        "variants": [
+          "刷酸自由"
+        ],
+        "target": "acid_usage"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_ingredient_fan",
+    "data": {
+      "label": "成分党",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_ingredient_fan",
+        "canonical": "成分党",
+        "variants": [
+          "成分党"
+        ],
+        "target": "user_tag"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_oil_nourish",
+    "data": {
+      "label": "以油养肤",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_oil_nourish",
+        "canonical": "以油养肤",
+        "variants": [
+          "以油养肤"
+        ],
+        "target": "oil_method"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_sandwich",
+    "data": {
+      "label": "三明治法",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_sandwich",
+        "canonical": "三明治法",
+        "variants": [
+          "三明治法"
+        ],
+        "target": "tolerance_method"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_skincare_foundation",
+    "data": {
+      "label": "养肤粉底",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_skincare_foundation",
+        "canonical": "养肤粉底",
+        "variants": [
+          "养肤粉底"
+        ],
+        "target": "hybrid_product"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_makeup_skincare",
+    "data": {
+      "label": "妆养合一",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_makeup_skincare",
+        "canonical": "妆养合一",
+        "variants": [
+          "妆养合一"
+        ],
+        "target": "hybrid_product"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_overnight_rescue",
+    "data": {
+      "label": "熬夜急救",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_overnight_rescue",
+        "canonical": "熬夜急救",
+        "variants": [
+          "熬夜急救"
+        ],
+        "target": "scenario"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_season_stable",
+    "data": {
+      "label": "换季维稳",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_season_stable",
+        "canonical": "换季维稳",
+        "variants": [
+          "换季维稳"
+        ],
+        "target": "scenario"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_lazy_skincare",
+    "data": {
+      "label": "懒人护肤",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_lazy_skincare",
+        "canonical": "懒人护肤",
+        "variants": [
+          "懒人护肤"
+        ],
+        "target": "minimal_routine"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_dupe",
+    "data": {
+      "label": "平替",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_dupe",
+        "canonical": "平替",
+        "variants": [
+          "平替",
+          "贵替"
+        ],
+        "target": "product_relation"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_empty_bottle",
+    "data": {
+      "label": "空瓶记",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_empty_bottle",
+        "canonical": "空瓶记",
+        "variants": [
+          "空瓶记"
+        ],
+        "target": "review_type"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_avoid",
+    "data": {
+      "label": "拔草",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_avoid",
+        "canonical": "拔草",
+        "variants": [
+          "拔草"
+        ],
+        "target": "negative_review"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_recommend",
+    "data": {
+      "label": "种草",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_recommend",
+        "canonical": "种草",
+        "variants": [
+          "种草"
+        ],
+        "target": "positive_review"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_repurchase",
+    "data": {
+      "label": "回购",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_repurchase",
+        "canonical": "回购",
+        "variants": [
+          "回购"
+        ],
+        "target": "positive_signal"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_bad_exp",
+    "data": {
+      "label": "踩雷",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_bad_exp",
+        "canonical": "踩雷",
+        "variants": [
+          "踩雷"
+        ],
+        "target": "negative_review"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_ruined_face",
+    "data": {
+      "label": "烂脸",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_ruined_face",
+        "canonical": "烂脸",
+        "variants": [
+          "烂脸"
+        ],
+        "target": "severe_damage"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_fortress_skin",
+    "data": {
+      "label": "城墙皮",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_fortress_skin",
+        "canonical": "城墙皮",
+        "variants": [
+          "城墙皮"
+        ],
+        "target": "tolerant_skin"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_moon_surface",
+    "data": {
+      "label": "月球表面",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_moon_surface",
+        "canonical": "月球表面",
+        "variants": [
+          "月球表面"
+        ],
+        "target": "severe_acne_pit"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_desert_face",
+    "data": {
+      "label": "沙漠脸",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_desert_face",
+        "canonical": "沙漠脸",
+        "variants": [
+          "沙漠脸"
+        ],
+        "target": "extreme_dryness"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_amb_deposit",
+    "data": {
+      "label": "定金vs订金",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_amb_deposit",
+        "canonical": "定金vs订金",
+        "variants": [
+          "定金",
+          "订金"
+        ],
+        "target": "disambiguation"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_amb_isolation",
+    "data": {
+      "label": "隔离",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_amb_isolation",
+        "canonical": "隔离",
+        "variants": [
+          "隔离"
+        ],
+        "target": "disambiguation"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_amb_essence",
+    "data": {
+      "label": "精华",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_amb_essence",
+        "canonical": "精华",
+        "variants": [
+          "精华"
+        ],
+        "target": "disambiguation"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_amb_water",
+    "data": {
+      "label": "水",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_amb_water",
+        "canonical": "水",
+        "variants": [
+          "水"
+        ],
+        "target": "disambiguation"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_amb_milk",
+    "data": {
+      "label": "乳",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_amb_milk",
+        "canonical": "乳",
+        "variants": [
+          "乳"
+        ],
+        "target": "disambiguation"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_amb_acid",
+    "data": {
+      "label": "刷酸",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_amb_acid",
+        "canonical": "刷酸",
+        "variants": [
+          "刷酸"
+        ],
+        "target": "disambiguation"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_amb_dupe",
+    "data": {
+      "label": "平替",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_amb_dupe",
+        "canonical": "平替",
+        "variants": [
+          "平替"
+        ],
+        "target": "disambiguation"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_amb_set",
+    "data": {
+      "label": "套组",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_amb_set",
+        "canonical": "套组",
+        "variants": [
+          "套组"
+        ],
+        "target": "disambiguation"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_amb_acne_mark",
+    "data": {
+      "label": "痘印",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_amb_acne_mark",
+        "canonical": "痘印",
+        "variants": [
+          "痘印"
+        ],
+        "target": "disambiguation"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_amb_sensitive",
+    "data": {
+      "label": "敏感",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_amb_sensitive",
+        "canonical": "敏感",
+        "variants": [
+          "敏感"
+        ],
+        "target": "disambiguation"
+      }
+    }
+  },
+  {
+    "id": "L5_SynonymMapping_syn_amb_photosensitive",
+    "data": {
+      "label": "光敏",
+      "labelEn": "",
+      "layer": "L5",
+      "entityType": "SynonymMapping",
+      "properties": {
+        "code": "syn_amb_photosensitive",
+        "canonical": "光敏",
+        "variants": [
+          "光敏"
+        ],
+        "target": "disambiguation"
       }
     }
   }

@@ -69,11 +69,11 @@ export const LAYER_TABS: LayerTabDef[] = [
         ],
       },
       {
-        key: 'sku',
-        label: 'SKU列表',
-        entityType: 'SKU',
+        key: 'spu',
+        label: 'SPU商品',
+        entityType: 'SPU',
         columns: [
-          { prop: 'label', label: 'SKU名称', width: 200, sortable: true },
+          { prop: 'label', label: '商品名称', width: 200, sortable: true },
           { prop: 'brand', label: '品牌', width: 120 },
           { prop: 'category', label: '品类', width: 100, type: 'tag' },
           { prop: 'aliases', label: '昵称', width: 160, type: 'tag' },
@@ -382,7 +382,7 @@ export const ENTITY_TYPE_STYLES: EntityTypeStyle[] = [
   { entityType: 'Concern', shape: 'circle', color: '#8B5CF6', size: 44 },
   { entityType: 'Symptom', shape: 'circle', color: '#F59E0B', size: 40 },
   { entityType: 'Brand', shape: 'rect', color: '#94A3B8', size: 56 },
-  { entityType: 'SKU', shape: 'rect', color: '#CBD5E1', size: 40 },
+  { entityType: 'SPU', shape: 'rect', color: '#CBD5E1', size: 40 },
   { entityType: 'SkincarePlan', shape: 'hexagon', color: '#A855F7', size: 56 },
   { entityType: 'LexiconEntry', shape: 'circle', color: '#06B6D4', size: 32 },
 ]

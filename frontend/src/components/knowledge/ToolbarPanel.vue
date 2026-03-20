@@ -139,7 +139,7 @@ const entityTypeMap: Record<string, { value: string; label: string }[]> = {
   ],
   L1: [
     { value: 'Brand', label: '品牌' },
-    { value: 'SKU', label: 'SKU' },
+    { value: 'SPU', label: 'SPU商品' },
   ],
   L2: [
     { value: 'Ingredient', label: '成分' },
@@ -148,17 +148,13 @@ const entityTypeMap: Record<string, { value: string; label: string }[]> = {
     { value: 'AdverseReaction', label: '不良反应' },
   ],
   L3: [
-    { value: 'SkincarePlan', label: '护肤方案' },
-    { value: 'AftersalesPlan', label: '售后方案' },
-    { value: 'MakeupPlan', label: '妆教方案' },
+    { value: 'SkincarePlan', label: '方案' },
   ],
   L4: [
     { value: 'Intent', label: '意图' },
-    { value: 'RouteSignal', label: '路由信号词' },
   ],
   L5: [
     { value: 'SynonymMapping', label: '同义词' },
-    { value: 'HotWord', label: '热词' },
   ],
 }
 
