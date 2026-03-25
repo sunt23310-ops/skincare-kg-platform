@@ -43,6 +43,20 @@ function getNodeDegrees(edges: G6EdgeData[]): Map<string, number> {
   return degrees
 }
 
+// Pre-compute intra-layer degrees (only edges where both endpoints share the same layer)
+function getIntraLayerDegrees(nodes: G6NodeData[], edges: G6EdgeData[]): Map<string, number> {
+  const nodeLayer = new Map<string, string>()
+  for (const n of nodes) nodeLayer.set(n.id, n.data.layer)
+  const degrees = new Map<string, number>()
+  for (const e of edges) {
+    if (nodeLayer.get(e.source) === nodeLayer.get(e.target)) {
+      degrees.set(e.source, (degrees.get(e.source) || 0) + 1)
+      degrees.set(e.target, (degrees.get(e.target) || 0) + 1)
+    }
+  }
+  return degrees
+}
+
 export const useGraphStore = defineStore('graph', () => {
   // ----- State -----
   const graphData = ref<G6GraphData | null>(null)
@@ -60,6 +74,7 @@ export const useGraphStore = defineStore('graph', () => {
   // ----- Internal helpers -----
 
   const nodeDegrees = getNodeDegrees(rawEdges)
+  const intraLayerDegrees = getIntraLayerDegrees(rawNodes, rawEdges)
 
   function filterNodes(nodes: G6NodeData[]): G6NodeData[] {
     const f = activeFilters.value
@@ -85,9 +100,8 @@ export const useGraphStore = defineStore('graph', () => {
       if (!hasSearch) {
         // Rule 1: L5 nodes hidden by default (unless entityType filter is active)
         if (node.data.layer === 'L5' && !hasEntityTypeFilter) return false
-        // Rule 2: Isolated nodes (degree=0) hidden for L2 only
-        // L0/L1/L3/L4 are enum-like layers where nodes naturally lack intra-layer edges
-        if (node.data.layer === 'L2' && (nodeDegrees.get(node.id) || 0) === 0) return false
+        // Rule 2: For L2, only show nodes with intra-layer edges (114 vs 1134)
+        if (node.data.layer === 'L2' && (intraLayerDegrees.get(node.id) || 0) === 0) return false
       }
 
       return true
