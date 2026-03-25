@@ -156,7 +156,7 @@ function getLayoutConfig(type: string) {
   // force layout fails because isolated nodes have no forces to separate them.
   // Use grid for very sparse, concentric for moderately connected.
   const edgeRatio = nodeCount > 0 ? edgeCount / nodeCount : 0
-  const isSparse = edgeRatio < 0.8 || nodeCount <= 8
+  const isSparse = edgeRatio < 0.7 || nodeCount <= 8
 
   if (type === 'force' && isSparse) {
     // Auto-switch to grid for sparse graphs with generous spacing
