@@ -34,6 +34,9 @@
 
       <el-tag type="info" size="small" class="node-count">
         {{ nodeCount }} 节点 · {{ edgeCount }} 关系
+        <span v-if="graphStore.totalFilteredCount > nodeCount" style="color: #94a3b8; margin-left: 4px">
+          (共 {{ graphStore.totalFilteredCount }})
+        </span>
       </el-tag>
     </div>
 
@@ -167,7 +170,8 @@ function getLayoutConfig(type: string) {
   }
 
   // Scale repulsion based on node count
-  const strength = nodeCount < 30 ? -1200 : nodeCount < 60 ? -800 : -500
+  const strength = nodeCount < 30 ? -1200 : nodeCount < 60 ? -800 : nodeCount < 100 ? -500 : nodeCount < 200 ? -400 : -300
+  const decay = nodeCount < 100 ? 0.01 : nodeCount < 200 ? 0.02 : 0.03
 
   const configs: Record<string, any> = {
     force: {
@@ -176,9 +180,9 @@ function getLayoutConfig(type: string) {
       nodeStrength: strength,
       edgeStrength: 0.06,
       collideStrength: 1,
-      alphaDecay: 0.01,
+      alphaDecay: decay,
       alphaMin: 0.001,
-      nodeSize: 120,
+      nodeSize: nodeCount > 200 ? 80 : 120,
     },
     concentric: {
       type: 'concentric',

@@ -31,6 +31,18 @@ try {
 
 export type LayoutType = 'force' | 'concentric' | 'tree'
 
+const NODE_LIMIT = 300
+
+// Pre-compute node degrees from raw edges for layered loading
+function getNodeDegrees(edges: G6EdgeData[]): Map<string, number> {
+  const degrees = new Map<string, number>()
+  for (const e of edges) {
+    degrees.set(e.source, (degrees.get(e.source) || 0) + 1)
+    degrees.set(e.target, (degrees.get(e.target) || 0) + 1)
+  }
+  return degrees
+}
+
 export const useGraphStore = defineStore('graph', () => {
   // ----- State -----
   const graphData = ref<G6GraphData | null>(null)
@@ -39,6 +51,7 @@ export const useGraphStore = defineStore('graph', () => {
   const selectedNodeId = ref<string | null>(null)
   const expandedNodeId = ref<string | null>(null)
   const clusterMode = ref(false)
+  const totalFilteredCount = ref(0) // count before NODE_LIMIT truncation
 
   // ----- Filter store dependency -----
   const filterStore = useFilterStore()
@@ -46,9 +59,14 @@ export const useGraphStore = defineStore('graph', () => {
 
   // ----- Internal helpers -----
 
+  const nodeDegrees = getNodeDegrees(rawEdges)
+
   function filterNodes(nodes: G6NodeData[]): G6NodeData[] {
     const f = activeFilters.value
-    return nodes.filter((node) => {
+    const hasSearch = !!f.search
+    const hasEntityTypeFilter = f.entityTypes && f.entityTypes.length > 0
+
+    let filtered = nodes.filter((node) => {
       // Layer filter
       if (f.layer && node.data.layer !== f.layer) return false
       // Entity type filter
@@ -62,8 +80,28 @@ export const useGraphStore = defineStore('graph', () => {
         const labelEnMatch = node.data.labelEn?.toLowerCase().includes(q) ?? false
         if (!labelMatch && !labelEnMatch) return false
       }
+
+      // Layered loading rules (skip when user is searching)
+      if (!hasSearch) {
+        // Rule 1: L5 nodes hidden by default (unless entityType filter is active)
+        if (node.data.layer === 'L5' && !hasEntityTypeFilter) return false
+        // Rule 2: Isolated nodes (degree=0) hidden by default
+        if ((nodeDegrees.get(node.id) || 0) === 0) return false
+      }
+
       return true
     })
+
+    // Track count before truncation
+    totalFilteredCount.value = filtered.length
+
+    // Rule 3: Truncate to NODE_LIMIT by degree (skip when searching)
+    if (filtered.length > NODE_LIMIT && !hasSearch) {
+      filtered.sort((a, b) => (nodeDegrees.get(b.id) || 0) - (nodeDegrees.get(a.id) || 0))
+      filtered = filtered.slice(0, NODE_LIMIT)
+    }
+
+    return filtered
   }
 
   function filterEdges(edges: G6EdgeData[], nodeIds: Set<string>): G6EdgeData[] {
@@ -183,6 +221,7 @@ export const useGraphStore = defineStore('graph', () => {
     selectedNodeId,
     expandedNodeId,
     clusterMode,
+    totalFilteredCount,
     allNodes,
     allEdges,
     // actions
