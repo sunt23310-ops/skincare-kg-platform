@@ -156,16 +156,18 @@ function getLayoutConfig(type: string) {
   // force layout fails because isolated nodes have no forces to separate them.
   // Use grid for very sparse, concentric for moderately connected.
   const edgeRatio = nodeCount > 0 ? edgeCount / nodeCount : 0
-  const isSparse = edgeRatio < 0.5 || nodeCount <= 8
+  const isSparse = edgeRatio < 0.8 || nodeCount <= 8
 
   if (type === 'force' && isSparse) {
-    // Auto-switch to grid for sparse graphs
+    // Auto-switch to grid for sparse graphs with generous spacing
+    const cols = Math.ceil(Math.sqrt(nodeCount))
     return {
       type: 'grid',
       preventOverlap: true,
-      nodeSize: 120,
+      nodeSize: 160,
       sortBy: 'degree',
-      cols: Math.ceil(Math.sqrt(nodeCount)),
+      cols,
+      condense: false,
     }
   }
 

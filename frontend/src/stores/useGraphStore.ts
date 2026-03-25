@@ -85,8 +85,9 @@ export const useGraphStore = defineStore('graph', () => {
       if (!hasSearch) {
         // Rule 1: L5 nodes hidden by default (unless entityType filter is active)
         if (node.data.layer === 'L5' && !hasEntityTypeFilter) return false
-        // Rule 2: Isolated nodes (degree=0) hidden by default
-        if ((nodeDegrees.get(node.id) || 0) === 0) return false
+        // Rule 2: Isolated nodes (degree=0) hidden for L2 only
+        // L0/L1/L3/L4 are enum-like layers where nodes naturally lack intra-layer edges
+        if (node.data.layer === 'L2' && (nodeDegrees.get(node.id) || 0) === 0) return false
       }
 
       return true
